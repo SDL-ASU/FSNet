@@ -1,0 +1,4833 @@
+==> Preparing data..
+==> Building model..
+using resnet_cifar_fm56
+net_parameters_size is 221935
+
+cycle 0:
+
+Epoch: 0
+train_loss: 2.033, train_acc: 23.528% (11764/50000)
+test_loss: 1.787, test_acc: 32.780% (3278/10000)
+
+Epoch: 1
+train_loss: 1.671, train_acc: 37.712% (18856/50000)
+test_loss: 1.642, test_acc: 40.800% (4080/10000)
+
+Epoch: 2
+train_loss: 1.468, train_acc: 46.054% (23027/50000)
+test_loss: 1.398, test_acc: 50.130% (5013/10000)
+
+Epoch: 3
+train_loss: 1.277, train_acc: 53.770% (26885/50000)
+test_loss: 1.117, test_acc: 59.880% (5988/10000)
+
+Epoch: 4
+train_loss: 1.071, train_acc: 61.844% (30922/50000)
+test_loss: 1.048, test_acc: 63.580% (6358/10000)
+
+Epoch: 5
+train_loss: 0.917, train_acc: 67.532% (33766/50000)
+test_loss: 0.972, test_acc: 67.030% (6703/10000)
+
+Epoch: 6
+train_loss: 0.810, train_acc: 71.848% (35924/50000)
+test_loss: 1.071, test_acc: 64.680% (6468/10000)
+
+Epoch: 7
+train_loss: 0.749, train_acc: 74.078% (37039/50000)
+test_loss: 0.720, test_acc: 75.260% (7526/10000)
+
+Epoch: 8
+train_loss: 0.690, train_acc: 75.920% (37960/50000)
+test_loss: 0.972, test_acc: 69.520% (6952/10000)
+
+Epoch: 9
+train_loss: 0.642, train_acc: 77.718% (38859/50000)
+test_loss: 0.729, test_acc: 75.170% (7517/10000)
+
+Epoch: 10
+train_loss: 0.611, train_acc: 78.826% (39413/50000)
+test_loss: 0.926, test_acc: 71.160% (7116/10000)
+
+Epoch: 11
+train_loss: 0.587, train_acc: 79.578% (39789/50000)
+test_loss: 0.656, test_acc: 78.260% (7826/10000)
+
+Epoch: 12
+train_loss: 0.565, train_acc: 80.528% (40264/50000)
+test_loss: 0.622, test_acc: 78.980% (7898/10000)
+
+Epoch: 13
+train_loss: 0.543, train_acc: 81.014% (40507/50000)
+test_loss: 0.601, test_acc: 79.530% (7953/10000)
+
+Epoch: 14
+train_loss: 0.525, train_acc: 81.666% (40833/50000)
+test_loss: 0.556, test_acc: 81.000% (8100/10000)
+
+Epoch: 15
+train_loss: 0.503, train_acc: 82.632% (41316/50000)
+test_loss: 0.542, test_acc: 81.590% (8159/10000)
+
+Epoch: 16
+train_loss: 0.491, train_acc: 82.960% (41480/50000)
+test_loss: 0.576, test_acc: 80.440% (8044/10000)
+
+Epoch: 17
+train_loss: 0.477, train_acc: 83.420% (41710/50000)
+test_loss: 0.567, test_acc: 80.840% (8084/10000)
+
+Epoch: 18
+train_loss: 0.465, train_acc: 84.112% (42056/50000)
+test_loss: 0.536, test_acc: 81.720% (8172/10000)
+
+Epoch: 19
+train_loss: 0.455, train_acc: 84.374% (42187/50000)
+test_loss: 0.633, test_acc: 79.700% (7970/10000)
+
+Epoch: 20
+train_loss: 0.453, train_acc: 84.212% (42106/50000)
+test_loss: 0.801, test_acc: 74.230% (7423/10000)
+
+Epoch: 21
+train_loss: 0.432, train_acc: 85.116% (42558/50000)
+test_loss: 0.633, test_acc: 78.550% (7855/10000)
+
+Epoch: 22
+train_loss: 0.431, train_acc: 85.240% (42620/50000)
+test_loss: 0.517, test_acc: 83.000% (8300/10000)
+
+Epoch: 23
+train_loss: 0.420, train_acc: 85.478% (42739/50000)
+test_loss: 0.590, test_acc: 80.450% (8045/10000)
+
+Epoch: 24
+train_loss: 0.416, train_acc: 85.640% (42820/50000)
+test_loss: 0.580, test_acc: 80.890% (8089/10000)
+
+Epoch: 25
+train_loss: 0.409, train_acc: 85.820% (42910/50000)
+test_loss: 0.522, test_acc: 82.770% (8277/10000)
+
+Epoch: 26
+train_loss: 0.397, train_acc: 86.146% (43073/50000)
+test_loss: 0.602, test_acc: 80.420% (8042/10000)
+
+Epoch: 27
+train_loss: 0.392, train_acc: 86.426% (43213/50000)
+test_loss: 0.500, test_acc: 83.380% (8338/10000)
+
+Epoch: 28
+train_loss: 0.387, train_acc: 86.628% (43314/50000)
+test_loss: 0.477, test_acc: 83.920% (8392/10000)
+
+Epoch: 29
+train_loss: 0.385, train_acc: 86.640% (43320/50000)
+test_loss: 0.503, test_acc: 82.990% (8299/10000)
+
+Epoch: 30
+train_loss: 0.378, train_acc: 86.856% (43428/50000)
+test_loss: 0.497, test_acc: 83.500% (8350/10000)
+
+Epoch: 31
+train_loss: 0.369, train_acc: 87.214% (43607/50000)
+test_loss: 0.713, test_acc: 77.990% (7799/10000)
+
+Epoch: 32
+train_loss: 0.368, train_acc: 87.214% (43607/50000)
+test_loss: 0.487, test_acc: 83.860% (8386/10000)
+
+Epoch: 33
+train_loss: 0.370, train_acc: 87.148% (43574/50000)
+test_loss: 0.552, test_acc: 82.100% (8210/10000)
+
+Epoch: 34
+train_loss: 0.360, train_acc: 87.602% (43801/50000)
+test_loss: 0.628, test_acc: 79.870% (7987/10000)
+
+Epoch: 35
+train_loss: 0.362, train_acc: 87.398% (43699/50000)
+test_loss: 0.438, test_acc: 85.600% (8560/10000)
+
+Epoch: 36
+train_loss: 0.351, train_acc: 87.926% (43963/50000)
+test_loss: 0.445, test_acc: 85.120% (8512/10000)
+
+Epoch: 37
+train_loss: 0.353, train_acc: 87.688% (43844/50000)
+test_loss: 0.530, test_acc: 82.410% (8241/10000)
+
+Epoch: 38
+train_loss: 0.354, train_acc: 87.670% (43835/50000)
+test_loss: 0.543, test_acc: 82.670% (8267/10000)
+
+Epoch: 39
+train_loss: 0.348, train_acc: 87.978% (43989/50000)
+test_loss: 0.452, test_acc: 84.860% (8486/10000)
+
+Epoch: 40
+train_loss: 0.344, train_acc: 87.806% (43903/50000)
+test_loss: 0.407, test_acc: 86.230% (8623/10000)
+
+Epoch: 41
+train_loss: 0.335, train_acc: 88.488% (44244/50000)
+test_loss: 0.442, test_acc: 85.510% (8551/10000)
+
+Epoch: 42
+train_loss: 0.336, train_acc: 88.398% (44199/50000)
+test_loss: 0.434, test_acc: 85.510% (8551/10000)
+
+Epoch: 43
+train_loss: 0.337, train_acc: 88.306% (44153/50000)
+test_loss: 0.457, test_acc: 85.390% (8539/10000)
+
+Epoch: 44
+train_loss: 0.327, train_acc: 88.510% (44255/50000)
+test_loss: 0.556, test_acc: 83.420% (8342/10000)
+
+Epoch: 45
+train_loss: 0.331, train_acc: 88.478% (44239/50000)
+test_loss: 0.422, test_acc: 86.050% (8605/10000)
+
+Epoch: 46
+train_loss: 0.321, train_acc: 89.002% (44501/50000)
+test_loss: 0.464, test_acc: 84.960% (8496/10000)
+
+Epoch: 47
+train_loss: 0.320, train_acc: 88.838% (44419/50000)
+test_loss: 0.456, test_acc: 85.770% (8577/10000)
+
+Epoch: 48
+train_loss: 0.325, train_acc: 88.706% (44353/50000)
+test_loss: 0.598, test_acc: 82.190% (8219/10000)
+
+Epoch: 49
+train_loss: 0.322, train_acc: 88.868% (44434/50000)
+test_loss: 0.521, test_acc: 83.500% (8350/10000)
+
+Epoch: 50
+train_loss: 0.318, train_acc: 88.954% (44477/50000)
+test_loss: 0.518, test_acc: 83.690% (8369/10000)
+
+Epoch: 51
+train_loss: 0.318, train_acc: 88.934% (44467/50000)
+test_loss: 0.440, test_acc: 85.740% (8574/10000)
+
+Epoch: 52
+train_loss: 0.314, train_acc: 89.068% (44534/50000)
+test_loss: 0.500, test_acc: 83.980% (8398/10000)
+
+Epoch: 53
+train_loss: 0.309, train_acc: 89.304% (44652/50000)
+test_loss: 0.427, test_acc: 85.920% (8592/10000)
+
+Epoch: 54
+train_loss: 0.310, train_acc: 89.206% (44603/50000)
+test_loss: 0.403, test_acc: 86.970% (8697/10000)
+
+Epoch: 55
+train_loss: 0.309, train_acc: 89.194% (44597/50000)
+test_loss: 0.868, test_acc: 75.320% (7532/10000)
+
+Epoch: 56
+train_loss: 0.312, train_acc: 89.230% (44615/50000)
+test_loss: 0.455, test_acc: 85.340% (8534/10000)
+
+Epoch: 57
+train_loss: 0.305, train_acc: 89.460% (44730/50000)
+test_loss: 0.461, test_acc: 85.280% (8528/10000)
+
+Epoch: 58
+train_loss: 0.307, train_acc: 89.386% (44693/50000)
+test_loss: 0.660, test_acc: 80.130% (8013/10000)
+
+Epoch: 59
+train_loss: 0.302, train_acc: 89.482% (44741/50000)
+test_loss: 0.480, test_acc: 84.270% (8427/10000)
+
+Epoch: 60
+train_loss: 0.303, train_acc: 89.504% (44752/50000)
+test_loss: 0.698, test_acc: 79.090% (7909/10000)
+
+Epoch: 61
+train_loss: 0.304, train_acc: 89.312% (44656/50000)
+test_loss: 0.587, test_acc: 82.260% (8226/10000)
+
+Epoch: 62
+train_loss: 0.301, train_acc: 89.492% (44746/50000)
+test_loss: 0.578, test_acc: 82.350% (8235/10000)
+
+Epoch: 63
+train_loss: 0.303, train_acc: 89.560% (44780/50000)
+test_loss: 0.396, test_acc: 87.100% (8710/10000)
+
+Epoch: 64
+train_loss: 0.299, train_acc: 89.656% (44828/50000)
+test_loss: 0.466, test_acc: 84.570% (8457/10000)
+
+Epoch: 65
+train_loss: 0.296, train_acc: 89.632% (44816/50000)
+test_loss: 0.521, test_acc: 83.380% (8338/10000)
+
+Epoch: 66
+train_loss: 0.291, train_acc: 89.890% (44945/50000)
+test_loss: 0.454, test_acc: 85.330% (8533/10000)
+
+Epoch: 67
+train_loss: 0.293, train_acc: 89.774% (44887/50000)
+test_loss: 0.408, test_acc: 86.710% (8671/10000)
+
+Epoch: 68
+train_loss: 0.296, train_acc: 89.834% (44917/50000)
+test_loss: 0.436, test_acc: 86.000% (8600/10000)
+
+Epoch: 69
+train_loss: 0.294, train_acc: 89.640% (44820/50000)
+test_loss: 0.527, test_acc: 83.880% (8388/10000)
+
+Epoch: 70
+train_loss: 0.290, train_acc: 89.912% (44956/50000)
+test_loss: 0.506, test_acc: 83.680% (8368/10000)
+
+Epoch: 71
+train_loss: 0.287, train_acc: 89.918% (44959/50000)
+test_loss: 0.431, test_acc: 85.770% (8577/10000)
+
+Epoch: 72
+train_loss: 0.290, train_acc: 89.920% (44960/50000)
+test_loss: 0.526, test_acc: 82.810% (8281/10000)
+
+Epoch: 73
+train_loss: 0.290, train_acc: 89.974% (44987/50000)
+test_loss: 0.503, test_acc: 83.820% (8382/10000)
+
+Epoch: 74
+train_loss: 0.285, train_acc: 90.026% (45013/50000)
+test_loss: 0.488, test_acc: 84.460% (8446/10000)
+
+Epoch: 75
+train_loss: 0.289, train_acc: 89.910% (44955/50000)
+test_loss: 0.408, test_acc: 86.900% (8690/10000)
+
+Epoch: 76
+train_loss: 0.282, train_acc: 90.150% (45075/50000)
+test_loss: 0.449, test_acc: 85.640% (8564/10000)
+
+Epoch: 77
+train_loss: 0.283, train_acc: 90.112% (45056/50000)
+test_loss: 0.458, test_acc: 85.440% (8544/10000)
+
+Epoch: 78
+train_loss: 0.285, train_acc: 90.162% (45081/50000)
+test_loss: 0.487, test_acc: 84.490% (8449/10000)
+
+Epoch: 79
+train_loss: 0.286, train_acc: 90.006% (45003/50000)
+test_loss: 0.435, test_acc: 85.970% (8597/10000)
+
+Epoch: 80
+train_loss: 0.281, train_acc: 90.282% (45141/50000)
+test_loss: 0.456, test_acc: 85.170% (8517/10000)
+
+Epoch: 81
+train_loss: 0.278, train_acc: 90.362% (45181/50000)
+test_loss: 0.549, test_acc: 83.010% (8301/10000)
+
+Epoch: 82
+train_loss: 0.281, train_acc: 90.182% (45091/50000)
+test_loss: 0.482, test_acc: 84.790% (8479/10000)
+
+Epoch: 83
+train_loss: 0.281, train_acc: 90.238% (45119/50000)
+test_loss: 0.414, test_acc: 86.540% (8654/10000)
+
+Epoch: 84
+train_loss: 0.280, train_acc: 90.234% (45117/50000)
+test_loss: 0.429, test_acc: 86.110% (8611/10000)
+
+Epoch: 85
+train_loss: 0.276, train_acc: 90.360% (45180/50000)
+test_loss: 0.555, test_acc: 82.800% (8280/10000)
+
+Epoch: 86
+train_loss: 0.280, train_acc: 90.150% (45075/50000)
+test_loss: 0.555, test_acc: 82.580% (8258/10000)
+
+Epoch: 87
+train_loss: 0.279, train_acc: 90.348% (45174/50000)
+test_loss: 0.430, test_acc: 85.950% (8595/10000)
+
+Epoch: 88
+train_loss: 0.274, train_acc: 90.680% (45340/50000)
+test_loss: 0.467, test_acc: 85.010% (8501/10000)
+
+Epoch: 89
+train_loss: 0.276, train_acc: 90.506% (45253/50000)
+test_loss: 0.515, test_acc: 83.900% (8390/10000)
+
+Epoch: 90
+train_loss: 0.276, train_acc: 90.326% (45163/50000)
+test_loss: 0.425, test_acc: 86.260% (8626/10000)
+
+Epoch: 91
+train_loss: 0.269, train_acc: 90.520% (45260/50000)
+test_loss: 0.489, test_acc: 84.380% (8438/10000)
+
+Epoch: 92
+train_loss: 0.274, train_acc: 90.528% (45264/50000)
+test_loss: 0.472, test_acc: 84.430% (8443/10000)
+
+Epoch: 93
+train_loss: 0.275, train_acc: 90.572% (45286/50000)
+test_loss: 0.551, test_acc: 83.600% (8360/10000)
+
+Epoch: 94
+train_loss: 0.271, train_acc: 90.488% (45244/50000)
+test_loss: 0.431, test_acc: 86.880% (8688/10000)
+
+Epoch: 95
+train_loss: 0.275, train_acc: 90.452% (45226/50000)
+test_loss: 0.397, test_acc: 86.870% (8687/10000)
+
+Epoch: 96
+train_loss: 0.271, train_acc: 90.500% (45250/50000)
+test_loss: 0.512, test_acc: 84.190% (8419/10000)
+
+Epoch: 97
+train_loss: 0.265, train_acc: 90.728% (45364/50000)
+test_loss: 0.490, test_acc: 84.780% (8478/10000)
+
+Epoch: 98
+train_loss: 0.271, train_acc: 90.460% (45230/50000)
+test_loss: 0.407, test_acc: 86.610% (8661/10000)
+
+Epoch: 99
+train_loss: 0.271, train_acc: 90.588% (45294/50000)
+test_loss: 0.472, test_acc: 85.180% (8518/10000)
+
+Epoch: 100
+train_loss: 0.269, train_acc: 90.626% (45313/50000)
+test_loss: 0.442, test_acc: 86.700% (8670/10000)
+
+Epoch: 101
+train_loss: 0.274, train_acc: 90.526% (45263/50000)
+test_loss: 0.499, test_acc: 83.940% (8394/10000)
+
+Epoch: 102
+train_loss: 0.267, train_acc: 90.758% (45379/50000)
+test_loss: 0.631, test_acc: 81.030% (8103/10000)
+
+Epoch: 103
+train_loss: 0.266, train_acc: 90.758% (45379/50000)
+test_loss: 0.449, test_acc: 85.550% (8555/10000)
+
+Epoch: 104
+train_loss: 0.266, train_acc: 90.734% (45367/50000)
+test_loss: 0.453, test_acc: 85.490% (8549/10000)
+
+Epoch: 105
+train_loss: 0.270, train_acc: 90.498% (45249/50000)
+test_loss: 0.471, test_acc: 84.780% (8478/10000)
+
+Epoch: 106
+train_loss: 0.274, train_acc: 90.420% (45210/50000)
+test_loss: 0.427, test_acc: 86.650% (8665/10000)
+
+Epoch: 107
+train_loss: 0.263, train_acc: 90.958% (45479/50000)
+test_loss: 0.387, test_acc: 86.830% (8683/10000)
+
+Epoch: 108
+train_loss: 0.259, train_acc: 90.972% (45486/50000)
+test_loss: 0.435, test_acc: 86.050% (8605/10000)
+
+Epoch: 109
+train_loss: 0.265, train_acc: 90.828% (45414/50000)
+test_loss: 0.476, test_acc: 85.440% (8544/10000)
+
+Epoch: 110
+train_loss: 0.263, train_acc: 90.796% (45398/50000)
+test_loss: 0.463, test_acc: 85.470% (8547/10000)
+
+Epoch: 111
+train_loss: 0.260, train_acc: 90.996% (45498/50000)
+test_loss: 0.470, test_acc: 84.830% (8483/10000)
+
+Epoch: 112
+train_loss: 0.265, train_acc: 90.980% (45490/50000)
+test_loss: 0.510, test_acc: 84.820% (8482/10000)
+
+Epoch: 113
+train_loss: 0.262, train_acc: 90.818% (45409/50000)
+test_loss: 0.457, test_acc: 85.740% (8574/10000)
+
+Epoch: 114
+train_loss: 0.262, train_acc: 91.004% (45502/50000)
+test_loss: 0.444, test_acc: 86.120% (8612/10000)
+
+Epoch: 115
+train_loss: 0.266, train_acc: 90.742% (45371/50000)
+test_loss: 0.505, test_acc: 84.710% (8471/10000)
+
+Epoch: 116
+train_loss: 0.262, train_acc: 90.798% (45399/50000)
+test_loss: 0.440, test_acc: 85.350% (8535/10000)
+
+Epoch: 117
+train_loss: 0.267, train_acc: 90.782% (45391/50000)
+test_loss: 0.510, test_acc: 83.630% (8363/10000)
+
+Epoch: 118
+train_loss: 0.257, train_acc: 91.064% (45532/50000)
+test_loss: 0.434, test_acc: 85.660% (8566/10000)
+
+Epoch: 119
+train_loss: 0.265, train_acc: 90.842% (45421/50000)
+test_loss: 0.448, test_acc: 85.710% (8571/10000)
+
+Epoch: 120
+train_loss: 0.260, train_acc: 90.976% (45488/50000)
+test_loss: 0.402, test_acc: 86.500% (8650/10000)
+
+Epoch: 121
+train_loss: 0.261, train_acc: 91.026% (45513/50000)
+test_loss: 0.397, test_acc: 86.900% (8690/10000)
+
+Epoch: 122
+train_loss: 0.260, train_acc: 90.780% (45390/50000)
+test_loss: 0.502, test_acc: 83.860% (8386/10000)
+
+Epoch: 123
+train_loss: 0.261, train_acc: 90.924% (45462/50000)
+test_loss: 0.548, test_acc: 83.530% (8353/10000)
+
+Epoch: 124
+train_loss: 0.252, train_acc: 91.282% (45641/50000)
+test_loss: 0.558, test_acc: 83.220% (8322/10000)
+
+Epoch: 125
+train_loss: 0.259, train_acc: 90.952% (45476/50000)
+test_loss: 0.475, test_acc: 84.820% (8482/10000)
+
+Epoch: 126
+train_loss: 0.256, train_acc: 91.134% (45567/50000)
+test_loss: 0.510, test_acc: 83.960% (8396/10000)
+
+Epoch: 127
+train_loss: 0.255, train_acc: 91.076% (45538/50000)
+test_loss: 0.489, test_acc: 84.640% (8464/10000)
+
+Epoch: 128
+train_loss: 0.254, train_acc: 91.168% (45584/50000)
+test_loss: 0.420, test_acc: 86.160% (8616/10000)
+
+Epoch: 129
+train_loss: 0.253, train_acc: 91.194% (45597/50000)
+test_loss: 0.452, test_acc: 85.960% (8596/10000)
+
+Epoch: 130
+train_loss: 0.259, train_acc: 90.934% (45467/50000)
+test_loss: 0.418, test_acc: 86.480% (8648/10000)
+
+Epoch: 131
+train_loss: 0.255, train_acc: 91.228% (45614/50000)
+test_loss: 0.493, test_acc: 85.060% (8506/10000)
+
+Epoch: 132
+train_loss: 0.251, train_acc: 91.264% (45632/50000)
+test_loss: 0.402, test_acc: 86.780% (8678/10000)
+
+Epoch: 133
+train_loss: 0.258, train_acc: 91.046% (45523/50000)
+test_loss: 0.521, test_acc: 83.920% (8392/10000)
+
+Epoch: 134
+train_loss: 0.253, train_acc: 91.260% (45630/50000)
+test_loss: 0.400, test_acc: 87.270% (8727/10000)
+
+Epoch: 135
+train_loss: 0.255, train_acc: 91.240% (45620/50000)
+test_loss: 0.457, test_acc: 85.420% (8542/10000)
+
+Epoch: 136
+train_loss: 0.260, train_acc: 90.990% (45495/50000)
+test_loss: 0.571, test_acc: 82.630% (8263/10000)
+
+Epoch: 137
+train_loss: 0.254, train_acc: 91.118% (45559/50000)
+test_loss: 0.500, test_acc: 83.850% (8385/10000)
+
+Epoch: 138
+train_loss: 0.252, train_acc: 91.196% (45598/50000)
+test_loss: 0.524, test_acc: 84.170% (8417/10000)
+
+Epoch: 139
+train_loss: 0.251, train_acc: 91.348% (45674/50000)
+test_loss: 0.437, test_acc: 85.960% (8596/10000)
+
+Epoch: 140
+train_loss: 0.252, train_acc: 91.162% (45581/50000)
+test_loss: 0.484, test_acc: 84.900% (8490/10000)
+
+Epoch: 141
+train_loss: 0.253, train_acc: 91.172% (45586/50000)
+test_loss: 0.505, test_acc: 84.710% (8471/10000)
+
+Epoch: 142
+train_loss: 0.249, train_acc: 91.362% (45681/50000)
+test_loss: 0.416, test_acc: 87.020% (8702/10000)
+
+Epoch: 143
+train_loss: 0.253, train_acc: 91.066% (45533/50000)
+test_loss: 0.398, test_acc: 87.060% (8706/10000)
+
+Epoch: 144
+train_loss: 0.247, train_acc: 91.478% (45739/50000)
+test_loss: 0.458, test_acc: 86.330% (8633/10000)
+
+Epoch: 145
+train_loss: 0.253, train_acc: 91.168% (45584/50000)
+test_loss: 0.392, test_acc: 86.970% (8697/10000)
+
+Epoch: 146
+train_loss: 0.254, train_acc: 91.202% (45601/50000)
+test_loss: 0.493, test_acc: 84.740% (8474/10000)
+
+Epoch: 147
+train_loss: 0.249, train_acc: 91.312% (45656/50000)
+test_loss: 0.506, test_acc: 84.850% (8485/10000)
+
+Epoch: 148
+train_loss: 0.251, train_acc: 91.308% (45654/50000)
+test_loss: 0.514, test_acc: 84.550% (8455/10000)
+
+Epoch: 149
+train_loss: 0.253, train_acc: 91.140% (45570/50000)
+test_loss: 0.435, test_acc: 87.350% (8735/10000)
+
+Epoch: 150
+train_loss: 0.159, train_acc: 94.612% (47306/50000)
+test_loss: 0.269, test_acc: 91.350% (9135/10000)
+
+Epoch: 151
+train_loss: 0.127, train_acc: 95.678% (47839/50000)
+test_loss: 0.275, test_acc: 91.360% (9136/10000)
+
+Epoch: 152
+train_loss: 0.115, train_acc: 96.090% (48045/50000)
+test_loss: 0.271, test_acc: 91.610% (9161/10000)
+
+Epoch: 153
+train_loss: 0.111, train_acc: 96.204% (48102/50000)
+test_loss: 0.276, test_acc: 91.670% (9167/10000)
+
+Epoch: 154
+train_loss: 0.104, train_acc: 96.444% (48222/50000)
+test_loss: 0.274, test_acc: 91.740% (9174/10000)
+
+Epoch: 155
+train_loss: 0.099, train_acc: 96.646% (48323/50000)
+test_loss: 0.276, test_acc: 91.680% (9168/10000)
+
+Epoch: 156
+train_loss: 0.095, train_acc: 96.790% (48395/50000)
+test_loss: 0.271, test_acc: 91.820% (9182/10000)
+
+Epoch: 157
+train_loss: 0.092, train_acc: 96.852% (48426/50000)
+test_loss: 0.279, test_acc: 91.890% (9189/10000)
+
+Epoch: 158
+train_loss: 0.084, train_acc: 97.146% (48573/50000)
+test_loss: 0.284, test_acc: 91.860% (9186/10000)
+
+Epoch: 159
+train_loss: 0.083, train_acc: 97.072% (48536/50000)
+test_loss: 0.288, test_acc: 91.560% (9156/10000)
+
+Epoch: 160
+train_loss: 0.083, train_acc: 97.164% (48582/50000)
+test_loss: 0.291, test_acc: 91.570% (9157/10000)
+
+Epoch: 161
+train_loss: 0.078, train_acc: 97.302% (48651/50000)
+test_loss: 0.285, test_acc: 91.670% (9167/10000)
+
+Epoch: 162
+train_loss: 0.076, train_acc: 97.478% (48739/50000)
+test_loss: 0.290, test_acc: 91.820% (9182/10000)
+
+Epoch: 163
+train_loss: 0.075, train_acc: 97.372% (48686/50000)
+test_loss: 0.298, test_acc: 91.820% (9182/10000)
+
+Epoch: 164
+train_loss: 0.075, train_acc: 97.426% (48713/50000)
+test_loss: 0.289, test_acc: 91.970% (9197/10000)
+
+Epoch: 165
+train_loss: 0.071, train_acc: 97.634% (48817/50000)
+test_loss: 0.292, test_acc: 91.830% (9183/10000)
+
+Epoch: 166
+train_loss: 0.070, train_acc: 97.564% (48782/50000)
+test_loss: 0.300, test_acc: 91.760% (9176/10000)
+
+Epoch: 167
+train_loss: 0.070, train_acc: 97.586% (48793/50000)
+test_loss: 0.295, test_acc: 91.650% (9165/10000)
+
+Epoch: 168
+train_loss: 0.066, train_acc: 97.780% (48890/50000)
+test_loss: 0.305, test_acc: 91.660% (9166/10000)
+
+Epoch: 169
+train_loss: 0.066, train_acc: 97.756% (48878/50000)
+test_loss: 0.297, test_acc: 91.570% (9157/10000)
+
+Epoch: 170
+train_loss: 0.064, train_acc: 97.794% (48897/50000)
+test_loss: 0.303, test_acc: 91.800% (9180/10000)
+
+Epoch: 171
+train_loss: 0.062, train_acc: 97.898% (48949/50000)
+test_loss: 0.312, test_acc: 91.610% (9161/10000)
+
+Epoch: 172
+train_loss: 0.063, train_acc: 97.818% (48909/50000)
+test_loss: 0.327, test_acc: 91.470% (9147/10000)
+
+Epoch: 173
+train_loss: 0.060, train_acc: 97.984% (48992/50000)
+test_loss: 0.301, test_acc: 91.760% (9176/10000)
+
+Epoch: 174
+train_loss: 0.061, train_acc: 97.892% (48946/50000)
+test_loss: 0.301, test_acc: 91.760% (9176/10000)
+
+Epoch: 175
+train_loss: 0.059, train_acc: 98.032% (49016/50000)
+test_loss: 0.306, test_acc: 91.770% (9177/10000)
+
+Epoch: 176
+train_loss: 0.058, train_acc: 98.016% (49008/50000)
+test_loss: 0.307, test_acc: 91.680% (9168/10000)
+
+Epoch: 177
+train_loss: 0.055, train_acc: 98.084% (49042/50000)
+test_loss: 0.313, test_acc: 91.830% (9183/10000)
+
+Epoch: 178
+train_loss: 0.056, train_acc: 98.154% (49077/50000)
+test_loss: 0.306, test_acc: 91.830% (9183/10000)
+
+Epoch: 179
+train_loss: 0.056, train_acc: 98.146% (49073/50000)
+test_loss: 0.315, test_acc: 91.560% (9156/10000)
+
+Epoch: 180
+train_loss: 0.055, train_acc: 98.062% (49031/50000)
+test_loss: 0.323, test_acc: 91.610% (9161/10000)
+
+Epoch: 181
+train_loss: 0.056, train_acc: 98.090% (49045/50000)
+test_loss: 0.328, test_acc: 91.640% (9164/10000)
+
+Epoch: 182
+train_loss: 0.054, train_acc: 98.166% (49083/50000)
+test_loss: 0.310, test_acc: 91.690% (9169/10000)
+
+Epoch: 183
+train_loss: 0.053, train_acc: 98.220% (49110/50000)
+test_loss: 0.327, test_acc: 91.400% (9140/10000)
+
+Epoch: 184
+train_loss: 0.052, train_acc: 98.180% (49090/50000)
+test_loss: 0.326, test_acc: 91.620% (9162/10000)
+
+Epoch: 185
+train_loss: 0.053, train_acc: 98.208% (49104/50000)
+test_loss: 0.315, test_acc: 91.720% (9172/10000)
+
+Epoch: 186
+train_loss: 0.050, train_acc: 98.286% (49143/50000)
+test_loss: 0.331, test_acc: 91.430% (9143/10000)
+
+Epoch: 187
+train_loss: 0.050, train_acc: 98.356% (49178/50000)
+test_loss: 0.335, test_acc: 91.390% (9139/10000)
+
+Epoch: 188
+train_loss: 0.051, train_acc: 98.248% (49124/50000)
+test_loss: 0.349, test_acc: 91.340% (9134/10000)
+
+Epoch: 189
+train_loss: 0.050, train_acc: 98.296% (49148/50000)
+test_loss: 0.338, test_acc: 91.330% (9133/10000)
+
+Epoch: 190
+train_loss: 0.047, train_acc: 98.472% (49236/50000)
+test_loss: 0.349, test_acc: 91.420% (9142/10000)
+
+Epoch: 191
+train_loss: 0.048, train_acc: 98.410% (49205/50000)
+test_loss: 0.340, test_acc: 91.380% (9138/10000)
+
+Epoch: 192
+train_loss: 0.049, train_acc: 98.330% (49165/50000)
+test_loss: 0.336, test_acc: 91.550% (9155/10000)
+
+Epoch: 193
+train_loss: 0.044, train_acc: 98.566% (49283/50000)
+test_loss: 0.332, test_acc: 91.830% (9183/10000)
+
+Epoch: 194
+train_loss: 0.045, train_acc: 98.522% (49261/50000)
+test_loss: 0.342, test_acc: 91.280% (9128/10000)
+
+Epoch: 195
+train_loss: 0.045, train_acc: 98.546% (49273/50000)
+test_loss: 0.342, test_acc: 91.510% (9151/10000)
+
+Epoch: 196
+train_loss: 0.045, train_acc: 98.474% (49237/50000)
+test_loss: 0.342, test_acc: 91.520% (9152/10000)
+
+Epoch: 197
+train_loss: 0.047, train_acc: 98.400% (49200/50000)
+test_loss: 0.339, test_acc: 91.390% (9139/10000)
+
+Epoch: 198
+train_loss: 0.044, train_acc: 98.516% (49258/50000)
+test_loss: 0.341, test_acc: 91.470% (9147/10000)
+
+Epoch: 199
+train_loss: 0.045, train_acc: 98.414% (49207/50000)
+test_loss: 0.351, test_acc: 91.350% (9135/10000)
+
+Epoch: 200
+train_loss: 0.045, train_acc: 98.450% (49225/50000)
+test_loss: 0.340, test_acc: 91.400% (9140/10000)
+
+Epoch: 201
+train_loss: 0.046, train_acc: 98.460% (49230/50000)
+test_loss: 0.345, test_acc: 91.480% (9148/10000)
+
+Epoch: 202
+train_loss: 0.043, train_acc: 98.550% (49275/50000)
+test_loss: 0.352, test_acc: 91.290% (9129/10000)
+
+Epoch: 203
+train_loss: 0.044, train_acc: 98.486% (49243/50000)
+test_loss: 0.339, test_acc: 91.630% (9163/10000)
+
+Epoch: 204
+train_loss: 0.046, train_acc: 98.428% (49214/50000)
+test_loss: 0.355, test_acc: 91.370% (9137/10000)
+
+Epoch: 205
+train_loss: 0.046, train_acc: 98.412% (49206/50000)
+test_loss: 0.330, test_acc: 91.660% (9166/10000)
+
+Epoch: 206
+train_loss: 0.044, train_acc: 98.536% (49268/50000)
+test_loss: 0.339, test_acc: 91.250% (9125/10000)
+
+Epoch: 207
+train_loss: 0.044, train_acc: 98.494% (49247/50000)
+test_loss: 0.351, test_acc: 91.290% (9129/10000)
+
+Epoch: 208
+train_loss: 0.044, train_acc: 98.526% (49263/50000)
+test_loss: 0.342, test_acc: 91.530% (9153/10000)
+
+Epoch: 209
+train_loss: 0.043, train_acc: 98.560% (49280/50000)
+test_loss: 0.350, test_acc: 91.390% (9139/10000)
+
+Epoch: 210
+train_loss: 0.042, train_acc: 98.554% (49277/50000)
+test_loss: 0.340, test_acc: 91.530% (9153/10000)
+
+Epoch: 211
+train_loss: 0.042, train_acc: 98.592% (49296/50000)
+test_loss: 0.354, test_acc: 91.210% (9121/10000)
+
+Epoch: 212
+train_loss: 0.045, train_acc: 98.436% (49218/50000)
+test_loss: 0.346, test_acc: 91.480% (9148/10000)
+
+Epoch: 213
+train_loss: 0.044, train_acc: 98.496% (49248/50000)
+test_loss: 0.360, test_acc: 90.800% (9080/10000)
+
+Epoch: 214
+train_loss: 0.042, train_acc: 98.580% (49290/50000)
+test_loss: 0.368, test_acc: 91.030% (9103/10000)
+
+Epoch: 215
+train_loss: 0.042, train_acc: 98.550% (49275/50000)
+test_loss: 0.360, test_acc: 91.340% (9134/10000)
+
+Epoch: 216
+train_loss: 0.041, train_acc: 98.660% (49330/50000)
+test_loss: 0.343, test_acc: 91.670% (9167/10000)
+
+Epoch: 217
+train_loss: 0.042, train_acc: 98.540% (49270/50000)
+test_loss: 0.357, test_acc: 91.510% (9151/10000)
+
+Epoch: 218
+train_loss: 0.041, train_acc: 98.602% (49301/50000)
+test_loss: 0.348, test_acc: 91.470% (9147/10000)
+
+Epoch: 219
+train_loss: 0.045, train_acc: 98.414% (49207/50000)
+test_loss: 0.343, test_acc: 91.590% (9159/10000)
+
+Epoch: 220
+train_loss: 0.043, train_acc: 98.516% (49258/50000)
+test_loss: 0.336, test_acc: 91.670% (9167/10000)
+
+Epoch: 221
+train_loss: 0.042, train_acc: 98.576% (49288/50000)
+test_loss: 0.353, test_acc: 91.390% (9139/10000)
+
+Epoch: 222
+train_loss: 0.043, train_acc: 98.494% (49247/50000)
+test_loss: 0.358, test_acc: 91.470% (9147/10000)
+
+Epoch: 223
+train_loss: 0.044, train_acc: 98.478% (49239/50000)
+test_loss: 0.365, test_acc: 91.170% (9117/10000)
+
+Epoch: 224
+train_loss: 0.041, train_acc: 98.634% (49317/50000)
+test_loss: 0.366, test_acc: 91.210% (9121/10000)
+
+Epoch: 225
+train_loss: 0.035, train_acc: 98.918% (49459/50000)
+test_loss: 0.342, test_acc: 91.860% (9186/10000)
+
+Epoch: 226
+train_loss: 0.031, train_acc: 99.058% (49529/50000)
+test_loss: 0.342, test_acc: 91.880% (9188/10000)
+
+Epoch: 227
+train_loss: 0.029, train_acc: 99.096% (49548/50000)
+test_loss: 0.335, test_acc: 92.000% (9200/10000)
+
+Epoch: 228
+train_loss: 0.027, train_acc: 99.136% (49568/50000)
+test_loss: 0.338, test_acc: 91.840% (9184/10000)
+
+Epoch: 229
+train_loss: 0.026, train_acc: 99.218% (49609/50000)
+test_loss: 0.338, test_acc: 91.930% (9193/10000)
+
+Epoch: 230
+train_loss: 0.025, train_acc: 99.282% (49641/50000)
+test_loss: 0.342, test_acc: 91.990% (9199/10000)
+
+Epoch: 231
+train_loss: 0.025, train_acc: 99.248% (49624/50000)
+test_loss: 0.335, test_acc: 91.880% (9188/10000)
+
+Epoch: 232
+train_loss: 0.025, train_acc: 99.302% (49651/50000)
+test_loss: 0.339, test_acc: 91.900% (9190/10000)
+
+Epoch: 233
+train_loss: 0.023, train_acc: 99.286% (49643/50000)
+test_loss: 0.341, test_acc: 92.080% (9208/10000)
+
+Epoch: 234
+train_loss: 0.023, train_acc: 99.322% (49661/50000)
+test_loss: 0.341, test_acc: 92.010% (9201/10000)
+
+Epoch: 235
+train_loss: 0.023, train_acc: 99.308% (49654/50000)
+test_loss: 0.343, test_acc: 91.940% (9194/10000)
+
+Epoch: 236
+train_loss: 0.022, train_acc: 99.364% (49682/50000)
+test_loss: 0.337, test_acc: 92.060% (9206/10000)
+
+Epoch: 237
+train_loss: 0.022, train_acc: 99.324% (49662/50000)
+test_loss: 0.339, test_acc: 92.060% (9206/10000)
+
+Epoch: 238
+train_loss: 0.022, train_acc: 99.362% (49681/50000)
+test_loss: 0.341, test_acc: 91.850% (9185/10000)
+
+Epoch: 239
+train_loss: 0.022, train_acc: 99.368% (49684/50000)
+test_loss: 0.339, test_acc: 92.080% (9208/10000)
+
+Epoch: 240
+train_loss: 0.023, train_acc: 99.324% (49662/50000)
+test_loss: 0.339, test_acc: 92.160% (9216/10000)
+
+Epoch: 241
+train_loss: 0.022, train_acc: 99.336% (49668/50000)
+test_loss: 0.343, test_acc: 91.900% (9190/10000)
+
+Epoch: 242
+train_loss: 0.022, train_acc: 99.344% (49672/50000)
+test_loss: 0.340, test_acc: 92.020% (9202/10000)
+
+Epoch: 243
+train_loss: 0.021, train_acc: 99.400% (49700/50000)
+test_loss: 0.345, test_acc: 91.860% (9186/10000)
+
+Epoch: 244
+train_loss: 0.021, train_acc: 99.396% (49698/50000)
+test_loss: 0.351, test_acc: 91.850% (9185/10000)
+
+Epoch: 245
+train_loss: 0.021, train_acc: 99.374% (49687/50000)
+test_loss: 0.345, test_acc: 92.040% (9204/10000)
+
+Epoch: 246
+train_loss: 0.021, train_acc: 99.376% (49688/50000)
+test_loss: 0.345, test_acc: 91.960% (9196/10000)
+
+Epoch: 247
+train_loss: 0.021, train_acc: 99.404% (49702/50000)
+test_loss: 0.346, test_acc: 91.880% (9188/10000)
+
+Epoch: 248
+train_loss: 0.021, train_acc: 99.346% (49673/50000)
+test_loss: 0.350, test_acc: 91.890% (9189/10000)
+
+Epoch: 249
+train_loss: 0.021, train_acc: 99.432% (49716/50000)
+test_loss: 0.347, test_acc: 91.980% (9198/10000)
+
+Epoch: 250
+train_loss: 0.021, train_acc: 99.340% (49670/50000)
+test_loss: 0.346, test_acc: 92.080% (9208/10000)
+
+Epoch: 251
+train_loss: 0.020, train_acc: 99.422% (49711/50000)
+test_loss: 0.347, test_acc: 92.000% (9200/10000)
+
+Epoch: 252
+train_loss: 0.020, train_acc: 99.446% (49723/50000)
+test_loss: 0.349, test_acc: 91.990% (9199/10000)
+
+Epoch: 253
+train_loss: 0.021, train_acc: 99.378% (49689/50000)
+test_loss: 0.346, test_acc: 91.910% (9191/10000)
+
+Epoch: 254
+train_loss: 0.021, train_acc: 99.408% (49704/50000)
+test_loss: 0.352, test_acc: 91.710% (9171/10000)
+
+Epoch: 255
+train_loss: 0.020, train_acc: 99.430% (49715/50000)
+test_loss: 0.344, test_acc: 91.900% (9190/10000)
+
+Epoch: 256
+train_loss: 0.019, train_acc: 99.444% (49722/50000)
+test_loss: 0.351, test_acc: 91.990% (9199/10000)
+
+Epoch: 257
+train_loss: 0.019, train_acc: 99.430% (49715/50000)
+test_loss: 0.351, test_acc: 91.890% (9189/10000)
+
+Epoch: 258
+train_loss: 0.019, train_acc: 99.442% (49721/50000)
+test_loss: 0.349, test_acc: 91.930% (9193/10000)
+
+Epoch: 259
+train_loss: 0.019, train_acc: 99.450% (49725/50000)
+test_loss: 0.348, test_acc: 92.000% (9200/10000)
+
+Epoch: 260
+train_loss: 0.020, train_acc: 99.390% (49695/50000)
+test_loss: 0.351, test_acc: 91.790% (9179/10000)
+
+Epoch: 261
+train_loss: 0.019, train_acc: 99.468% (49734/50000)
+test_loss: 0.353, test_acc: 91.680% (9168/10000)
+
+Epoch: 262
+train_loss: 0.020, train_acc: 99.410% (49705/50000)
+test_loss: 0.353, test_acc: 91.810% (9181/10000)
+
+Epoch: 263
+train_loss: 0.020, train_acc: 99.394% (49697/50000)
+test_loss: 0.350, test_acc: 91.950% (9195/10000)
+
+Epoch: 264
+train_loss: 0.019, train_acc: 99.450% (49725/50000)
+test_loss: 0.347, test_acc: 92.000% (9200/10000)
+
+Epoch: 265
+train_loss: 0.019, train_acc: 99.514% (49757/50000)
+test_loss: 0.348, test_acc: 92.050% (9205/10000)
+
+Epoch: 266
+train_loss: 0.018, train_acc: 99.488% (49744/50000)
+test_loss: 0.349, test_acc: 91.780% (9178/10000)
+
+Epoch: 267
+train_loss: 0.021, train_acc: 99.382% (49691/50000)
+test_loss: 0.348, test_acc: 91.940% (9194/10000)
+
+Epoch: 268
+train_loss: 0.018, train_acc: 99.508% (49754/50000)
+test_loss: 0.351, test_acc: 91.880% (9188/10000)
+
+Epoch: 269
+train_loss: 0.020, train_acc: 99.380% (49690/50000)
+test_loss: 0.355, test_acc: 91.970% (9197/10000)
+
+Epoch: 270
+train_loss: 0.018, train_acc: 99.498% (49749/50000)
+test_loss: 0.349, test_acc: 91.990% (9199/10000)
+
+Epoch: 271
+train_loss: 0.019, train_acc: 99.452% (49726/50000)
+test_loss: 0.352, test_acc: 91.900% (9190/10000)
+
+Epoch: 272
+train_loss: 0.019, train_acc: 99.482% (49741/50000)
+test_loss: 0.348, test_acc: 92.180% (9218/10000)
+
+Epoch: 273
+train_loss: 0.018, train_acc: 99.470% (49735/50000)
+test_loss: 0.348, test_acc: 91.930% (9193/10000)
+
+Epoch: 274
+train_loss: 0.018, train_acc: 99.480% (49740/50000)
+test_loss: 0.351, test_acc: 91.940% (9194/10000)
+
+Epoch: 275
+train_loss: 0.017, train_acc: 99.514% (49757/50000)
+test_loss: 0.354, test_acc: 92.000% (9200/10000)
+
+Epoch: 276
+train_loss: 0.017, train_acc: 99.502% (49751/50000)
+test_loss: 0.358, test_acc: 91.870% (9187/10000)
+
+Epoch: 277
+train_loss: 0.018, train_acc: 99.482% (49741/50000)
+test_loss: 0.355, test_acc: 91.940% (9194/10000)
+
+Epoch: 278
+train_loss: 0.018, train_acc: 99.458% (49729/50000)
+test_loss: 0.354, test_acc: 91.920% (9192/10000)
+
+Epoch: 279
+train_loss: 0.018, train_acc: 99.470% (49735/50000)
+test_loss: 0.353, test_acc: 91.890% (9189/10000)
+
+Epoch: 280
+train_loss: 0.018, train_acc: 99.482% (49741/50000)
+test_loss: 0.355, test_acc: 91.960% (9196/10000)
+
+Epoch: 281
+train_loss: 0.018, train_acc: 99.436% (49718/50000)
+test_loss: 0.358, test_acc: 91.950% (9195/10000)
+
+Epoch: 282
+train_loss: 0.017, train_acc: 99.538% (49769/50000)
+test_loss: 0.355, test_acc: 91.890% (9189/10000)
+
+Epoch: 283
+train_loss: 0.017, train_acc: 99.480% (49740/50000)
+test_loss: 0.358, test_acc: 91.810% (9181/10000)
+
+Epoch: 284
+train_loss: 0.018, train_acc: 99.494% (49747/50000)
+test_loss: 0.360, test_acc: 91.890% (9189/10000)
+
+Epoch: 285
+train_loss: 0.018, train_acc: 99.474% (49737/50000)
+test_loss: 0.355, test_acc: 92.130% (9213/10000)
+
+Epoch: 286
+train_loss: 0.018, train_acc: 99.446% (49723/50000)
+test_loss: 0.362, test_acc: 91.980% (9198/10000)
+
+Epoch: 287
+train_loss: 0.017, train_acc: 99.538% (49769/50000)
+test_loss: 0.356, test_acc: 92.030% (9203/10000)
+
+Epoch: 288
+train_loss: 0.018, train_acc: 99.476% (49738/50000)
+test_loss: 0.356, test_acc: 91.970% (9197/10000)
+
+Epoch: 289
+train_loss: 0.017, train_acc: 99.482% (49741/50000)
+test_loss: 0.360, test_acc: 91.950% (9195/10000)
+
+Epoch: 290
+train_loss: 0.018, train_acc: 99.466% (49733/50000)
+test_loss: 0.355, test_acc: 91.970% (9197/10000)
+
+Epoch: 291
+train_loss: 0.017, train_acc: 99.530% (49765/50000)
+test_loss: 0.357, test_acc: 92.010% (9201/10000)
+
+Epoch: 292
+train_loss: 0.016, train_acc: 99.542% (49771/50000)
+test_loss: 0.358, test_acc: 91.850% (9185/10000)
+
+Epoch: 293
+train_loss: 0.017, train_acc: 99.494% (49747/50000)
+test_loss: 0.360, test_acc: 91.780% (9178/10000)
+
+Epoch: 294
+train_loss: 0.017, train_acc: 99.522% (49761/50000)
+test_loss: 0.359, test_acc: 91.970% (9197/10000)
+
+Epoch: 295
+train_loss: 0.018, train_acc: 99.492% (49746/50000)
+test_loss: 0.360, test_acc: 91.930% (9193/10000)
+
+Epoch: 296
+train_loss: 0.016, train_acc: 99.550% (49775/50000)
+test_loss: 0.354, test_acc: 92.120% (9212/10000)
+
+Epoch: 297
+train_loss: 0.017, train_acc: 99.514% (49757/50000)
+test_loss: 0.361, test_acc: 91.910% (9191/10000)
+
+Epoch: 298
+train_loss: 0.017, train_acc: 99.518% (49759/50000)
+test_loss: 0.353, test_acc: 91.960% (9196/10000)
+
+Epoch: 299
+train_loss: 0.016, train_acc: 99.544% (49772/50000)
+test_loss: 0.358, test_acc: 92.040% (9204/10000)
+cycle 1:
+
+Epoch: 0
+train_loss: 0.469, train_acc: 84.186% (42093/50000)
+test_loss: 0.662, test_acc: 79.150% (7915/10000)
+
+Epoch: 1
+train_loss: 0.341, train_acc: 88.260% (44130/50000)
+test_loss: 0.490, test_acc: 83.500% (8350/10000)
+
+Epoch: 2
+train_loss: 0.317, train_acc: 88.948% (44474/50000)
+test_loss: 0.449, test_acc: 85.880% (8588/10000)
+
+Epoch: 3
+train_loss: 0.302, train_acc: 89.492% (44746/50000)
+test_loss: 0.496, test_acc: 84.300% (8430/10000)
+
+Epoch: 4
+train_loss: 0.289, train_acc: 89.882% (44941/50000)
+test_loss: 0.478, test_acc: 84.690% (8469/10000)
+
+Epoch: 5
+train_loss: 0.284, train_acc: 90.182% (45091/50000)
+test_loss: 0.392, test_acc: 87.200% (8720/10000)
+
+Epoch: 6
+train_loss: 0.276, train_acc: 90.276% (45138/50000)
+test_loss: 0.458, test_acc: 85.850% (8585/10000)
+
+Epoch: 7
+train_loss: 0.276, train_acc: 90.380% (45190/50000)
+test_loss: 0.503, test_acc: 84.960% (8496/10000)
+
+Epoch: 8
+train_loss: 0.270, train_acc: 90.638% (45319/50000)
+test_loss: 0.576, test_acc: 82.410% (8241/10000)
+
+Epoch: 9
+train_loss: 0.260, train_acc: 91.006% (45503/50000)
+test_loss: 0.621, test_acc: 81.710% (8171/10000)
+
+Epoch: 10
+train_loss: 0.265, train_acc: 90.862% (45431/50000)
+test_loss: 0.409, test_acc: 86.900% (8690/10000)
+
+Epoch: 11
+train_loss: 0.260, train_acc: 90.936% (45468/50000)
+test_loss: 0.456, test_acc: 85.430% (8543/10000)
+
+Epoch: 12
+train_loss: 0.255, train_acc: 91.126% (45563/50000)
+test_loss: 0.448, test_acc: 84.980% (8498/10000)
+
+Epoch: 13
+train_loss: 0.256, train_acc: 90.956% (45478/50000)
+test_loss: 0.526, test_acc: 84.250% (8425/10000)
+
+Epoch: 14
+train_loss: 0.254, train_acc: 91.118% (45559/50000)
+test_loss: 0.448, test_acc: 86.010% (8601/10000)
+
+Epoch: 15
+train_loss: 0.257, train_acc: 91.114% (45557/50000)
+test_loss: 0.555, test_acc: 83.040% (8304/10000)
+
+Epoch: 16
+train_loss: 0.258, train_acc: 90.984% (45492/50000)
+test_loss: 0.515, test_acc: 83.920% (8392/10000)
+
+Epoch: 17
+train_loss: 0.251, train_acc: 91.232% (45616/50000)
+test_loss: 0.428, test_acc: 86.420% (8642/10000)
+
+Epoch: 18
+train_loss: 0.252, train_acc: 91.252% (45626/50000)
+test_loss: 0.434, test_acc: 86.130% (8613/10000)
+
+Epoch: 19
+train_loss: 0.252, train_acc: 91.218% (45609/50000)
+test_loss: 0.442, test_acc: 86.050% (8605/10000)
+
+Epoch: 20
+train_loss: 0.246, train_acc: 91.306% (45653/50000)
+test_loss: 0.442, test_acc: 85.880% (8588/10000)
+
+Epoch: 21
+train_loss: 0.250, train_acc: 91.302% (45651/50000)
+test_loss: 0.499, test_acc: 84.370% (8437/10000)
+
+Epoch: 22
+train_loss: 0.245, train_acc: 91.598% (45799/50000)
+test_loss: 0.471, test_acc: 85.220% (8522/10000)
+
+Epoch: 23
+train_loss: 0.247, train_acc: 91.308% (45654/50000)
+test_loss: 0.442, test_acc: 85.580% (8558/10000)
+
+Epoch: 24
+train_loss: 0.245, train_acc: 91.472% (45736/50000)
+test_loss: 0.375, test_acc: 87.850% (8785/10000)
+
+Epoch: 25
+train_loss: 0.247, train_acc: 91.538% (45769/50000)
+test_loss: 0.350, test_acc: 88.650% (8865/10000)
+
+Epoch: 26
+train_loss: 0.243, train_acc: 91.524% (45762/50000)
+test_loss: 0.402, test_acc: 86.970% (8697/10000)
+
+Epoch: 27
+train_loss: 0.246, train_acc: 91.360% (45680/50000)
+test_loss: 0.381, test_acc: 87.980% (8798/10000)
+
+Epoch: 28
+train_loss: 0.242, train_acc: 91.656% (45828/50000)
+test_loss: 0.556, test_acc: 83.170% (8317/10000)
+
+Epoch: 29
+train_loss: 0.248, train_acc: 91.462% (45731/50000)
+test_loss: 0.402, test_acc: 86.480% (8648/10000)
+
+Epoch: 30
+train_loss: 0.243, train_acc: 91.580% (45790/50000)
+test_loss: 0.414, test_acc: 86.270% (8627/10000)
+
+Epoch: 31
+train_loss: 0.247, train_acc: 91.328% (45664/50000)
+test_loss: 0.400, test_acc: 87.240% (8724/10000)
+
+Epoch: 32
+train_loss: 0.242, train_acc: 91.606% (45803/50000)
+test_loss: 0.446, test_acc: 86.020% (8602/10000)
+
+Epoch: 33
+train_loss: 0.242, train_acc: 91.594% (45797/50000)
+test_loss: 0.481, test_acc: 85.510% (8551/10000)
+
+Epoch: 34
+train_loss: 0.245, train_acc: 91.432% (45716/50000)
+test_loss: 0.396, test_acc: 87.150% (8715/10000)
+
+Epoch: 35
+train_loss: 0.239, train_acc: 91.632% (45816/50000)
+test_loss: 0.568, test_acc: 83.320% (8332/10000)
+
+Epoch: 36
+train_loss: 0.242, train_acc: 91.776% (45888/50000)
+test_loss: 0.582, test_acc: 82.600% (8260/10000)
+
+Epoch: 37
+train_loss: 0.243, train_acc: 91.434% (45717/50000)
+test_loss: 0.418, test_acc: 86.940% (8694/10000)
+
+Epoch: 38
+train_loss: 0.243, train_acc: 91.510% (45755/50000)
+test_loss: 0.580, test_acc: 83.340% (8334/10000)
+
+Epoch: 39
+train_loss: 0.236, train_acc: 91.802% (45901/50000)
+test_loss: 0.400, test_acc: 87.490% (8749/10000)
+
+Epoch: 40
+train_loss: 0.239, train_acc: 91.576% (45788/50000)
+test_loss: 0.377, test_acc: 87.900% (8790/10000)
+
+Epoch: 41
+train_loss: 0.242, train_acc: 91.566% (45783/50000)
+test_loss: 0.399, test_acc: 86.970% (8697/10000)
+
+Epoch: 42
+train_loss: 0.239, train_acc: 91.626% (45813/50000)
+test_loss: 0.459, test_acc: 86.050% (8605/10000)
+
+Epoch: 43
+train_loss: 0.237, train_acc: 91.854% (45927/50000)
+test_loss: 0.560, test_acc: 83.910% (8391/10000)
+
+Epoch: 44
+train_loss: 0.240, train_acc: 91.718% (45859/50000)
+test_loss: 0.402, test_acc: 86.910% (8691/10000)
+
+Epoch: 45
+train_loss: 0.237, train_acc: 91.738% (45869/50000)
+test_loss: 0.410, test_acc: 87.310% (8731/10000)
+
+Epoch: 46
+train_loss: 0.242, train_acc: 91.514% (45757/50000)
+test_loss: 0.405, test_acc: 86.840% (8684/10000)
+
+Epoch: 47
+train_loss: 0.242, train_acc: 91.576% (45788/50000)
+test_loss: 0.440, test_acc: 86.010% (8601/10000)
+
+Epoch: 48
+train_loss: 0.241, train_acc: 91.596% (45798/50000)
+test_loss: 0.426, test_acc: 86.640% (8664/10000)
+
+Epoch: 49
+train_loss: 0.230, train_acc: 91.868% (45934/50000)
+test_loss: 0.417, test_acc: 86.930% (8693/10000)
+
+Epoch: 50
+train_loss: 0.238, train_acc: 91.680% (45840/50000)
+test_loss: 0.449, test_acc: 85.710% (8571/10000)
+
+Epoch: 51
+train_loss: 0.232, train_acc: 92.000% (46000/50000)
+test_loss: 0.416, test_acc: 87.130% (8713/10000)
+
+Epoch: 52
+train_loss: 0.235, train_acc: 91.900% (45950/50000)
+test_loss: 0.383, test_acc: 87.990% (8799/10000)
+
+Epoch: 53
+train_loss: 0.236, train_acc: 91.848% (45924/50000)
+test_loss: 0.520, test_acc: 83.670% (8367/10000)
+
+Epoch: 54
+train_loss: 0.246, train_acc: 91.428% (45714/50000)
+test_loss: 0.459, test_acc: 85.430% (8543/10000)
+
+Epoch: 55
+train_loss: 0.242, train_acc: 91.596% (45798/50000)
+test_loss: 0.433, test_acc: 86.140% (8614/10000)
+
+Epoch: 56
+train_loss: 0.238, train_acc: 91.678% (45839/50000)
+test_loss: 0.482, test_acc: 85.050% (8505/10000)
+
+Epoch: 57
+train_loss: 0.232, train_acc: 91.892% (45946/50000)
+test_loss: 0.419, test_acc: 87.300% (8730/10000)
+
+Epoch: 58
+train_loss: 0.242, train_acc: 91.576% (45788/50000)
+test_loss: 0.524, test_acc: 84.820% (8482/10000)
+
+Epoch: 59
+train_loss: 0.238, train_acc: 91.674% (45837/50000)
+test_loss: 0.421, test_acc: 86.670% (8667/10000)
+
+Epoch: 60
+train_loss: 0.241, train_acc: 91.694% (45847/50000)
+test_loss: 0.426, test_acc: 86.530% (8653/10000)
+
+Epoch: 61
+train_loss: 0.231, train_acc: 91.890% (45945/50000)
+test_loss: 0.460, test_acc: 86.490% (8649/10000)
+
+Epoch: 62
+train_loss: 0.234, train_acc: 91.844% (45922/50000)
+test_loss: 0.500, test_acc: 85.540% (8554/10000)
+
+Epoch: 63
+train_loss: 0.232, train_acc: 91.948% (45974/50000)
+test_loss: 0.425, test_acc: 87.000% (8700/10000)
+
+Epoch: 64
+train_loss: 0.236, train_acc: 91.664% (45832/50000)
+test_loss: 0.489, test_acc: 84.630% (8463/10000)
+
+Epoch: 65
+train_loss: 0.231, train_acc: 91.994% (45997/50000)
+test_loss: 0.404, test_acc: 87.040% (8704/10000)
+
+Epoch: 66
+train_loss: 0.234, train_acc: 91.916% (45958/50000)
+test_loss: 0.390, test_acc: 88.200% (8820/10000)
+
+Epoch: 67
+train_loss: 0.239, train_acc: 91.618% (45809/50000)
+test_loss: 0.451, test_acc: 86.150% (8615/10000)
+
+Epoch: 68
+train_loss: 0.235, train_acc: 91.862% (45931/50000)
+test_loss: 0.404, test_acc: 87.180% (8718/10000)
+
+Epoch: 69
+train_loss: 0.231, train_acc: 91.952% (45976/50000)
+test_loss: 0.410, test_acc: 87.370% (8737/10000)
+
+Epoch: 70
+train_loss: 0.236, train_acc: 91.842% (45921/50000)
+test_loss: 0.398, test_acc: 87.580% (8758/10000)
+
+Epoch: 71
+train_loss: 0.232, train_acc: 91.872% (45936/50000)
+test_loss: 0.383, test_acc: 87.160% (8716/10000)
+
+Epoch: 72
+train_loss: 0.229, train_acc: 91.916% (45958/50000)
+test_loss: 0.501, test_acc: 84.560% (8456/10000)
+
+Epoch: 73
+train_loss: 0.233, train_acc: 91.862% (45931/50000)
+test_loss: 0.615, test_acc: 82.090% (8209/10000)
+
+Epoch: 74
+train_loss: 0.241, train_acc: 91.608% (45804/50000)
+test_loss: 0.429, test_acc: 87.060% (8706/10000)
+
+Epoch: 75
+train_loss: 0.233, train_acc: 91.906% (45953/50000)
+test_loss: 0.484, test_acc: 85.240% (8524/10000)
+
+Epoch: 76
+train_loss: 0.235, train_acc: 91.736% (45868/50000)
+test_loss: 0.489, test_acc: 85.140% (8514/10000)
+
+Epoch: 77
+train_loss: 0.233, train_acc: 91.916% (45958/50000)
+test_loss: 0.383, test_acc: 87.880% (8788/10000)
+
+Epoch: 78
+train_loss: 0.227, train_acc: 92.208% (46104/50000)
+test_loss: 0.406, test_acc: 87.320% (8732/10000)
+
+Epoch: 79
+train_loss: 0.234, train_acc: 91.806% (45903/50000)
+test_loss: 0.398, test_acc: 86.930% (8693/10000)
+
+Epoch: 80
+train_loss: 0.235, train_acc: 91.898% (45949/50000)
+test_loss: 0.483, test_acc: 84.930% (8493/10000)
+
+Epoch: 81
+train_loss: 0.235, train_acc: 91.906% (45953/50000)
+test_loss: 0.434, test_acc: 86.190% (8619/10000)
+
+Epoch: 82
+train_loss: 0.235, train_acc: 91.856% (45928/50000)
+test_loss: 0.425, test_acc: 86.930% (8693/10000)
+
+Epoch: 83
+train_loss: 0.228, train_acc: 91.994% (45997/50000)
+test_loss: 0.382, test_acc: 87.980% (8798/10000)
+
+Epoch: 84
+train_loss: 0.232, train_acc: 91.852% (45926/50000)
+test_loss: 0.403, test_acc: 87.000% (8700/10000)
+
+Epoch: 85
+train_loss: 0.229, train_acc: 92.192% (46096/50000)
+test_loss: 0.458, test_acc: 86.410% (8641/10000)
+
+Epoch: 86
+train_loss: 0.231, train_acc: 91.950% (45975/50000)
+test_loss: 0.426, test_acc: 86.450% (8645/10000)
+
+Epoch: 87
+train_loss: 0.233, train_acc: 91.878% (45939/50000)
+test_loss: 0.408, test_acc: 87.140% (8714/10000)
+
+Epoch: 88
+train_loss: 0.234, train_acc: 91.912% (45956/50000)
+test_loss: 0.521, test_acc: 84.170% (8417/10000)
+
+Epoch: 89
+train_loss: 0.232, train_acc: 92.000% (46000/50000)
+test_loss: 0.423, test_acc: 86.470% (8647/10000)
+
+Epoch: 90
+train_loss: 0.233, train_acc: 91.924% (45962/50000)
+test_loss: 0.388, test_acc: 88.180% (8818/10000)
+
+Epoch: 91
+train_loss: 0.226, train_acc: 92.232% (46116/50000)
+test_loss: 0.534, test_acc: 84.060% (8406/10000)
+
+Epoch: 92
+train_loss: 0.233, train_acc: 91.912% (45956/50000)
+test_loss: 0.440, test_acc: 86.270% (8627/10000)
+
+Epoch: 93
+train_loss: 0.231, train_acc: 91.900% (45950/50000)
+test_loss: 0.488, test_acc: 84.850% (8485/10000)
+
+Epoch: 94
+train_loss: 0.229, train_acc: 92.118% (46059/50000)
+test_loss: 0.380, test_acc: 87.260% (8726/10000)
+
+Epoch: 95
+train_loss: 0.234, train_acc: 91.886% (45943/50000)
+test_loss: 0.474, test_acc: 85.700% (8570/10000)
+
+Epoch: 96
+train_loss: 0.228, train_acc: 91.996% (45998/50000)
+test_loss: 0.451, test_acc: 85.870% (8587/10000)
+
+Epoch: 97
+train_loss: 0.232, train_acc: 91.962% (45981/50000)
+test_loss: 0.496, test_acc: 84.860% (8486/10000)
+
+Epoch: 98
+train_loss: 0.235, train_acc: 91.802% (45901/50000)
+test_loss: 0.552, test_acc: 84.000% (8400/10000)
+
+Epoch: 99
+train_loss: 0.234, train_acc: 91.932% (45966/50000)
+test_loss: 0.389, test_acc: 88.020% (8802/10000)
+
+Epoch: 100
+train_loss: 0.232, train_acc: 91.974% (45987/50000)
+test_loss: 0.386, test_acc: 87.600% (8760/10000)
+
+Epoch: 101
+train_loss: 0.227, train_acc: 92.018% (46009/50000)
+test_loss: 0.407, test_acc: 87.210% (8721/10000)
+
+Epoch: 102
+train_loss: 0.235, train_acc: 91.854% (45927/50000)
+test_loss: 0.453, test_acc: 85.340% (8534/10000)
+
+Epoch: 103
+train_loss: 0.231, train_acc: 91.946% (45973/50000)
+test_loss: 0.452, test_acc: 85.590% (8559/10000)
+
+Epoch: 104
+train_loss: 0.224, train_acc: 92.142% (46071/50000)
+test_loss: 0.573, test_acc: 82.890% (8289/10000)
+
+Epoch: 105
+train_loss: 0.231, train_acc: 91.994% (45997/50000)
+test_loss: 0.399, test_acc: 87.400% (8740/10000)
+
+Epoch: 106
+train_loss: 0.227, train_acc: 92.114% (46057/50000)
+test_loss: 0.449, test_acc: 86.310% (8631/10000)
+
+Epoch: 107
+train_loss: 0.233, train_acc: 91.910% (45955/50000)
+test_loss: 0.456, test_acc: 86.760% (8676/10000)
+
+Epoch: 108
+train_loss: 0.232, train_acc: 91.892% (45946/50000)
+test_loss: 0.461, test_acc: 86.100% (8610/10000)
+
+Epoch: 109
+train_loss: 0.228, train_acc: 91.908% (45954/50000)
+test_loss: 0.454, test_acc: 85.450% (8545/10000)
+
+Epoch: 110
+train_loss: 0.231, train_acc: 91.786% (45893/50000)
+test_loss: 0.385, test_acc: 87.140% (8714/10000)
+
+Epoch: 111
+train_loss: 0.227, train_acc: 92.222% (46111/50000)
+test_loss: 0.369, test_acc: 87.970% (8797/10000)
+
+Epoch: 112
+train_loss: 0.223, train_acc: 92.286% (46143/50000)
+test_loss: 0.403, test_acc: 87.140% (8714/10000)
+
+Epoch: 113
+train_loss: 0.227, train_acc: 92.140% (46070/50000)
+test_loss: 0.382, test_acc: 88.340% (8834/10000)
+
+Epoch: 114
+train_loss: 0.228, train_acc: 92.160% (46080/50000)
+test_loss: 0.409, test_acc: 87.000% (8700/10000)
+
+Epoch: 115
+train_loss: 0.230, train_acc: 92.112% (46056/50000)
+test_loss: 0.531, test_acc: 84.130% (8413/10000)
+
+Epoch: 116
+train_loss: 0.229, train_acc: 92.092% (46046/50000)
+test_loss: 0.448, test_acc: 85.530% (8553/10000)
+
+Epoch: 117
+train_loss: 0.229, train_acc: 92.050% (46025/50000)
+test_loss: 0.431, test_acc: 86.660% (8666/10000)
+
+Epoch: 118
+train_loss: 0.230, train_acc: 92.114% (46057/50000)
+test_loss: 0.392, test_acc: 88.020% (8802/10000)
+
+Epoch: 119
+==> Preparing data..
+==> Building model..
+loading from last saved model, start_epoch : 118, start_cycle : 1
+net_parameters_size is 221935
+
+cycle 1:
+
+Epoch: 118
+train_loss: 0.229, train_acc: 92.062% (46031/50000)
+test_loss: 0.462, test_acc: 86.410% (8641/10000)
+
+Epoch: 119
+train_loss: 0.233, train_acc: 91.792% (45896/50000)
+test_loss: 0.527, test_acc: 85.000% (8500/10000)
+
+Epoch: 120
+train_loss: 0.228, train_acc: 92.072% (46036/50000)
+test_loss: 0.489, test_acc: 84.980% (8498/10000)
+
+Epoch: 121
+train_loss: 0.226, train_acc: 92.098% (46049/50000)
+test_loss: 0.436, test_acc: 86.670% (8667/10000)
+
+Epoch: 122
+train_loss: 0.231, train_acc: 92.024% (46012/50000)
+test_loss: 0.397, test_acc: 87.610% (8761/10000)
+
+Epoch: 123
+train_loss: 0.225, train_acc: 92.274% (46137/50000)
+test_loss: 0.451, test_acc: 85.660% (8566/10000)
+
+Epoch: 124
+train_loss: 0.234, train_acc: 91.888% (45944/50000)
+test_loss: 0.387, test_acc: 87.800% (8780/10000)
+
+Epoch: 125
+train_loss: 0.227, train_acc: 92.036% (46018/50000)
+test_loss: 0.486, test_acc: 85.200% (8520/10000)
+
+Epoch: 126
+train_loss: 0.228, train_acc: 92.006% (46003/50000)
+test_loss: 0.454, test_acc: 86.520% (8652/10000)
+
+Epoch: 127
+train_loss: 0.225, train_acc: 92.164% (46082/50000)
+test_loss: 0.401, test_acc: 87.750% (8775/10000)
+
+Epoch: 128
+train_loss: 0.223, train_acc: 92.152% (46076/50000)
+test_loss: 0.532, test_acc: 83.160% (8316/10000)
+
+Epoch: 129
+train_loss: 0.227, train_acc: 92.124% (46062/50000)
+test_loss: 0.362, test_acc: 88.360% (8836/10000)
+
+Epoch: 130
+train_loss: 0.225, train_acc: 92.160% (46080/50000)
+test_loss: 0.605, test_acc: 82.040% (8204/10000)
+
+Epoch: 131
+train_loss: 0.225, train_acc: 92.190% (46095/50000)
+test_loss: 0.493, test_acc: 84.560% (8456/10000)
+
+Epoch: 132
+train_loss: 0.227, train_acc: 92.170% (46085/50000)
+test_loss: 0.541, test_acc: 83.630% (8363/10000)
+
+Epoch: 133
+train_loss: 0.223, train_acc: 92.196% (46098/50000)
+test_loss: 0.386, test_acc: 87.660% (8766/10000)
+
+Epoch: 134
+train_loss: 0.225, train_acc: 92.142% (46071/50000)
+test_loss: 0.462, test_acc: 85.780% (8578/10000)
+
+Epoch: 135
+train_loss: 0.229, train_acc: 92.110% (46055/50000)
+test_loss: 0.465, test_acc: 85.720% (8572/10000)
+
+Epoch: 136
+train_loss: 0.228, train_acc: 91.914% (45957/50000)
+test_loss: 0.381, test_acc: 87.930% (8793/10000)
+
+Epoch: 137
+train_loss: 0.220, train_acc: 92.358% (46179/50000)
+test_loss: 0.376, test_acc: 88.140% (8814/10000)
+
+Epoch: 138
+train_loss: 0.228, train_acc: 92.218% (46109/50000)
+test_loss: 0.530, test_acc: 84.760% (8476/10000)
+
+Epoch: 139
+train_loss: 0.234, train_acc: 91.888% (45944/50000)
+test_loss: 0.377, test_acc: 87.770% (8777/10000)
+
+Epoch: 140
+train_loss: 0.224, train_acc: 92.312% (46156/50000)
+test_loss: 0.486, test_acc: 85.510% (8551/10000)
+
+Epoch: 141
+train_loss: 0.227, train_acc: 92.130% (46065/50000)
+test_loss: 0.516, test_acc: 84.470% (8447/10000)
+
+Epoch: 142
+train_loss: 0.231, train_acc: 91.894% (45947/50000)
+test_loss: 0.410, test_acc: 87.020% (8702/10000)
+
+Epoch: 143
+train_loss: 0.224, train_acc: 92.176% (46088/50000)
+test_loss: 0.476, test_acc: 85.250% (8525/10000)
+
+Epoch: 144
+train_loss: 0.223, train_acc: 92.318% (46159/50000)
+test_loss: 0.424, test_acc: 86.970% (8697/10000)
+
+Epoch: 145
+train_loss: 0.225, train_acc: 92.136% (46068/50000)
+test_loss: 0.453, test_acc: 86.150% (8615/10000)
+
+Epoch: 146
+train_loss: 0.219, train_acc: 92.468% (46234/50000)
+test_loss: 0.743, test_acc: 80.000% (8000/10000)
+
+Epoch: 147
+train_loss: 0.225, train_acc: 92.120% (46060/50000)
+test_loss: 0.537, test_acc: 84.050% (8405/10000)
+
+Epoch: 148
+train_loss: 0.226, train_acc: 92.024% (46012/50000)
+test_loss: 0.729, test_acc: 79.960% (7996/10000)
+
+Epoch: 149
+train_loss: 0.224, train_acc: 92.256% (46128/50000)
+test_loss: 0.391, test_acc: 87.950% (8795/10000)
+
+Epoch: 150
+train_loss: 0.137, train_acc: 95.354% (47677/50000)
+test_loss: 0.261, test_acc: 91.680% (9168/10000)
+
+Epoch: 151
+train_loss: 0.106, train_acc: 96.380% (48190/50000)
+test_loss: 0.260, test_acc: 91.690% (9169/10000)
+
+Epoch: 152
+train_loss: 0.096, train_acc: 96.842% (48421/50000)
+test_loss: 0.259, test_acc: 92.060% (9206/10000)
+
+Epoch: 153
+train_loss: 0.090, train_acc: 96.950% (48475/50000)
+test_loss: 0.265, test_acc: 92.040% (9204/10000)
+
+Epoch: 154
+train_loss: 0.084, train_acc: 97.060% (48530/50000)
+test_loss: 0.263, test_acc: 92.140% (9214/10000)
+
+Epoch: 155
+train_loss: 0.079, train_acc: 97.316% (48658/50000)
+test_loss: 0.272, test_acc: 92.020% (9202/10000)
+
+Epoch: 156
+train_loss: 0.078, train_acc: 97.368% (48684/50000)
+test_loss: 0.270, test_acc: 92.150% (9215/10000)
+
+Epoch: 157
+train_loss: 0.073, train_acc: 97.522% (48761/50000)
+test_loss: 0.271, test_acc: 91.840% (9184/10000)
+
+Epoch: 158
+train_loss: 0.069, train_acc: 97.658% (48829/50000)
+test_loss: 0.278, test_acc: 92.170% (9217/10000)
+
+Epoch: 159
+train_loss: 0.067, train_acc: 97.722% (48861/50000)
+test_loss: 0.272, test_acc: 92.230% (9223/10000)
+
+Epoch: 160
+train_loss: 0.065, train_acc: 97.826% (48913/50000)
+test_loss: 0.270, test_acc: 92.290% (9229/10000)
+
+Epoch: 161
+train_loss: 0.062, train_acc: 97.968% (48984/50000)
+test_loss: 0.279, test_acc: 91.870% (9187/10000)
+
+Epoch: 162
+train_loss: 0.060, train_acc: 98.014% (49007/50000)
+test_loss: 0.281, test_acc: 92.150% (9215/10000)
+
+Epoch: 163
+train_loss: 0.058, train_acc: 98.034% (49017/50000)
+test_loss: 0.280, test_acc: 92.050% (9205/10000)
+
+Epoch: 164
+train_loss: 0.058, train_acc: 98.096% (49048/50000)
+test_loss: 0.281, test_acc: 92.270% (9227/10000)
+
+Epoch: 165
+train_loss: 0.055, train_acc: 98.164% (49082/50000)
+test_loss: 0.287, test_acc: 92.310% (9231/10000)
+
+Epoch: 166
+train_loss: 0.057, train_acc: 98.136% (49068/50000)
+test_loss: 0.283, test_acc: 92.400% (9240/10000)
+
+Epoch: 167
+train_loss: 0.054, train_acc: 98.238% (49119/50000)
+test_loss: 0.288, test_acc: 92.100% (9210/10000)
+
+Epoch: 168
+train_loss: 0.053, train_acc: 98.242% (49121/50000)
+test_loss: 0.292, test_acc: 92.040% (9204/10000)
+
+Epoch: 169
+train_loss: 0.051, train_acc: 98.302% (49151/50000)
+test_loss: 0.282, test_acc: 92.200% (9220/10000)
+
+Epoch: 170
+train_loss: 0.048, train_acc: 98.366% (49183/50000)
+test_loss: 0.292, test_acc: 92.200% (9220/10000)
+
+Epoch: 171
+train_loss: 0.048, train_acc: 98.366% (49183/50000)
+test_loss: 0.296, test_acc: 92.210% (9221/10000)
+
+Epoch: 172
+train_loss: 0.047, train_acc: 98.422% (49211/50000)
+test_loss: 0.302, test_acc: 92.060% (9206/10000)
+
+Epoch: 173
+train_loss: 0.047, train_acc: 98.406% (49203/50000)
+test_loss: 0.302, test_acc: 91.880% (9188/10000)
+
+Epoch: 174
+train_loss: 0.044, train_acc: 98.498% (49249/50000)
+test_loss: 0.305, test_acc: 92.070% (9207/10000)
+
+Epoch: 175
+train_loss: 0.044, train_acc: 98.592% (49296/50000)
+test_loss: 0.306, test_acc: 92.090% (9209/10000)
+
+Epoch: 176
+train_loss: 0.045, train_acc: 98.510% (49255/50000)
+test_loss: 0.316, test_acc: 91.990% (9199/10000)
+
+Epoch: 177
+train_loss: 0.043, train_acc: 98.534% (49267/50000)
+test_loss: 0.309, test_acc: 92.080% (9208/10000)
+
+Epoch: 178
+train_loss: 0.042, train_acc: 98.610% (49305/50000)
+test_loss: 0.313, test_acc: 92.090% (9209/10000)
+
+Epoch: 179
+train_loss: 0.041, train_acc: 98.648% (49324/50000)
+test_loss: 0.315, test_acc: 92.130% (9213/10000)
+
+Epoch: 180
+train_loss: 0.041, train_acc: 98.664% (49332/50000)
+test_loss: 0.309, test_acc: 92.180% (9218/10000)
+
+Epoch: 181
+train_loss: 0.041, train_acc: 98.638% (49319/50000)
+test_loss: 0.312, test_acc: 92.160% (9216/10000)
+
+Epoch: 182
+train_loss: 0.042, train_acc: 98.616% (49308/50000)
+test_loss: 0.315, test_acc: 91.850% (9185/10000)
+
+Epoch: 183
+train_loss: 0.042, train_acc: 98.578% (49289/50000)
+test_loss: 0.318, test_acc: 92.200% (9220/10000)
+
+Epoch: 184
+train_loss: 0.037, train_acc: 98.806% (49403/50000)
+test_loss: 0.318, test_acc: 92.340% (9234/10000)
+
+Epoch: 185
+train_loss: 0.038, train_acc: 98.648% (49324/50000)
+test_loss: 0.306, test_acc: 92.310% (9231/10000)
+
+Epoch: 186
+train_loss: 0.038, train_acc: 98.786% (49393/50000)
+test_loss: 0.310, test_acc: 92.150% (9215/10000)
+
+Epoch: 187
+train_loss: 0.038, train_acc: 98.756% (49378/50000)
+test_loss: 0.319, test_acc: 92.070% (9207/10000)
+
+Epoch: 188
+train_loss: 0.036, train_acc: 98.756% (49378/50000)
+test_loss: 0.321, test_acc: 92.360% (9236/10000)
+
+Epoch: 189
+train_loss: 0.037, train_acc: 98.730% (49365/50000)
+test_loss: 0.318, test_acc: 92.190% (9219/10000)
+
+Epoch: 190
+train_loss: 0.035, train_acc: 98.864% (49432/50000)
+test_loss: 0.325, test_acc: 92.170% (9217/10000)
+
+Epoch: 191
+train_loss: 0.036, train_acc: 98.828% (49414/50000)
+test_loss: 0.321, test_acc: 92.240% (9224/10000)
+
+Epoch: 192
+train_loss: 0.035, train_acc: 98.838% (49419/50000)
+test_loss: 0.329, test_acc: 92.070% (9207/10000)
+
+Epoch: 193
+train_loss: 0.033, train_acc: 98.980% (49490/50000)
+test_loss: 0.326, test_acc: 92.070% (9207/10000)
+
+Epoch: 194
+train_loss: 0.036, train_acc: 98.830% (49415/50000)
+test_loss: 0.330, test_acc: 92.160% (9216/10000)
+
+Epoch: 195
+train_loss: 0.037, train_acc: 98.788% (49394/50000)
+test_loss: 0.329, test_acc: 92.190% (9219/10000)
+
+Epoch: 196
+train_loss: 0.034, train_acc: 98.906% (49453/50000)
+test_loss: 0.325, test_acc: 91.990% (9199/10000)
+
+Epoch: 197
+train_loss: 0.034, train_acc: 98.856% (49428/50000)
+test_loss: 0.339, test_acc: 91.900% (9190/10000)
+
+Epoch: 198
+train_loss: 0.035, train_acc: 98.824% (49412/50000)
+test_loss: 0.329, test_acc: 92.180% (9218/10000)
+
+Epoch: 199
+train_loss: 0.034, train_acc: 98.890% (49445/50000)
+test_loss: 0.340, test_acc: 92.070% (9207/10000)
+
+Epoch: 200
+train_loss: 0.034, train_acc: 98.868% (49434/50000)
+test_loss: 0.321, test_acc: 92.180% (9218/10000)
+
+Epoch: 201
+train_loss: 0.034, train_acc: 98.882% (49441/50000)
+test_loss: 0.335, test_acc: 92.130% (9213/10000)
+
+Epoch: 202
+train_loss: 0.034, train_acc: 98.900% (49450/50000)
+test_loss: 0.344, test_acc: 91.780% (9178/10000)
+
+Epoch: 203
+train_loss: 0.033, train_acc: 98.922% (49461/50000)
+test_loss: 0.333, test_acc: 91.880% (9188/10000)
+
+Epoch: 204
+train_loss: 0.032, train_acc: 98.932% (49466/50000)
+test_loss: 0.339, test_acc: 92.050% (9205/10000)
+
+Epoch: 205
+train_loss: 0.034, train_acc: 98.878% (49439/50000)
+test_loss: 0.336, test_acc: 92.120% (9212/10000)
+
+Epoch: 206
+train_loss: 0.033, train_acc: 98.900% (49450/50000)
+test_loss: 0.356, test_acc: 91.710% (9171/10000)
+
+Epoch: 207
+train_loss: 0.033, train_acc: 98.904% (49452/50000)
+test_loss: 0.353, test_acc: 91.780% (9178/10000)
+
+Epoch: 208
+train_loss: 0.032, train_acc: 99.000% (49500/50000)
+test_loss: 0.339, test_acc: 92.040% (9204/10000)
+
+Epoch: 209
+train_loss: 0.034, train_acc: 98.876% (49438/50000)
+test_loss: 0.332, test_acc: 92.140% (9214/10000)
+
+Epoch: 210
+train_loss: 0.031, train_acc: 98.980% (49490/50000)
+test_loss: 0.351, test_acc: 91.770% (9177/10000)
+
+Epoch: 211
+train_loss: 0.031, train_acc: 98.958% (49479/50000)
+test_loss: 0.339, test_acc: 92.050% (9205/10000)
+
+Epoch: 212
+train_loss: 0.032, train_acc: 98.934% (49467/50000)
+test_loss: 0.341, test_acc: 92.060% (9206/10000)
+
+Epoch: 213
+train_loss: 0.032, train_acc: 98.946% (49473/50000)
+test_loss: 0.341, test_acc: 91.960% (9196/10000)
+
+Epoch: 214
+train_loss: 0.031, train_acc: 99.002% (49501/50000)
+test_loss: 0.339, test_acc: 92.060% (9206/10000)
+
+Epoch: 215
+train_loss: 0.032, train_acc: 98.976% (49488/50000)
+test_loss: 0.346, test_acc: 91.940% (9194/10000)
+
+Epoch: 216
+train_loss: 0.031, train_acc: 98.956% (49478/50000)
+test_loss: 0.333, test_acc: 92.130% (9213/10000)
+
+Epoch: 217
+train_loss: 0.032, train_acc: 98.984% (49492/50000)
+test_loss: 0.342, test_acc: 92.040% (9204/10000)
+
+Epoch: 218
+train_loss: 0.031, train_acc: 98.974% (49487/50000)
+test_loss: 0.332, test_acc: 92.340% (9234/10000)
+
+Epoch: 219
+train_loss: 0.033, train_acc: 98.922% (49461/50000)
+test_loss: 0.337, test_acc: 92.360% (9236/10000)
+
+Epoch: 220
+train_loss: 0.030, train_acc: 99.022% (49511/50000)
+test_loss: 0.353, test_acc: 91.520% (9152/10000)
+
+Epoch: 221
+train_loss: 0.032, train_acc: 98.952% (49476/50000)
+test_loss: 0.355, test_acc: 91.820% (9182/10000)
+
+Epoch: 222
+train_loss: 0.032, train_acc: 98.880% (49440/50000)
+test_loss: 0.346, test_acc: 92.070% (9207/10000)
+
+Epoch: 223
+train_loss: 0.031, train_acc: 98.996% (49498/50000)
+test_loss: 0.330, test_acc: 92.280% (9228/10000)
+
+Epoch: 224
+train_loss: 0.029, train_acc: 98.992% (49496/50000)
+test_loss: 0.356, test_acc: 91.600% (9160/10000)
+
+Epoch: 225
+train_loss: 0.025, train_acc: 99.212% (49606/50000)
+test_loss: 0.331, test_acc: 92.330% (9233/10000)
+
+Epoch: 226
+train_loss: 0.023, train_acc: 99.304% (49652/50000)
+test_loss: 0.327, test_acc: 92.470% (9247/10000)
+
+Epoch: 227
+train_loss: 0.022, train_acc: 99.370% (49685/50000)
+test_loss: 0.323, test_acc: 92.530% (9253/10000)
+
+Epoch: 228
+train_loss: 0.019, train_acc: 99.464% (49732/50000)
+test_loss: 0.322, test_acc: 92.470% (9247/10000)
+
+Epoch: 229
+train_loss: 0.019, train_acc: 99.468% (49734/50000)
+test_loss: 0.324, test_acc: 92.380% (9238/10000)
+
+Epoch: 230
+train_loss: 0.019, train_acc: 99.450% (49725/50000)
+test_loss: 0.324, test_acc: 92.590% (9259/10000)
+
+Epoch: 231
+train_loss: 0.018, train_acc: 99.460% (49730/50000)
+test_loss: 0.317, test_acc: 92.610% (9261/10000)
+
+Epoch: 232
+train_loss: 0.019, train_acc: 99.440% (49720/50000)
+test_loss: 0.319, test_acc: 92.330% (9233/10000)
+
+Epoch: 233
+train_loss: 0.018, train_acc: 99.466% (49733/50000)
+test_loss: 0.324, test_acc: 92.600% (9260/10000)
+
+Epoch: 234
+train_loss: 0.017, train_acc: 99.520% (49760/50000)
+test_loss: 0.320, test_acc: 92.530% (9253/10000)
+
+Epoch: 235
+train_loss: 0.018, train_acc: 99.464% (49732/50000)
+test_loss: 0.322, test_acc: 92.440% (9244/10000)
+
+Epoch: 236
+train_loss: 0.016, train_acc: 99.558% (49779/50000)
+test_loss: 0.325, test_acc: 92.500% (9250/10000)
+
+Epoch: 237
+train_loss: 0.017, train_acc: 99.502% (49751/50000)
+test_loss: 0.327, test_acc: 92.520% (9252/10000)
+
+Epoch: 238
+train_loss: 0.017, train_acc: 99.490% (49745/50000)
+test_loss: 0.331, test_acc: 92.550% (9255/10000)
+
+Epoch: 239
+train_loss: 0.017, train_acc: 99.540% (49770/50000)
+test_loss: 0.330, test_acc: 92.610% (9261/10000)
+
+Epoch: 240
+train_loss: 0.016, train_acc: 99.558% (49779/50000)
+test_loss: 0.323, test_acc: 92.580% (9258/10000)
+
+Epoch: 241
+train_loss: 0.017, train_acc: 99.522% (49761/50000)
+test_loss: 0.329, test_acc: 92.610% (9261/10000)
+
+Epoch: 242
+train_loss: 0.017, train_acc: 99.540% (49770/50000)
+test_loss: 0.331, test_acc: 92.460% (9246/10000)
+
+Epoch: 243
+train_loss: 0.015, train_acc: 99.594% (49797/50000)
+test_loss: 0.329, test_acc: 92.450% (9245/10000)
+
+Epoch: 244
+train_loss: 0.016, train_acc: 99.546% (49773/50000)
+test_loss: 0.331, test_acc: 92.530% (9253/10000)
+
+Epoch: 245
+train_loss: 0.015, train_acc: 99.588% (49794/50000)
+test_loss: 0.329, test_acc: 92.630% (9263/10000)
+
+Epoch: 246
+train_loss: 0.015, train_acc: 99.574% (49787/50000)
+test_loss: 0.328, test_acc: 92.530% (9253/10000)
+
+Epoch: 247
+train_loss: 0.015, train_acc: 99.574% (49787/50000)
+test_loss: 0.329, test_acc: 92.570% (9257/10000)
+
+Epoch: 248
+train_loss: 0.015, train_acc: 99.570% (49785/50000)
+test_loss: 0.333, test_acc: 92.580% (9258/10000)
+
+Epoch: 249
+train_loss: 0.015, train_acc: 99.594% (49797/50000)
+test_loss: 0.328, test_acc: 92.590% (9259/10000)
+
+Epoch: 250
+train_loss: 0.014, train_acc: 99.628% (49814/50000)
+test_loss: 0.331, test_acc: 92.530% (9253/10000)
+
+Epoch: 251
+train_loss: 0.016, train_acc: 99.544% (49772/50000)
+test_loss: 0.333, test_acc: 92.460% (9246/10000)
+
+Epoch: 252
+train_loss: 0.016, train_acc: 99.536% (49768/50000)
+test_loss: 0.335, test_acc: 92.460% (9246/10000)
+
+Epoch: 253
+train_loss: 0.014, train_acc: 99.612% (49806/50000)
+test_loss: 0.335, test_acc: 92.560% (9256/10000)
+
+Epoch: 254
+train_loss: 0.014, train_acc: 99.638% (49819/50000)
+test_loss: 0.336, test_acc: 92.500% (9250/10000)
+
+Epoch: 255
+train_loss: 0.015, train_acc: 99.594% (49797/50000)
+test_loss: 0.331, test_acc: 92.460% (9246/10000)
+
+Epoch: 256
+train_loss: 0.015, train_acc: 99.562% (49781/50000)
+test_loss: 0.333, test_acc: 92.520% (9252/10000)
+
+Epoch: 257
+train_loss: 0.015, train_acc: 99.610% (49805/50000)
+test_loss: 0.333, test_acc: 92.470% (9247/10000)
+
+Epoch: 258
+train_loss: 0.015, train_acc: 99.590% (49795/50000)
+test_loss: 0.335, test_acc: 92.670% (9267/10000)
+
+Epoch: 259
+train_loss: 0.014, train_acc: 99.624% (49812/50000)
+test_loss: 0.334, test_acc: 92.490% (9249/10000)
+
+Epoch: 260
+train_loss: 0.014, train_acc: 99.618% (49809/50000)
+test_loss: 0.333, test_acc: 92.600% (9260/10000)
+
+Epoch: 261
+train_loss: 0.014, train_acc: 99.624% (49812/50000)
+test_loss: 0.335, test_acc: 92.460% (9246/10000)
+
+Epoch: 262
+train_loss: 0.015, train_acc: 99.572% (49786/50000)
+test_loss: 0.337, test_acc: 92.530% (9253/10000)
+
+Epoch: 263
+train_loss: 0.014, train_acc: 99.618% (49809/50000)
+test_loss: 0.339, test_acc: 92.500% (9250/10000)
+
+Epoch: 264
+train_loss: 0.015, train_acc: 99.522% (49761/50000)
+test_loss: 0.332, test_acc: 92.590% (9259/10000)
+
+Epoch: 265
+train_loss: 0.014, train_acc: 99.602% (49801/50000)
+test_loss: 0.332, test_acc: 92.640% (9264/10000)
+
+Epoch: 266
+train_loss: 0.014, train_acc: 99.644% (49822/50000)
+test_loss: 0.338, test_acc: 92.490% (9249/10000)
+
+Epoch: 267
+train_loss: 0.014, train_acc: 99.636% (49818/50000)
+test_loss: 0.333, test_acc: 92.540% (9254/10000)
+
+Epoch: 268
+train_loss: 0.014, train_acc: 99.634% (49817/50000)
+test_loss: 0.331, test_acc: 92.660% (9266/10000)
+
+Epoch: 269
+train_loss: 0.014, train_acc: 99.644% (49822/50000)
+test_loss: 0.330, test_acc: 92.660% (9266/10000)
+
+Epoch: 270
+train_loss: 0.015, train_acc: 99.560% (49780/50000)
+test_loss: 0.331, test_acc: 92.670% (9267/10000)
+
+Epoch: 271
+train_loss: 0.014, train_acc: 99.616% (49808/50000)
+test_loss: 0.336, test_acc: 92.500% (9250/10000)
+
+Epoch: 272
+train_loss: 0.013, train_acc: 99.646% (49823/50000)
+test_loss: 0.333, test_acc: 92.540% (9254/10000)
+
+Epoch: 273
+train_loss: 0.014, train_acc: 99.604% (49802/50000)
+test_loss: 0.342, test_acc: 92.570% (9257/10000)
+
+Epoch: 274
+train_loss: 0.014, train_acc: 99.566% (49783/50000)
+test_loss: 0.332, test_acc: 92.590% (9259/10000)
+
+Epoch: 275
+train_loss: 0.014, train_acc: 99.646% (49823/50000)
+test_loss: 0.329, test_acc: 92.600% (9260/10000)
+
+Epoch: 276
+train_loss: 0.014, train_acc: 99.604% (49802/50000)
+test_loss: 0.335, test_acc: 92.570% (9257/10000)
+
+Epoch: 277
+train_loss: 0.013, train_acc: 99.614% (49807/50000)
+test_loss: 0.330, test_acc: 92.660% (9266/10000)
+
+Epoch: 278
+train_loss: 0.013, train_acc: 99.628% (49814/50000)
+test_loss: 0.332, test_acc: 92.560% (9256/10000)
+
+Epoch: 279
+train_loss: 0.014, train_acc: 99.612% (49806/50000)
+test_loss: 0.331, test_acc: 92.600% (9260/10000)
+
+Epoch: 280
+train_loss: 0.014, train_acc: 99.634% (49817/50000)
+test_loss: 0.331, test_acc: 92.550% (9255/10000)
+
+Epoch: 281
+train_loss: 0.013, train_acc: 99.652% (49826/50000)
+test_loss: 0.342, test_acc: 92.520% (9252/10000)
+
+Epoch: 282
+train_loss: 0.014, train_acc: 99.608% (49804/50000)
+test_loss: 0.335, test_acc: 92.610% (9261/10000)
+
+Epoch: 283
+train_loss: 0.013, train_acc: 99.658% (49829/50000)
+test_loss: 0.335, test_acc: 92.630% (9263/10000)
+
+Epoch: 284
+train_loss: 0.013, train_acc: 99.656% (49828/50000)
+test_loss: 0.335, test_acc: 92.500% (9250/10000)
+
+Epoch: 285
+train_loss: 0.013, train_acc: 99.632% (49816/50000)
+test_loss: 0.338, test_acc: 92.660% (9266/10000)
+
+Epoch: 286
+train_loss: 0.014, train_acc: 99.616% (49808/50000)
+test_loss: 0.342, test_acc: 92.620% (9262/10000)
+
+Epoch: 287
+train_loss: 0.013, train_acc: 99.638% (49819/50000)
+test_loss: 0.340, test_acc: 92.670% (9267/10000)
+
+Epoch: 288
+train_loss: 0.013, train_acc: 99.644% (49822/50000)
+test_loss: 0.334, test_acc: 92.620% (9262/10000)
+
+Epoch: 289
+train_loss: 0.013, train_acc: 99.636% (49818/50000)
+test_loss: 0.338, test_acc: 92.680% (9268/10000)
+
+Epoch: 290
+train_loss: 0.013, train_acc: 99.632% (49816/50000)
+test_loss: 0.337, test_acc: 92.500% (9250/10000)
+
+Epoch: 291
+train_loss: 0.013, train_acc: 99.638% (49819/50000)
+test_loss: 0.340, test_acc: 92.580% (9258/10000)
+
+Epoch: 292
+train_loss: 0.013, train_acc: 99.660% (49830/50000)
+test_loss: 0.335, test_acc: 92.720% (9272/10000)
+
+Epoch: 293
+train_loss: 0.013, train_acc: 99.628% (49814/50000)
+test_loss: 0.340, test_acc: 92.540% (9254/10000)
+
+Epoch: 294
+train_loss: 0.013, train_acc: 99.636% (49818/50000)
+test_loss: 0.337, test_acc: 92.560% (9256/10000)
+
+Epoch: 295
+train_loss: 0.013, train_acc: 99.642% (49821/50000)
+test_loss: 0.335, test_acc: 92.620% (9262/10000)
+
+Epoch: 296
+train_loss: 0.013, train_acc: 99.666% (49833/50000)
+test_loss: 0.339, test_acc: 92.480% (9248/10000)
+
+Epoch: 297
+train_loss: 0.013, train_acc: 99.626% (49813/50000)
+test_loss: 0.336, test_acc: 92.600% (9260/10000)
+
+Epoch: 298
+train_loss: 0.013, train_acc: 99.632% (49816/50000)
+test_loss: 0.335, test_acc: 92.610% (9261/10000)
+
+Epoch: 299
+train_loss: 0.013, train_acc: 99.660% (49830/50000)
+test_loss: 0.336, test_acc: 92.520% (9252/10000)
+cycle 2:
+
+Epoch: 0
+train_loss: 0.448, train_acc: 84.956% (42478/50000)
+test_loss: 0.497, test_acc: 84.190% (8419/10000)
+
+Epoch: 1
+train_loss: 0.326, train_acc: 88.756% (44378/50000)
+test_loss: 0.528, test_acc: 82.800% (8280/10000)
+
+Epoch: 2
+train_loss: 0.295, train_acc: 89.762% (44881/50000)
+test_loss: 0.652, test_acc: 79.970% (7997/10000)
+
+Epoch: 3
+train_loss: 0.273, train_acc: 90.604% (45302/50000)
+test_loss: 0.505, test_acc: 84.630% (8463/10000)
+
+Epoch: 4
+train_loss: 0.269, train_acc: 90.706% (45353/50000)
+test_loss: 0.422, test_acc: 85.990% (8599/10000)
+
+Epoch: 5
+train_loss: 0.262, train_acc: 90.952% (45476/50000)
+test_loss: 0.437, test_acc: 86.570% (8657/10000)
+
+Epoch: 6
+train_loss: 0.254, train_acc: 91.144% (45572/50000)
+test_loss: 0.516, test_acc: 85.000% (8500/10000)
+
+Epoch: 7
+train_loss: 0.249, train_acc: 91.358% (45679/50000)
+test_loss: 0.402, test_acc: 87.130% (8713/10000)
+
+Epoch: 8
+train_loss: 0.250, train_acc: 91.336% (45668/50000)
+test_loss: 0.479, test_acc: 85.420% (8542/10000)
+
+Epoch: 9
+train_loss: 0.247, train_acc: 91.462% (45731/50000)
+test_loss: 0.403, test_acc: 87.250% (8725/10000)
+
+Epoch: 10
+train_loss: 0.238, train_acc: 91.828% (45914/50000)
+test_loss: 0.463, test_acc: 85.500% (8550/10000)
+
+Epoch: 11
+train_loss: 0.239, train_acc: 91.634% (45817/50000)
+test_loss: 0.463, test_acc: 85.700% (8570/10000)
+
+Epoch: 12
+train_loss: 0.241, train_acc: 91.702% (45851/50000)
+test_loss: 0.423, test_acc: 86.650% (8665/10000)
+
+Epoch: 13
+train_loss: 0.236, train_acc: 91.674% (45837/50000)
+test_loss: 0.380, test_acc: 88.000% (8800/10000)
+
+Epoch: 14
+train_loss: 0.236, train_acc: 91.860% (45930/50000)
+test_loss: 0.462, test_acc: 86.100% (8610/10000)
+
+Epoch: 15
+train_loss: 0.238, train_acc: 91.754% (45877/50000)
+test_loss: 0.401, test_acc: 87.600% (8760/10000)
+
+Epoch: 16
+train_loss: 0.229, train_acc: 92.120% (46060/50000)
+test_loss: 0.394, test_acc: 87.770% (8777/10000)
+
+Epoch: 17
+train_loss: 0.231, train_acc: 91.888% (45944/50000)
+test_loss: 0.410, test_acc: 87.390% (8739/10000)
+
+Epoch: 18
+train_loss: 0.232, train_acc: 91.990% (45995/50000)
+test_loss: 0.546, test_acc: 83.500% (8350/10000)
+
+Epoch: 19
+train_loss: 0.232, train_acc: 91.884% (45942/50000)
+test_loss: 0.398, test_acc: 88.350% (8835/10000)
+
+Epoch: 20
+train_loss: 0.236, train_acc: 91.870% (45935/50000)
+test_loss: 0.577, test_acc: 83.330% (8333/10000)
+
+Epoch: 21
+train_loss: 0.234, train_acc: 91.890% (45945/50000)
+test_loss: 0.393, test_acc: 87.340% (8734/10000)
+
+Epoch: 22
+train_loss: 0.229, train_acc: 92.150% (46075/50000)
+test_loss: 0.480, test_acc: 85.070% (8507/10000)
+
+Epoch: 23
+train_loss: 0.230, train_acc: 91.898% (45949/50000)
+test_loss: 0.453, test_acc: 86.350% (8635/10000)
+
+Epoch: 24
+train_loss: 0.232, train_acc: 91.912% (45956/50000)
+test_loss: 0.538, test_acc: 82.890% (8289/10000)
+
+Epoch: 25
+train_loss: 0.226, train_acc: 92.084% (46042/50000)
+test_loss: 0.422, test_acc: 87.110% (8711/10000)
+
+Epoch: 26
+train_loss: 0.219, train_acc: 92.370% (46185/50000)
+test_loss: 0.415, test_acc: 86.470% (8647/10000)
+
+Epoch: 27
+train_loss: 0.224, train_acc: 92.208% (46104/50000)
+test_loss: 0.494, test_acc: 85.980% (8598/10000)
+
+Epoch: 28
+train_loss: 0.226, train_acc: 92.092% (46046/50000)
+test_loss: 0.452, test_acc: 85.280% (8528/10000)
+
+Epoch: 29
+train_loss: 0.224, train_acc: 92.320% (46160/50000)
+test_loss: 0.392, test_acc: 87.410% (8741/10000)
+
+Epoch: 30
+train_loss: 0.223, train_acc: 92.272% (46136/50000)
+test_loss: 0.571, test_acc: 83.700% (8370/10000)
+
+Epoch: 31
+train_loss: 0.226, train_acc: 92.122% (46061/50000)
+test_loss: 0.437, test_acc: 86.980% (8698/10000)
+
+Epoch: 32
+train_loss: 0.224, train_acc: 92.104% (46052/50000)
+test_loss: 0.476, test_acc: 85.730% (8573/10000)
+
+Epoch: 33
+train_loss: 0.227, train_acc: 92.000% (46000/50000)
+test_loss: 0.446, test_acc: 86.230% (8623/10000)
+
+Epoch: 34
+train_loss: 0.224, train_acc: 92.226% (46113/50000)
+test_loss: 0.411, test_acc: 87.040% (8704/10000)
+
+Epoch: 35
+train_loss: 0.218, train_acc: 92.486% (46243/50000)
+test_loss: 0.532, test_acc: 84.390% (8439/10000)
+
+Epoch: 36
+train_loss: 0.223, train_acc: 92.192% (46096/50000)
+test_loss: 0.450, test_acc: 86.910% (8691/10000)
+
+Epoch: 37
+train_loss: 0.227, train_acc: 92.180% (46090/50000)
+test_loss: 0.436, test_acc: 86.530% (8653/10000)
+
+Epoch: 38
+train_loss: 0.227, train_acc: 91.992% (45996/50000)
+test_loss: 0.410, test_acc: 87.200% (8720/10000)
+
+Epoch: 39
+train_loss: 0.222, train_acc: 92.252% (46126/50000)
+test_loss: 0.491, test_acc: 84.230% (8423/10000)
+
+Epoch: 40
+train_loss: 0.224, train_acc: 92.198% (46099/50000)
+test_loss: 0.400, test_acc: 87.340% (8734/10000)
+
+Epoch: 41
+train_loss: 0.225, train_acc: 92.130% (46065/50000)
+test_loss: 0.415, test_acc: 86.350% (8635/10000)
+
+Epoch: 42
+train_loss: 0.222, train_acc: 92.250% (46125/50000)
+test_loss: 0.488, test_acc: 85.560% (8556/10000)
+
+Epoch: 43
+train_loss: 0.225, train_acc: 92.076% (46038/50000)
+test_loss: 0.510, test_acc: 85.280% (8528/10000)
+
+Epoch: 44
+train_loss: 0.223, train_acc: 92.310% (46155/50000)
+test_loss: 0.366, test_acc: 88.710% (8871/10000)
+
+Epoch: 45
+train_loss: 0.218, train_acc: 92.474% (46237/50000)
+test_loss: 0.403, test_acc: 87.200% (8720/10000)
+
+Epoch: 46
+train_loss: 0.227, train_acc: 92.086% (46043/50000)
+test_loss: 0.445, test_acc: 86.230% (8623/10000)
+
+Epoch: 47
+train_loss: 0.228, train_acc: 92.092% (46046/50000)
+test_loss: 0.389, test_acc: 87.560% (8756/10000)
+
+Epoch: 48
+train_loss: 0.221, train_acc: 92.350% (46175/50000)
+test_loss: 0.417, test_acc: 87.250% (8725/10000)
+
+Epoch: 49
+train_loss: 0.220, train_acc: 92.278% (46139/50000)
+test_loss: 0.349, test_acc: 88.940% (8894/10000)
+
+Epoch: 50
+train_loss: 0.224, train_acc: 92.176% (46088/50000)
+test_loss: 0.446, test_acc: 86.390% (8639/10000)
+
+Epoch: 51
+train_loss: 0.218, train_acc: 92.438% (46219/50000)
+test_loss: 0.431, test_acc: 86.480% (8648/10000)
+
+Epoch: 52
+train_loss: 0.224, train_acc: 92.274% (46137/50000)
+test_loss: 0.365, test_acc: 88.470% (8847/10000)
+
+Epoch: 53
+train_loss: 0.225, train_acc: 92.216% (46108/50000)
+test_loss: 0.476, test_acc: 86.210% (8621/10000)
+
+Epoch: 54
+train_loss: 0.221, train_acc: 92.380% (46190/50000)
+test_loss: 0.485, test_acc: 85.220% (8522/10000)
+
+Epoch: 55
+train_loss: 0.226, train_acc: 92.118% (46059/50000)
+test_loss: 0.415, test_acc: 86.910% (8691/10000)
+
+Epoch: 56
+train_loss: 0.219, train_acc: 92.230% (46115/50000)
+test_loss: 0.451, test_acc: 86.190% (8619/10000)
+
+Epoch: 57
+train_loss: 0.220, train_acc: 92.334% (46167/50000)
+test_loss: 0.365, test_acc: 88.090% (8809/10000)
+
+Epoch: 58
+train_loss: 0.226, train_acc: 92.168% (46084/50000)
+test_loss: 0.467, test_acc: 85.600% (8560/10000)
+
+Epoch: 59
+train_loss: 0.224, train_acc: 92.302% (46151/50000)
+test_loss: 0.405, test_acc: 87.460% (8746/10000)
+
+Epoch: 60
+train_loss: 0.215, train_acc: 92.528% (46264/50000)
+test_loss: 0.530, test_acc: 84.620% (8462/10000)
+
+Epoch: 61
+train_loss: 0.218, train_acc: 92.476% (46238/50000)
+test_loss: 0.525, test_acc: 84.500% (8450/10000)
+
+Epoch: 62
+train_loss: 0.216, train_acc: 92.536% (46268/50000)
+test_loss: 0.500, test_acc: 85.070% (8507/10000)
+
+Epoch: 63
+train_loss: 0.230, train_acc: 92.072% (46036/50000)
+test_loss: 0.471, test_acc: 85.840% (8584/10000)
+
+Epoch: 64
+train_loss: 0.220, train_acc: 92.324% (46162/50000)
+test_loss: 0.422, test_acc: 87.310% (8731/10000)
+
+Epoch: 65
+train_loss: 0.217, train_acc: 92.498% (46249/50000)
+test_loss: 0.437, test_acc: 86.350% (8635/10000)
+
+Epoch: 66
+train_loss: 0.223, train_acc: 92.266% (46133/50000)
+test_loss: 0.394, test_acc: 88.070% (8807/10000)
+
+Epoch: 67
+train_loss: 0.217, train_acc: 92.450% (46225/50000)
+test_loss: 0.428, test_acc: 87.750% (8775/10000)
+
+Epoch: 68
+train_loss: 0.226, train_acc: 92.168% (46084/50000)
+test_loss: 0.421, test_acc: 87.150% (8715/10000)
+
+Epoch: 69
+train_loss: 0.218, train_acc: 92.376% (46188/50000)
+test_loss: 0.477, test_acc: 85.700% (8570/10000)
+
+Epoch: 70
+train_loss: 0.219, train_acc: 92.340% (46170/50000)
+test_loss: 0.336, test_acc: 88.930% (8893/10000)
+
+Epoch: 71
+train_loss: 0.219, train_acc: 92.316% (46158/50000)
+test_loss: 0.412, test_acc: 87.350% (8735/10000)
+
+Epoch: 72
+train_loss: 0.219, train_acc: 92.418% (46209/50000)
+test_loss: 0.530, test_acc: 83.870% (8387/10000)
+
+Epoch: 73
+train_loss: 0.225, train_acc: 92.228% (46114/50000)
+test_loss: 0.376, test_acc: 87.630% (8763/10000)
+
+Epoch: 74
+train_loss: 0.216, train_acc: 92.618% (46309/50000)
+test_loss: 0.425, test_acc: 87.080% (8708/10000)
+
+Epoch: 75
+train_loss: 0.218, train_acc: 92.372% (46186/50000)
+test_loss: 0.373, test_acc: 88.100% (8810/10000)
+
+Epoch: 76
+train_loss: 0.223, train_acc: 92.212% (46106/50000)
+test_loss: 0.491, test_acc: 85.050% (8505/10000)
+
+Epoch: 77
+train_loss: 0.221, train_acc: 92.196% (46098/50000)
+test_loss: 0.551, test_acc: 83.980% (8398/10000)
+
+Epoch: 78
+train_loss: 0.221, train_acc: 92.310% (46155/50000)
+test_loss: 0.351, test_acc: 88.720% (8872/10000)
+
+Epoch: 79
+train_loss: 0.221, train_acc: 92.242% (46121/50000)
+test_loss: 0.447, test_acc: 86.450% (8645/10000)
+
+Epoch: 80
+train_loss: 0.217, train_acc: 92.448% (46224/50000)
+test_loss: 0.469, test_acc: 86.290% (8629/10000)
+
+Epoch: 81
+train_loss: 0.220, train_acc: 92.274% (46137/50000)
+test_loss: 0.337, test_acc: 89.300% (8930/10000)
+
+Epoch: 82
+train_loss: 0.215, train_acc: 92.626% (46313/50000)
+test_loss: 0.447, test_acc: 86.220% (8622/10000)
+
+Epoch: 83
+train_loss: 0.221, train_acc: 92.330% (46165/50000)
+test_loss: 0.448, test_acc: 86.100% (8610/10000)
+
+Epoch: 84
+train_loss: 0.218, train_acc: 92.512% (46256/50000)
+test_loss: 0.408, test_acc: 87.230% (8723/10000)
+
+Epoch: 85
+train_loss: 0.215, train_acc: 92.620% (46310/50000)
+test_loss: 0.586, test_acc: 83.820% (8382/10000)
+
+Epoch: 86
+train_loss: 0.219, train_acc: 92.396% (46198/50000)
+test_loss: 0.369, test_acc: 87.910% (8791/10000)
+
+Epoch: 87
+train_loss: 0.221, train_acc: 92.252% (46126/50000)
+test_loss: 0.375, test_acc: 87.940% (8794/10000)
+
+Epoch: 88
+train_loss: 0.220, train_acc: 92.262% (46131/50000)
+test_loss: 0.453, test_acc: 85.750% (8575/10000)
+
+Epoch: 89
+train_loss: 0.219, train_acc: 92.378% (46189/50000)
+test_loss: 0.427, test_acc: 86.310% (8631/10000)
+
+Epoch: 90
+train_loss: 0.221, train_acc: 92.264% (46132/50000)
+test_loss: 0.437, test_acc: 86.030% (8603/10000)
+
+Epoch: 91
+train_loss: 0.220, train_acc: 92.334% (46167/50000)
+test_loss: 0.466, test_acc: 85.920% (8592/10000)
+
+Epoch: 92
+train_loss: 0.221, train_acc: 92.328% (46164/50000)
+test_loss: 0.600, test_acc: 82.160% (8216/10000)
+
+Epoch: 93
+train_loss: 0.219, train_acc: 92.334% (46167/50000)
+test_loss: 0.431, test_acc: 86.610% (8661/10000)
+
+Epoch: 94
+train_loss: 0.217, train_acc: 92.406% (46203/50000)
+test_loss: 0.539, test_acc: 84.830% (8483/10000)
+
+Epoch: 95
+train_loss: 0.220, train_acc: 92.280% (46140/50000)
+test_loss: 0.415, test_acc: 87.120% (8712/10000)
+
+Epoch: 96
+train_loss: 0.211, train_acc: 92.634% (46317/50000)
+test_loss: 0.429, test_acc: 86.610% (8661/10000)
+
+Epoch: 97
+train_loss: 0.218, train_acc: 92.372% (46186/50000)
+test_loss: 0.354, test_acc: 88.950% (8895/10000)
+
+Epoch: 98
+train_loss: 0.222, train_acc: 92.250% (46125/50000)
+test_loss: 0.412, test_acc: 86.950% (8695/10000)
+
+Epoch: 99
+train_loss: 0.220, train_acc: 92.264% (46132/50000)
+test_loss: 0.377, test_acc: 88.020% (8802/10000)
+
+Epoch: 100
+train_loss: 0.221, train_acc: 92.412% (46206/50000)
+test_loss: 0.448, test_acc: 86.930% (8693/10000)
+
+Epoch: 101
+train_loss: 0.217, train_acc: 92.466% (46233/50000)
+test_loss: 0.426, test_acc: 86.730% (8673/10000)
+
+Epoch: 102
+train_loss: 0.216, train_acc: 92.608% (46304/50000)
+test_loss: 0.558, test_acc: 83.880% (8388/10000)
+
+Epoch: 103
+train_loss: 0.225, train_acc: 92.020% (46010/50000)
+test_loss: 0.538, test_acc: 83.430% (8343/10000)
+
+Epoch: 104
+train_loss: 0.216, train_acc: 92.638% (46319/50000)
+test_loss: 0.533, test_acc: 83.810% (8381/10000)
+
+Epoch: 105
+train_loss: 0.217, train_acc: 92.452% (46226/50000)
+test_loss: 0.477, test_acc: 85.650% (8565/10000)
+
+Epoch: 106
+train_loss: 0.221, train_acc: 92.238% (46119/50000)
+test_loss: 0.377, test_acc: 87.960% (8796/10000)
+
+Epoch: 107
+train_loss: 0.220, train_acc: 92.376% (46188/50000)
+test_loss: 0.426, test_acc: 86.930% (8693/10000)
+
+Epoch: 108
+train_loss: 0.213, train_acc: 92.560% (46280/50000)
+test_loss: 0.519, test_acc: 85.070% (8507/10000)
+
+Epoch: 109
+train_loss: 0.217, train_acc: 92.616% (46308/50000)
+test_loss: 0.351, test_acc: 88.580% (8858/10000)
+
+Epoch: 110
+train_loss: 0.221, train_acc: 92.352% (46176/50000)
+test_loss: 0.405, test_acc: 87.400% (8740/10000)
+
+Epoch: 111
+train_loss: 0.218, train_acc: 92.356% (46178/50000)
+test_loss: 0.405, test_acc: 87.470% (8747/10000)
+
+Epoch: 112
+train_loss: 0.219, train_acc: 92.306% (46153/50000)
+test_loss: 0.436, test_acc: 86.500% (8650/10000)
+
+Epoch: 113
+train_loss: 0.216, train_acc: 92.428% (46214/50000)
+test_loss: 0.394, test_acc: 87.290% (8729/10000)
+
+Epoch: 114
+train_loss: 0.216, train_acc: 92.366% (46183/50000)
+test_loss: 0.466, test_acc: 86.020% (8602/10000)
+
+Epoch: 115
+train_loss: 0.215, train_acc: 92.498% (46249/50000)
+test_loss: 0.487, test_acc: 85.540% (8554/10000)
+
+Epoch: 116
+train_loss: 0.220, train_acc: 92.368% (46184/50000)
+test_loss: 0.399, test_acc: 87.400% (8740/10000)
+
+Epoch: 117
+train_loss: 0.216, train_acc: 92.520% (46260/50000)
+test_loss: 0.393, test_acc: 87.930% (8793/10000)
+
+Epoch: 118
+train_loss: 0.215, train_acc: 92.448% (46224/50000)
+test_loss: 0.373, test_acc: 88.030% (8803/10000)
+
+Epoch: 119
+train_loss: 0.219, train_acc: 92.398% (46199/50000)
+test_loss: 0.379, test_acc: 88.120% (8812/10000)
+
+Epoch: 120
+train_loss: 0.220, train_acc: 92.400% (46200/50000)
+test_loss: 0.387, test_acc: 87.860% (8786/10000)
+
+Epoch: 121
+train_loss: 0.220, train_acc: 92.314% (46157/50000)
+test_loss: 0.376, test_acc: 87.750% (8775/10000)
+
+Epoch: 122
+train_loss: 0.214, train_acc: 92.574% (46287/50000)
+test_loss: 0.418, test_acc: 87.780% (8778/10000)
+
+Epoch: 123
+train_loss: 0.216, train_acc: 92.510% (46255/50000)
+test_loss: 0.480, test_acc: 84.990% (8499/10000)
+
+Epoch: 124
+train_loss: 0.220, train_acc: 92.294% (46147/50000)
+test_loss: 0.398, test_acc: 87.300% (8730/10000)
+
+Epoch: 125
+train_loss: 0.214, train_acc: 92.534% (46267/50000)
+test_loss: 0.363, test_acc: 88.560% (8856/10000)
+
+Epoch: 126
+train_loss: 0.217, train_acc: 92.400% (46200/50000)
+test_loss: 0.489, test_acc: 85.440% (8544/10000)
+
+Epoch: 127
+train_loss: 0.214, train_acc: 92.740% (46370/50000)
+test_loss: 0.438, test_acc: 86.890% (8689/10000)
+
+Epoch: 128
+train_loss: 0.217, train_acc: 92.394% (46197/50000)
+test_loss: 0.538, test_acc: 84.170% (8417/10000)
+
+Epoch: 129
+train_loss: 0.214, train_acc: 92.714% (46357/50000)
+test_loss: 0.403, test_acc: 87.680% (8768/10000)
+
+Epoch: 130
+train_loss: 0.216, train_acc: 92.528% (46264/50000)
+test_loss: 0.402, test_acc: 87.280% (8728/10000)
+
+Epoch: 131
+train_loss: 0.213, train_acc: 92.614% (46307/50000)
+test_loss: 0.379, test_acc: 87.550% (8755/10000)
+
+Epoch: 132
+train_loss: 0.221, train_acc: 92.488% (46244/50000)
+test_loss: 0.399, test_acc: 87.650% (8765/10000)
+
+Epoch: 133
+train_loss: 0.220, train_acc: 92.470% (46235/50000)
+test_loss: 0.464, test_acc: 85.650% (8565/10000)
+
+Epoch: 134
+train_loss: 0.217, train_acc: 92.352% (46176/50000)
+test_loss: 0.393, test_acc: 87.360% (8736/10000)
+
+Epoch: 135
+train_loss: 0.215, train_acc: 92.566% (46283/50000)
+test_loss: 0.347, test_acc: 88.750% (8875/10000)
+
+Epoch: 136
+train_loss: 0.219, train_acc: 92.364% (46182/50000)
+test_loss: 0.486, test_acc: 85.250% (8525/10000)
+
+Epoch: 137
+train_loss: 0.214, train_acc: 92.678% (46339/50000)
+test_loss: 0.441, test_acc: 86.660% (8666/10000)
+
+Epoch: 138
+train_loss: 0.219, train_acc: 92.338% (46169/50000)
+test_loss: 0.464, test_acc: 85.760% (8576/10000)
+
+Epoch: 139
+train_loss: 0.209, train_acc: 92.760% (46380/50000)
+test_loss: 0.506, test_acc: 84.910% (8491/10000)
+
+Epoch: 140
+train_loss: 0.218, train_acc: 92.354% (46177/50000)
+test_loss: 0.444, test_acc: 86.610% (8661/10000)
+
+Epoch: 141
+train_loss: 0.218, train_acc: 92.382% (46191/50000)
+test_loss: 0.382, test_acc: 87.600% (8760/10000)
+
+Epoch: 142
+train_loss: 0.217, train_acc: 92.336% (46168/50000)
+test_loss: 0.393, test_acc: 87.890% (8789/10000)
+
+Epoch: 143
+train_loss: 0.216, train_acc: 92.438% (46219/50000)
+test_loss: 0.653, test_acc: 82.020% (8202/10000)
+
+Epoch: 144
+train_loss: 0.218, train_acc: 92.338% (46169/50000)
+test_loss: 0.460, test_acc: 86.590% (8659/10000)
+
+Epoch: 145
+train_loss: 0.215, train_acc: 92.428% (46214/50000)
+test_loss: 0.418, test_acc: 87.230% (8723/10000)
+
+Epoch: 146
+train_loss: 0.223, train_acc: 92.336% (46168/50000)
+test_loss: 0.355, test_acc: 88.600% (8860/10000)
+
+Epoch: 147
+train_loss: 0.217, train_acc: 92.416% (46208/50000)
+test_loss: 0.411, test_acc: 87.140% (8714/10000)
+
+Epoch: 148
+train_loss: 0.216, train_acc: 92.436% (46218/50000)
+test_loss: 0.505, test_acc: 85.170% (8517/10000)
+
+Epoch: 149
+train_loss: 0.218, train_acc: 92.332% (46166/50000)
+test_loss: 0.446, test_acc: 86.480% (8648/10000)
+
+Epoch: 150
+train_loss: 0.132, train_acc: 95.600% (47800/50000)
+test_loss: 0.261, test_acc: 91.730% (9173/10000)
+
+Epoch: 151
+train_loss: 0.101, train_acc: 96.636% (48318/50000)
+test_loss: 0.258, test_acc: 91.920% (9192/10000)
+
+Epoch: 152
+train_loss: 0.090, train_acc: 97.004% (48502/50000)
+test_loss: 0.262, test_acc: 91.970% (9197/10000)
+
+Epoch: 153
+train_loss: 0.082, train_acc: 97.226% (48613/50000)
+test_loss: 0.259, test_acc: 92.060% (9206/10000)
+
+Epoch: 154
+train_loss: 0.076, train_acc: 97.360% (48680/50000)
+test_loss: 0.258, test_acc: 92.230% (9223/10000)
+
+Epoch: 155
+train_loss: 0.072, train_acc: 97.536% (48768/50000)
+test_loss: 0.261, test_acc: 92.190% (9219/10000)
+
+Epoch: 156
+train_loss: 0.070, train_acc: 97.600% (48800/50000)
+test_loss: 0.274, test_acc: 91.940% (9194/10000)
+
+Epoch: 157
+train_loss: 0.067, train_acc: 97.778% (48889/50000)
+test_loss: 0.265, test_acc: 92.250% (9225/10000)
+
+Epoch: 158
+train_loss: 0.064, train_acc: 97.762% (48881/50000)
+test_loss: 0.268, test_acc: 92.220% (9222/10000)
+
+Epoch: 159
+train_loss: 0.061, train_acc: 97.916% (48958/50000)
+test_loss: 0.268, test_acc: 92.170% (9217/10000)
+
+Epoch: 160
+train_loss: 0.056, train_acc: 98.160% (49080/50000)
+test_loss: 0.268, test_acc: 92.440% (9244/10000)
+
+Epoch: 161
+train_loss: 0.058, train_acc: 98.042% (49021/50000)
+test_loss: 0.273, test_acc: 92.160% (9216/10000)
+
+Epoch: 162
+train_loss: 0.054, train_acc: 98.148% (49074/50000)
+test_loss: 0.271, test_acc: 92.370% (9237/10000)
+
+Epoch: 163
+train_loss: 0.053, train_acc: 98.188% (49094/50000)
+test_loss: 0.275, test_acc: 92.180% (9218/10000)
+
+Epoch: 164
+train_loss: 0.050, train_acc: 98.408% (49204/50000)
+test_loss: 0.277, test_acc: 92.390% (9239/10000)
+
+Epoch: 165
+train_loss: 0.050, train_acc: 98.284% (49142/50000)
+test_loss: 0.281, test_acc: 92.220% (9222/10000)
+
+Epoch: 166
+train_loss: 0.048, train_acc: 98.374% (49187/50000)
+test_loss: 0.273, test_acc: 92.470% (9247/10000)
+
+Epoch: 167
+train_loss: 0.046, train_acc: 98.550% (49275/50000)
+test_loss: 0.285, test_acc: 92.420% (9242/10000)
+
+Epoch: 168
+train_loss: 0.048, train_acc: 98.338% (49169/50000)
+test_loss: 0.280, test_acc: 92.210% (9221/10000)
+
+Epoch: 169
+train_loss: 0.047, train_acc: 98.414% (49207/50000)
+test_loss: 0.281, test_acc: 92.450% (9245/10000)
+
+Epoch: 170
+train_loss: 0.044, train_acc: 98.570% (49285/50000)
+test_loss: 0.291, test_acc: 92.250% (9225/10000)
+
+Epoch: 171
+train_loss: 0.044, train_acc: 98.500% (49250/50000)
+test_loss: 0.278, test_acc: 92.620% (9262/10000)
+
+Epoch: 172
+train_loss: 0.043, train_acc: 98.568% (49284/50000)
+test_loss: 0.286, test_acc: 92.320% (9232/10000)
+
+Epoch: 173
+train_loss: 0.041, train_acc: 98.676% (49338/50000)
+test_loss: 0.302, test_acc: 92.170% (9217/10000)
+
+Epoch: 174
+train_loss: 0.040, train_acc: 98.738% (49369/50000)
+test_loss: 0.292, test_acc: 92.380% (9238/10000)
+
+Epoch: 175
+train_loss: 0.041, train_acc: 98.604% (49302/50000)
+test_loss: 0.292, test_acc: 92.060% (9206/10000)
+
+Epoch: 176
+train_loss: 0.039, train_acc: 98.676% (49338/50000)
+test_loss: 0.296, test_acc: 92.340% (9234/10000)
+
+Epoch: 177
+train_loss: 0.039, train_acc: 98.658% (49329/50000)
+test_loss: 0.298, test_acc: 92.270% (9227/10000)
+
+Epoch: 178
+train_loss: 0.038, train_acc: 98.740% (49370/50000)
+test_loss: 0.298, test_acc: 92.530% (9253/10000)
+
+Epoch: 179
+train_loss: 0.038, train_acc: 98.744% (49372/50000)
+test_loss: 0.298, test_acc: 92.330% (9233/10000)
+
+Epoch: 180
+train_loss: 0.037, train_acc: 98.768% (49384/50000)
+test_loss: 0.298, test_acc: 92.610% (9261/10000)
+
+Epoch: 181
+train_loss: 0.037, train_acc: 98.748% (49374/50000)
+test_loss: 0.313, test_acc: 92.290% (9229/10000)
+
+Epoch: 182
+train_loss: 0.037, train_acc: 98.694% (49347/50000)
+test_loss: 0.315, test_acc: 92.190% (9219/10000)
+
+Epoch: 183
+train_loss: 0.034, train_acc: 98.858% (49429/50000)
+test_loss: 0.307, test_acc: 92.330% (9233/10000)
+
+Epoch: 184
+train_loss: 0.035, train_acc: 98.880% (49440/50000)
+test_loss: 0.306, test_acc: 92.200% (9220/10000)
+
+Epoch: 185
+train_loss: 0.035, train_acc: 98.892% (49446/50000)
+test_loss: 0.320, test_acc: 92.310% (9231/10000)
+
+Epoch: 186
+train_loss: 0.035, train_acc: 98.846% (49423/50000)
+test_loss: 0.301, test_acc: 92.420% (9242/10000)
+
+Epoch: 187
+train_loss: 0.033, train_acc: 98.906% (49453/50000)
+test_loss: 0.320, test_acc: 92.050% (9205/10000)
+
+Epoch: 188
+train_loss: 0.035, train_acc: 98.866% (49433/50000)
+test_loss: 0.307, test_acc: 92.530% (9253/10000)
+
+Epoch: 189
+train_loss: 0.033, train_acc: 98.916% (49458/50000)
+test_loss: 0.306, test_acc: 92.270% (9227/10000)
+
+Epoch: 190
+train_loss: 0.032, train_acc: 98.928% (49464/50000)
+test_loss: 0.311, test_acc: 92.620% (9262/10000)
+
+Epoch: 191
+train_loss: 0.031, train_acc: 98.994% (49497/50000)
+test_loss: 0.314, test_acc: 92.580% (9258/10000)
+
+Epoch: 192
+train_loss: 0.032, train_acc: 98.980% (49490/50000)
+test_loss: 0.311, test_acc: 92.420% (9242/10000)
+
+Epoch: 193
+train_loss: 0.031, train_acc: 98.958% (49479/50000)
+test_loss: 0.311, test_acc: 92.330% (9233/10000)
+
+Epoch: 194
+train_loss: 0.032, train_acc: 98.990% (49495/50000)
+test_loss: 0.317, test_acc: 92.040% (9204/10000)
+
+Epoch: 195
+train_loss: 0.032, train_acc: 98.992% (49496/50000)
+test_loss: 0.319, test_acc: 92.350% (9235/10000)
+
+Epoch: 196
+train_loss: 0.030, train_acc: 99.008% (49504/50000)
+test_loss: 0.312, test_acc: 92.240% (9224/10000)
+
+Epoch: 197
+train_loss: 0.030, train_acc: 99.074% (49537/50000)
+test_loss: 0.318, test_acc: 92.170% (9217/10000)
+
+Epoch: 198
+train_loss: 0.030, train_acc: 99.028% (49514/50000)
+test_loss: 0.341, test_acc: 92.040% (9204/10000)
+
+Epoch: 199
+train_loss: 0.031, train_acc: 99.002% (49501/50000)
+test_loss: 0.325, test_acc: 92.200% (9220/10000)
+
+Epoch: 200
+train_loss: 0.029, train_acc: 99.044% (49522/50000)
+test_loss: 0.314, test_acc: 92.460% (9246/10000)
+
+Epoch: 201
+train_loss: 0.031, train_acc: 98.980% (49490/50000)
+test_loss: 0.321, test_acc: 92.280% (9228/10000)
+
+Epoch: 202
+train_loss: 0.030, train_acc: 99.048% (49524/50000)
+test_loss: 0.323, test_acc: 92.250% (9225/10000)
+
+Epoch: 203
+train_loss: 0.031, train_acc: 99.024% (49512/50000)
+test_loss: 0.326, test_acc: 92.430% (9243/10000)
+
+Epoch: 204
+train_loss: 0.028, train_acc: 99.110% (49555/50000)
+test_loss: 0.318, test_acc: 92.430% (9243/10000)
+
+Epoch: 205
+train_loss: 0.029, train_acc: 99.050% (49525/50000)
+test_loss: 0.326, test_acc: 92.090% (9209/10000)
+
+Epoch: 206
+train_loss: 0.028, train_acc: 99.022% (49511/50000)
+test_loss: 0.338, test_acc: 92.120% (9212/10000)
+
+Epoch: 207
+train_loss: 0.031, train_acc: 98.984% (49492/50000)
+test_loss: 0.314, test_acc: 92.350% (9235/10000)
+
+Epoch: 208
+train_loss: 0.028, train_acc: 99.108% (49554/50000)
+test_loss: 0.321, test_acc: 92.420% (9242/10000)
+
+Epoch: 209
+train_loss: 0.028, train_acc: 99.076% (49538/50000)
+test_loss: 0.320, test_acc: 92.380% (9238/10000)
+
+Epoch: 210
+train_loss: 0.028, train_acc: 99.064% (49532/50000)
+test_loss: 0.319, test_acc: 92.320% (9232/10000)
+
+Epoch: 211
+train_loss: 0.029, train_acc: 99.008% (49504/50000)
+test_loss: 0.322, test_acc: 92.500% (9250/10000)
+
+Epoch: 212
+train_loss: 0.029, train_acc: 99.060% (49530/50000)
+test_loss: 0.329, test_acc: 92.310% (9231/10000)
+
+Epoch: 213
+train_loss: 0.030, train_acc: 98.986% (49493/50000)
+test_loss: 0.327, test_acc: 92.170% (9217/10000)
+
+Epoch: 214
+train_loss: 0.028, train_acc: 99.042% (49521/50000)
+test_loss: 0.320, test_acc: 92.340% (9234/10000)
+
+Epoch: 215
+train_loss: 0.029, train_acc: 99.060% (49530/50000)
+test_loss: 0.335, test_acc: 92.160% (9216/10000)
+
+Epoch: 216
+train_loss: 0.030, train_acc: 99.024% (49512/50000)
+test_loss: 0.321, test_acc: 92.460% (9246/10000)
+
+Epoch: 217
+==> Preparing data..
+==> Resuming from checkpoint..
+resumed from the acc: 92.460, net_parameters_size is 221935
+
+cycle 2:
+
+Epoch: 216
+train_loss: 0.028, train_acc: 99.096% (49548/50000)
+test_loss: 0.327, test_acc: 92.250% (9225/10000)
+
+Epoch: 217
+train_loss: 0.027, train_acc: 99.106% (49553/50000)
+test_loss: 0.349, test_acc: 91.910% (9191/10000)
+
+Epoch: 218
+train_loss: 0.028, train_acc: 99.082% (49541/50000)
+test_loss: 0.326, test_acc: 92.330% (9233/10000)
+
+Epoch: 219
+train_loss: 0.028, train_acc: 99.070% (49535/50000)
+test_loss: 0.339, test_acc: 92.210% (9221/10000)
+
+Epoch: 220
+train_loss: 0.028, train_acc: 99.062% (49531/50000)
+test_loss: 0.323, test_acc: 92.570% (9257/10000)
+
+Epoch: 221
+train_loss: 0.027, train_acc: 99.084% (49542/50000)
+test_loss: 0.318, test_acc: 92.660% (9266/10000)
+
+Epoch: 222
+train_loss: 0.029, train_acc: 99.068% (49534/50000)
+test_loss: 0.324, test_acc: 92.320% (9232/10000)
+
+Epoch: 223
+train_loss: 0.027, train_acc: 99.142% (49571/50000)
+test_loss: 0.343, test_acc: 92.090% (9209/10000)
+
+Epoch: 224
+train_loss: 0.027, train_acc: 99.114% (49557/50000)
+test_loss: 0.327, test_acc: 92.140% (9214/10000)
+
+Epoch: 225
+train_loss: 0.023, train_acc: 99.320% (49660/50000)
+test_loss: 0.321, test_acc: 92.520% (9252/10000)
+
+Epoch: 226
+train_loss: 0.019, train_acc: 99.468% (49734/50000)
+test_loss: 0.322, test_acc: 92.670% (9267/10000)
+
+Epoch: 227
+train_loss: 0.019, train_acc: 99.428% (49714/50000)
+test_loss: 0.322, test_acc: 92.570% (9257/10000)
+
+Epoch: 228
+train_loss: 0.018, train_acc: 99.464% (49732/50000)
+test_loss: 0.322, test_acc: 92.540% (9254/10000)
+
+Epoch: 229
+train_loss: 0.018, train_acc: 99.470% (49735/50000)
+test_loss: 0.318, test_acc: 92.640% (9264/10000)
+
+Epoch: 230
+train_loss: 0.017, train_acc: 99.466% (49733/50000)
+test_loss: 0.318, test_acc: 92.560% (9256/10000)
+
+Epoch: 231
+train_loss: 0.017, train_acc: 99.524% (49762/50000)
+test_loss: 0.323, test_acc: 92.450% (9245/10000)
+
+Epoch: 232
+train_loss: 0.015, train_acc: 99.562% (49781/50000)
+test_loss: 0.318, test_acc: 92.580% (9258/10000)
+
+Epoch: 233
+train_loss: 0.016, train_acc: 99.572% (49786/50000)
+test_loss: 0.322, test_acc: 92.520% (9252/10000)
+
+Epoch: 234
+train_loss: 0.015, train_acc: 99.572% (49786/50000)
+test_loss: 0.320, test_acc: 92.710% (9271/10000)
+
+Epoch: 235
+train_loss: 0.017, train_acc: 99.540% (49770/50000)
+test_loss: 0.317, test_acc: 92.740% (9274/10000)
+
+Epoch: 236
+train_loss: 0.015, train_acc: 99.592% (49796/50000)
+test_loss: 0.318, test_acc: 92.830% (9283/10000)
+
+Epoch: 237
+train_loss: 0.016, train_acc: 99.520% (49760/50000)
+test_loss: 0.322, test_acc: 92.750% (9275/10000)
+
+Epoch: 238
+train_loss: 0.014, train_acc: 99.620% (49810/50000)
+test_loss: 0.319, test_acc: 92.720% (9272/10000)
+
+Epoch: 239
+train_loss: 0.014, train_acc: 99.604% (49802/50000)
+test_loss: 0.320, test_acc: 92.610% (9261/10000)
+
+Epoch: 240
+train_loss: 0.015, train_acc: 99.554% (49777/50000)
+test_loss: 0.321, test_acc: 92.670% (9267/10000)
+
+Epoch: 241
+train_loss: 0.015, train_acc: 99.560% (49780/50000)
+test_loss: 0.318, test_acc: 92.680% (9268/10000)
+
+Epoch: 242
+train_loss: 0.015, train_acc: 99.580% (49790/50000)
+test_loss: 0.318, test_acc: 92.880% (9288/10000)
+
+Epoch: 243
+train_loss: 0.015, train_acc: 99.538% (49769/50000)
+test_loss: 0.319, test_acc: 92.700% (9270/10000)
+
+Epoch: 244
+train_loss: 0.015, train_acc: 99.594% (49797/50000)
+test_loss: 0.318, test_acc: 92.620% (9262/10000)
+
+Epoch: 245
+train_loss: 0.014, train_acc: 99.632% (49816/50000)
+test_loss: 0.322, test_acc: 92.570% (9257/10000)
+
+Epoch: 246
+train_loss: 0.014, train_acc: 99.576% (49788/50000)
+test_loss: 0.320, test_acc: 92.670% (9267/10000)
+
+Epoch: 247
+train_loss: 0.014, train_acc: 99.610% (49805/50000)
+test_loss: 0.322, test_acc: 92.690% (9269/10000)
+
+Epoch: 248
+train_loss: 0.014, train_acc: 99.608% (49804/50000)
+test_loss: 0.323, test_acc: 92.580% (9258/10000)
+
+Epoch: 249
+train_loss: 0.014, train_acc: 99.622% (49811/50000)
+test_loss: 0.329, test_acc: 92.640% (9264/10000)
+
+Epoch: 250
+train_loss: 0.014, train_acc: 99.588% (49794/50000)
+test_loss: 0.328, test_acc: 92.610% (9261/10000)
+
+Epoch: 251
+train_loss: 0.013, train_acc: 99.626% (49813/50000)
+test_loss: 0.328, test_acc: 92.650% (9265/10000)
+
+Epoch: 252
+train_loss: 0.014, train_acc: 99.624% (49812/50000)
+test_loss: 0.326, test_acc: 92.490% (9249/10000)
+
+Epoch: 253
+train_loss: 0.014, train_acc: 99.578% (49789/50000)
+test_loss: 0.328, test_acc: 92.650% (9265/10000)
+
+Epoch: 254
+train_loss: 0.013, train_acc: 99.662% (49831/50000)
+test_loss: 0.331, test_acc: 92.650% (9265/10000)
+
+Epoch: 255
+train_loss: 0.013, train_acc: 99.632% (49816/50000)
+test_loss: 0.326, test_acc: 92.730% (9273/10000)
+
+Epoch: 256
+train_loss: 0.013, train_acc: 99.652% (49826/50000)
+test_loss: 0.328, test_acc: 92.730% (9273/10000)
+
+Epoch: 257
+train_loss: 0.012, train_acc: 99.694% (49847/50000)
+test_loss: 0.328, test_acc: 92.730% (9273/10000)
+
+Epoch: 258
+train_loss: 0.013, train_acc: 99.644% (49822/50000)
+test_loss: 0.325, test_acc: 92.740% (9274/10000)
+
+Epoch: 259
+train_loss: 0.013, train_acc: 99.670% (49835/50000)
+test_loss: 0.320, test_acc: 92.820% (9282/10000)
+
+Epoch: 260
+train_loss: 0.012, train_acc: 99.650% (49825/50000)
+test_loss: 0.323, test_acc: 92.830% (9283/10000)
+
+Epoch: 261
+train_loss: 0.012, train_acc: 99.696% (49848/50000)
+test_loss: 0.327, test_acc: 92.830% (9283/10000)
+
+Epoch: 262
+train_loss: 0.012, train_acc: 99.666% (49833/50000)
+test_loss: 0.324, test_acc: 92.750% (9275/10000)
+
+Epoch: 263
+train_loss: 0.012, train_acc: 99.686% (49843/50000)
+test_loss: 0.318, test_acc: 92.710% (9271/10000)
+
+Epoch: 264
+train_loss: 0.012, train_acc: 99.676% (49838/50000)
+test_loss: 0.322, test_acc: 92.730% (9273/10000)
+
+Epoch: 265
+train_loss: 0.013, train_acc: 99.634% (49817/50000)
+test_loss: 0.333, test_acc: 92.710% (9271/10000)
+
+Epoch: 266
+train_loss: 0.013, train_acc: 99.656% (49828/50000)
+test_loss: 0.326, test_acc: 92.810% (9281/10000)
+
+Epoch: 267
+train_loss: 0.012, train_acc: 99.680% (49840/50000)
+test_loss: 0.327, test_acc: 92.720% (9272/10000)
+
+Epoch: 268
+train_loss: 0.012, train_acc: 99.694% (49847/50000)
+test_loss: 0.327, test_acc: 92.600% (9260/10000)
+
+Epoch: 269
+train_loss: 0.014, train_acc: 99.606% (49803/50000)
+test_loss: 0.322, test_acc: 92.770% (9277/10000)
+
+Epoch: 270
+train_loss: 0.012, train_acc: 99.690% (49845/50000)
+test_loss: 0.329, test_acc: 92.700% (9270/10000)
+
+Epoch: 271
+train_loss: 0.012, train_acc: 99.708% (49854/50000)
+test_loss: 0.322, test_acc: 92.690% (9269/10000)
+
+Epoch: 272
+train_loss: 0.011, train_acc: 99.730% (49865/50000)
+test_loss: 0.327, test_acc: 92.680% (9268/10000)
+
+Epoch: 273
+train_loss: 0.013, train_acc: 99.670% (49835/50000)
+test_loss: 0.327, test_acc: 92.590% (9259/10000)
+
+Epoch: 274
+train_loss: 0.012, train_acc: 99.680% (49840/50000)
+test_loss: 0.327, test_acc: 92.620% (9262/10000)
+
+Epoch: 275
+train_loss: 0.012, train_acc: 99.690% (49845/50000)
+test_loss: 0.328, test_acc: 92.700% (9270/10000)
+
+Epoch: 276
+train_loss: 0.012, train_acc: 99.686% (49843/50000)
+test_loss: 0.329, test_acc: 92.730% (9273/10000)
+
+Epoch: 277
+train_loss: 0.012, train_acc: 99.688% (49844/50000)
+test_loss: 0.328, test_acc: 92.900% (9290/10000)
+
+Epoch: 278
+train_loss: 0.012, train_acc: 99.684% (49842/50000)
+test_loss: 0.327, test_acc: 92.630% (9263/10000)
+
+Epoch: 279
+train_loss: 0.012, train_acc: 99.676% (49838/50000)
+test_loss: 0.326, test_acc: 92.620% (9262/10000)
+
+Epoch: 280
+train_loss: 0.012, train_acc: 99.664% (49832/50000)
+test_loss: 0.324, test_acc: 92.810% (9281/10000)
+
+Epoch: 281
+train_loss: 0.012, train_acc: 99.652% (49826/50000)
+test_loss: 0.325, test_acc: 92.800% (9280/10000)
+
+Epoch: 282
+train_loss: 0.011, train_acc: 99.702% (49851/50000)
+test_loss: 0.331, test_acc: 92.620% (9262/10000)
+
+Epoch: 283
+train_loss: 0.012, train_acc: 99.672% (49836/50000)
+test_loss: 0.331, test_acc: 92.720% (9272/10000)
+
+Epoch: 284
+train_loss: 0.012, train_acc: 99.652% (49826/50000)
+test_loss: 0.326, test_acc: 92.700% (9270/10000)
+
+Epoch: 285
+train_loss: 0.011, train_acc: 99.706% (49853/50000)
+test_loss: 0.324, test_acc: 92.690% (9269/10000)
+
+Epoch: 286
+train_loss: 0.012, train_acc: 99.704% (49852/50000)
+test_loss: 0.328, test_acc: 92.710% (9271/10000)
+
+Epoch: 287
+train_loss: 0.012, train_acc: 99.648% (49824/50000)
+test_loss: 0.331, test_acc: 92.700% (9270/10000)
+
+Epoch: 288
+train_loss: 0.011, train_acc: 99.736% (49868/50000)
+test_loss: 0.330, test_acc: 92.710% (9271/10000)
+
+Epoch: 289
+train_loss: 0.011, train_acc: 99.680% (49840/50000)
+test_loss: 0.326, test_acc: 92.710% (9271/10000)
+
+Epoch: 290
+train_loss: 0.012, train_acc: 99.690% (49845/50000)
+test_loss: 0.327, test_acc: 92.830% (9283/10000)
+
+Epoch: 291
+train_loss: 0.012, train_acc: 99.692% (49846/50000)
+test_loss: 0.328, test_acc: 92.800% (9280/10000)
+
+Epoch: 292
+train_loss: 0.011, train_acc: 99.714% (49857/50000)
+test_loss: 0.327, test_acc: 92.630% (9263/10000)
+
+Epoch: 293
+train_loss: 0.012, train_acc: 99.672% (49836/50000)
+test_loss: 0.327, test_acc: 92.750% (9275/10000)
+
+Epoch: 294
+train_loss: 0.011, train_acc: 99.734% (49867/50000)
+test_loss: 0.323, test_acc: 92.670% (9267/10000)
+
+Epoch: 295
+train_loss: 0.011, train_acc: 99.758% (49879/50000)
+test_loss: 0.330, test_acc: 92.840% (9284/10000)
+
+Epoch: 296
+train_loss: 0.011, train_acc: 99.686% (49843/50000)
+test_loss: 0.327, test_acc: 92.850% (9285/10000)
+
+Epoch: 297
+train_loss: 0.011, train_acc: 99.728% (49864/50000)
+test_loss: 0.329, test_acc: 92.640% (9264/10000)
+
+Epoch: 298
+train_loss: 0.012, train_acc: 99.666% (49833/50000)
+test_loss: 0.328, test_acc: 92.720% (9272/10000)
+
+Epoch: 299
+train_loss: 0.011, train_acc: 99.682% (49841/50000)
+test_loss: 0.324, test_acc: 92.910% (9291/10000)
+cycle 3:
+
+Epoch: 0
+train_loss: 0.453, train_acc: 84.820% (42410/50000)
+test_loss: 0.524, test_acc: 83.430% (8343/10000)
+
+Epoch: 1
+train_loss: 0.312, train_acc: 89.132% (44566/50000)
+test_loss: 0.543, test_acc: 84.080% (8408/10000)
+
+Epoch: 2
+train_loss: 0.284, train_acc: 90.212% (45106/50000)
+test_loss: 0.475, test_acc: 85.500% (8550/10000)
+
+Epoch: 3
+train_loss: 0.275, train_acc: 90.426% (45213/50000)
+test_loss: 0.448, test_acc: 86.000% (8600/10000)
+
+Epoch: 4
+train_loss: 0.263, train_acc: 90.874% (45437/50000)
+test_loss: 0.523, test_acc: 84.550% (8455/10000)
+
+Epoch: 5
+train_loss: 0.256, train_acc: 91.068% (45534/50000)
+test_loss: 0.404, test_acc: 87.250% (8725/10000)
+
+Epoch: 6
+train_loss: 0.246, train_acc: 91.450% (45725/50000)
+test_loss: 0.471, test_acc: 85.010% (8501/10000)
+
+Epoch: 7
+train_loss: 0.243, train_acc: 91.606% (45803/50000)
+test_loss: 0.485, test_acc: 85.600% (8560/10000)
+
+Epoch: 8
+train_loss: 0.240, train_acc: 91.620% (45810/50000)
+test_loss: 0.357, test_acc: 88.600% (8860/10000)
+
+Epoch: 9
+train_loss: 0.241, train_acc: 91.512% (45756/50000)
+test_loss: 0.495, test_acc: 85.450% (8545/10000)
+
+Epoch: 10
+train_loss: 0.236, train_acc: 91.866% (45933/50000)
+test_loss: 0.415, test_acc: 86.610% (8661/10000)
+
+Epoch: 11
+train_loss: 0.231, train_acc: 92.012% (46006/50000)
+test_loss: 0.402, test_acc: 87.880% (8788/10000)
+
+Epoch: 12
+train_loss: 0.229, train_acc: 92.006% (46003/50000)
+test_loss: 0.382, test_acc: 87.730% (8773/10000)
+
+Epoch: 13
+train_loss: 0.229, train_acc: 91.854% (45927/50000)
+test_loss: 0.526, test_acc: 84.190% (8419/10000)
+
+Epoch: 14
+train_loss: 0.226, train_acc: 92.172% (46086/50000)
+test_loss: 0.406, test_acc: 87.790% (8779/10000)
+
+Epoch: 15
+train_loss: 0.223, train_acc: 92.298% (46149/50000)
+test_loss: 0.422, test_acc: 85.900% (8590/10000)
+
+Epoch: 16
+train_loss: 0.226, train_acc: 92.050% (46025/50000)
+test_loss: 0.499, test_acc: 85.190% (8519/10000)
+
+Epoch: 17
+train_loss: 0.226, train_acc: 92.154% (46077/50000)
+test_loss: 0.522, test_acc: 84.630% (8463/10000)
+
+Epoch: 18
+train_loss: 0.218, train_acc: 92.488% (46244/50000)
+test_loss: 0.463, test_acc: 85.830% (8583/10000)
+
+Epoch: 19
+train_loss: 0.225, train_acc: 92.174% (46087/50000)
+test_loss: 0.390, test_acc: 87.760% (8776/10000)
+
+Epoch: 20
+train_loss: 0.219, train_acc: 92.362% (46181/50000)
+test_loss: 0.532, test_acc: 84.870% (8487/10000)
+
+Epoch: 21
+train_loss: 0.224, train_acc: 92.220% (46110/50000)
+test_loss: 0.435, test_acc: 86.270% (8627/10000)
+
+Epoch: 22
+train_loss: 0.221, train_acc: 92.308% (46154/50000)
+test_loss: 0.410, test_acc: 87.390% (8739/10000)
+
+Epoch: 23
+train_loss: 0.218, train_acc: 92.486% (46243/50000)
+test_loss: 0.394, test_acc: 86.960% (8696/10000)
+
+Epoch: 24
+train_loss: 0.215, train_acc: 92.484% (46242/50000)
+test_loss: 0.474, test_acc: 85.950% (8595/10000)
+
+Epoch: 25
+train_loss: 0.222, train_acc: 92.166% (46083/50000)
+test_loss: 0.411, test_acc: 86.640% (8664/10000)
+
+Epoch: 26
+train_loss: 0.221, train_acc: 92.342% (46171/50000)
+test_loss: 0.432, test_acc: 86.270% (8627/10000)
+
+Epoch: 27
+train_loss: 0.218, train_acc: 92.408% (46204/50000)
+test_loss: 0.358, test_acc: 88.650% (8865/10000)
+
+Epoch: 28
+train_loss: 0.214, train_acc: 92.584% (46292/50000)
+test_loss: 0.397, test_acc: 87.970% (8797/10000)
+
+Epoch: 29
+train_loss: 0.214, train_acc: 92.526% (46263/50000)
+test_loss: 0.425, test_acc: 87.050% (8705/10000)
+
+Epoch: 30
+train_loss: 0.218, train_acc: 92.432% (46216/50000)
+test_loss: 0.401, test_acc: 87.450% (8745/10000)
+
+Epoch: 31
+train_loss: 0.220, train_acc: 92.366% (46183/50000)
+test_loss: 0.487, test_acc: 85.680% (8568/10000)
+
+Epoch: 32
+train_loss: 0.223, train_acc: 92.330% (46165/50000)
+test_loss: 0.372, test_acc: 87.730% (8773/10000)
+
+Epoch: 33
+train_loss: 0.213, train_acc: 92.620% (46310/50000)
+test_loss: 0.408, test_acc: 87.410% (8741/10000)
+
+Epoch: 34
+train_loss: 0.218, train_acc: 92.346% (46173/50000)
+test_loss: 0.432, test_acc: 86.750% (8675/10000)
+
+Epoch: 35
+train_loss: 0.213, train_acc: 92.600% (46300/50000)
+test_loss: 0.423, test_acc: 86.710% (8671/10000)
+
+Epoch: 36
+train_loss: 0.217, train_acc: 92.436% (46218/50000)
+test_loss: 0.411, test_acc: 87.290% (8729/10000)
+
+Epoch: 37
+train_loss: 0.216, train_acc: 92.518% (46259/50000)
+test_loss: 0.436, test_acc: 86.070% (8607/10000)
+
+Epoch: 38
+train_loss: 0.217, train_acc: 92.370% (46185/50000)
+test_loss: 0.407, test_acc: 87.130% (8713/10000)
+
+Epoch: 39
+train_loss: 0.216, train_acc: 92.518% (46259/50000)
+test_loss: 0.416, test_acc: 86.900% (8690/10000)
+
+Epoch: 40
+train_loss: 0.218, train_acc: 92.432% (46216/50000)
+test_loss: 0.376, test_acc: 88.050% (8805/10000)
+
+Epoch: 41
+train_loss: 0.217, train_acc: 92.542% (46271/50000)
+test_loss: 0.387, test_acc: 87.730% (8773/10000)
+
+Epoch: 42
+train_loss: 0.223, train_acc: 92.180% (46090/50000)
+test_loss: 0.520, test_acc: 84.960% (8496/10000)
+
+Epoch: 43
+train_loss: 0.214, train_acc: 92.580% (46290/50000)
+test_loss: 0.428, test_acc: 87.540% (8754/10000)
+
+Epoch: 44
+train_loss: 0.217, train_acc: 92.384% (46192/50000)
+test_loss: 0.421, test_acc: 87.680% (8768/10000)
+
+Epoch: 45
+train_loss: 0.215, train_acc: 92.566% (46283/50000)
+test_loss: 0.448, test_acc: 86.870% (8687/10000)
+
+Epoch: 46
+train_loss: 0.216, train_acc: 92.376% (46188/50000)
+test_loss: 0.447, test_acc: 86.690% (8669/10000)
+
+Epoch: 47
+train_loss: 0.213, train_acc: 92.594% (46297/50000)
+test_loss: 0.421, test_acc: 87.010% (8701/10000)
+
+Epoch: 48
+train_loss: 0.214, train_acc: 92.486% (46243/50000)
+test_loss: 0.469, test_acc: 85.410% (8541/10000)
+
+Epoch: 49
+train_loss: 0.213, train_acc: 92.608% (46304/50000)
+test_loss: 0.403, test_acc: 87.070% (8707/10000)
+
+Epoch: 50
+train_loss: 0.216, train_acc: 92.436% (46218/50000)
+test_loss: 0.417, test_acc: 86.490% (8649/10000)
+
+Epoch: 51
+train_loss: 0.212, train_acc: 92.606% (46303/50000)
+test_loss: 0.374, test_acc: 88.870% (8887/10000)
+
+Epoch: 52
+train_loss: 0.211, train_acc: 92.694% (46347/50000)
+test_loss: 0.422, test_acc: 86.850% (8685/10000)
+
+Epoch: 53
+train_loss: 0.212, train_acc: 92.538% (46269/50000)
+test_loss: 0.414, test_acc: 86.530% (8653/10000)
+
+Epoch: 54
+train_loss: 0.217, train_acc: 92.296% (46148/50000)
+test_loss: 0.516, test_acc: 85.380% (8538/10000)
+
+Epoch: 55
+train_loss: 0.220, train_acc: 92.234% (46117/50000)
+test_loss: 0.394, test_acc: 87.730% (8773/10000)
+
+Epoch: 56
+train_loss: 0.215, train_acc: 92.520% (46260/50000)
+test_loss: 0.504, test_acc: 86.380% (8638/10000)
+
+Epoch: 57
+train_loss: 0.215, train_acc: 92.412% (46206/50000)
+test_loss: 0.476, test_acc: 85.920% (8592/10000)
+
+Epoch: 58
+train_loss: 0.215, train_acc: 92.480% (46240/50000)
+test_loss: 0.444, test_acc: 87.210% (8721/10000)
+
+Epoch: 59
+train_loss: 0.220, train_acc: 92.346% (46173/50000)
+test_loss: 0.445, test_acc: 86.310% (8631/10000)
+
+Epoch: 60
+train_loss: 0.216, train_acc: 92.492% (46246/50000)
+test_loss: 0.369, test_acc: 88.150% (8815/10000)
+
+Epoch: 61
+train_loss: 0.215, train_acc: 92.554% (46277/50000)
+test_loss: 0.403, test_acc: 87.190% (8719/10000)
+
+Epoch: 62
+train_loss: 0.209, train_acc: 92.624% (46312/50000)
+test_loss: 0.517, test_acc: 85.590% (8559/10000)
+
+Epoch: 63
+train_loss: 0.211, train_acc: 92.688% (46344/50000)
+test_loss: 0.502, test_acc: 85.340% (8534/10000)
+
+Epoch: 64
+train_loss: 0.219, train_acc: 92.422% (46211/50000)
+test_loss: 0.388, test_acc: 87.520% (8752/10000)
+
+Epoch: 65
+train_loss: 0.217, train_acc: 92.504% (46252/50000)
+test_loss: 0.376, test_acc: 87.660% (8766/10000)
+
+Epoch: 66
+train_loss: 0.220, train_acc: 92.404% (46202/50000)
+test_loss: 0.366, test_acc: 88.510% (8851/10000)
+
+Epoch: 67
+train_loss: 0.214, train_acc: 92.556% (46278/50000)
+test_loss: 0.418, test_acc: 87.890% (8789/10000)
+
+Epoch: 68
+train_loss: 0.216, train_acc: 92.562% (46281/50000)
+test_loss: 0.455, test_acc: 86.340% (8634/10000)
+
+Epoch: 69
+train_loss: 0.213, train_acc: 92.522% (46261/50000)
+test_loss: 0.411, test_acc: 87.320% (8732/10000)
+
+Epoch: 70
+train_loss: 0.217, train_acc: 92.484% (46242/50000)
+test_loss: 0.349, test_acc: 88.790% (8879/10000)
+
+Epoch: 71
+train_loss: 0.213, train_acc: 92.518% (46259/50000)
+test_loss: 0.420, test_acc: 87.400% (8740/10000)
+
+Epoch: 72
+train_loss: 0.212, train_acc: 92.728% (46364/50000)
+test_loss: 0.391, test_acc: 87.780% (8778/10000)
+
+Epoch: 73
+train_loss: 0.216, train_acc: 92.506% (46253/50000)
+test_loss: 0.397, test_acc: 87.710% (8771/10000)
+
+Epoch: 74
+train_loss: 0.214, train_acc: 92.574% (46287/50000)
+test_loss: 0.496, test_acc: 85.470% (8547/10000)
+
+Epoch: 75
+train_loss: 0.214, train_acc: 92.464% (46232/50000)
+test_loss: 0.354, test_acc: 88.640% (8864/10000)
+
+Epoch: 76
+train_loss: 0.217, train_acc: 92.528% (46264/50000)
+test_loss: 0.348, test_acc: 89.300% (8930/10000)
+
+Epoch: 77
+train_loss: 0.215, train_acc: 92.496% (46248/50000)
+test_loss: 0.441, test_acc: 86.230% (8623/10000)
+
+Epoch: 78
+train_loss: 0.208, train_acc: 92.670% (46335/50000)
+test_loss: 0.420, test_acc: 86.910% (8691/10000)
+
+Epoch: 79
+train_loss: 0.212, train_acc: 92.492% (46246/50000)
+test_loss: 0.415, test_acc: 86.670% (8667/10000)
+
+Epoch: 80
+train_loss: 0.214, train_acc: 92.510% (46255/50000)
+test_loss: 0.379, test_acc: 87.350% (8735/10000)
+
+Epoch: 81
+train_loss: 0.213, train_acc: 92.480% (46240/50000)
+test_loss: 0.487, test_acc: 84.490% (8449/10000)
+
+Epoch: 82
+train_loss: 0.215, train_acc: 92.470% (46235/50000)
+test_loss: 0.377, test_acc: 87.980% (8798/10000)
+
+Epoch: 83
+train_loss: 0.214, train_acc: 92.568% (46284/50000)
+test_loss: 0.394, test_acc: 87.720% (8772/10000)
+
+Epoch: 84
+train_loss: 0.210, train_acc: 92.786% (46393/50000)
+test_loss: 0.422, test_acc: 86.590% (8659/10000)
+
+Epoch: 85
+train_loss: 0.213, train_acc: 92.556% (46278/50000)
+test_loss: 0.333, test_acc: 89.090% (8909/10000)
+
+Epoch: 86
+train_loss: 0.213, train_acc: 92.594% (46297/50000)
+test_loss: 0.459, test_acc: 85.550% (8555/10000)
+
+Epoch: 87
+train_loss: 0.216, train_acc: 92.532% (46266/50000)
+test_loss: 0.442, test_acc: 86.920% (8692/10000)
+
+Epoch: 88
+train_loss: 0.211, train_acc: 92.560% (46280/50000)
+test_loss: 0.405, test_acc: 87.820% (8782/10000)
+
+Epoch: 89
+train_loss: 0.211, train_acc: 92.652% (46326/50000)
+test_loss: 0.396, test_acc: 87.890% (8789/10000)
+
+Epoch: 90
+train_loss: 0.216, train_acc: 92.594% (46297/50000)
+test_loss: 0.402, test_acc: 87.080% (8708/10000)
+
+Epoch: 91
+train_loss: 0.213, train_acc: 92.620% (46310/50000)
+test_loss: 0.516, test_acc: 84.250% (8425/10000)
+
+Epoch: 92
+train_loss: 0.213, train_acc: 92.632% (46316/50000)
+test_loss: 0.407, test_acc: 87.000% (8700/10000)
+
+Epoch: 93
+train_loss: 0.215, train_acc: 92.636% (46318/50000)
+test_loss: 0.409, test_acc: 86.990% (8699/10000)
+
+Epoch: 94
+train_loss: 0.214, train_acc: 92.476% (46238/50000)
+test_loss: 0.393, test_acc: 87.900% (8790/10000)
+
+Epoch: 95
+train_loss: 0.215, train_acc: 92.594% (46297/50000)
+test_loss: 0.418, test_acc: 86.890% (8689/10000)
+
+Epoch: 96
+train_loss: 0.210, train_acc: 92.658% (46329/50000)
+test_loss: 0.403, test_acc: 87.400% (8740/10000)
+
+Epoch: 97
+train_loss: 0.217, train_acc: 92.422% (46211/50000)
+test_loss: 0.376, test_acc: 88.350% (8835/10000)
+
+Epoch: 98
+train_loss: 0.215, train_acc: 92.554% (46277/50000)
+test_loss: 0.478, test_acc: 85.490% (8549/10000)
+
+Epoch: 99
+train_loss: 0.210, train_acc: 92.614% (46307/50000)
+test_loss: 0.434, test_acc: 86.770% (8677/10000)
+
+Epoch: 100
+train_loss: 0.212, train_acc: 92.722% (46361/50000)
+test_loss: 0.381, test_acc: 87.660% (8766/10000)
+
+Epoch: 101
+train_loss: 0.215, train_acc: 92.596% (46298/50000)
+test_loss: 0.383, test_acc: 88.220% (8822/10000)
+
+Epoch: 102
+train_loss: 0.213, train_acc: 92.506% (46253/50000)
+test_loss: 0.454, test_acc: 85.800% (8580/10000)
+
+Epoch: 103
+train_loss: 0.213, train_acc: 92.616% (46308/50000)
+test_loss: 0.414, test_acc: 86.890% (8689/10000)
+
+Epoch: 104
+train_loss: 0.208, train_acc: 92.788% (46394/50000)
+test_loss: 0.419, test_acc: 87.060% (8706/10000)
+
+Epoch: 105
+train_loss: 0.211, train_acc: 92.632% (46316/50000)
+test_loss: 0.461, test_acc: 86.320% (8632/10000)
+
+Epoch: 106
+train_loss: 0.214, train_acc: 92.550% (46275/50000)
+test_loss: 0.404, test_acc: 86.660% (8666/10000)
+
+Epoch: 107
+train_loss: 0.210, train_acc: 92.654% (46327/50000)
+test_loss: 0.356, test_acc: 88.690% (8869/10000)
+
+Epoch: 108
+train_loss: 0.216, train_acc: 92.482% (46241/50000)
+test_loss: 0.442, test_acc: 86.760% (8676/10000)
+
+Epoch: 109
+train_loss: 0.209, train_acc: 92.746% (46373/50000)
+test_loss: 0.363, test_acc: 88.440% (8844/10000)
+
+Epoch: 110
+train_loss: 0.211, train_acc: 92.606% (46303/50000)
+test_loss: 0.484, test_acc: 85.700% (8570/10000)
+
+Epoch: 111
+train_loss: 0.214, train_acc: 92.682% (46341/50000)
+test_loss: 0.396, test_acc: 87.840% (8784/10000)
+
+Epoch: 112
+train_loss: 0.204, train_acc: 92.782% (46391/50000)
+test_loss: 0.353, test_acc: 88.960% (8896/10000)
+
+Epoch: 113
+train_loss: 0.212, train_acc: 92.594% (46297/50000)
+test_loss: 0.510, test_acc: 84.820% (8482/10000)
+
+Epoch: 114
+train_loss: 0.214, train_acc: 92.552% (46276/50000)
+test_loss: 0.424, test_acc: 87.060% (8706/10000)
+
+Epoch: 115
+train_loss: 0.217, train_acc: 92.454% (46227/50000)
+test_loss: 0.350, test_acc: 88.240% (8824/10000)
+
+Epoch: 116
+train_loss: 0.203, train_acc: 92.888% (46444/50000)
+test_loss: 0.503, test_acc: 85.310% (8531/10000)
+
+Epoch: 117
+train_loss: 0.210, train_acc: 92.540% (46270/50000)
+test_loss: 0.342, test_acc: 88.990% (8899/10000)
+
+Epoch: 118
+train_loss: 0.214, train_acc: 92.546% (46273/50000)
+test_loss: 0.332, test_acc: 89.570% (8957/10000)
+
+Epoch: 119
+train_loss: 0.207, train_acc: 92.756% (46378/50000)
+test_loss: 0.416, test_acc: 87.110% (8711/10000)
+
+Epoch: 120
+train_loss: 0.214, train_acc: 92.568% (46284/50000)
+test_loss: 0.469, test_acc: 86.270% (8627/10000)
+
+Epoch: 121
+train_loss: 0.208, train_acc: 92.674% (46337/50000)
+test_loss: 0.432, test_acc: 86.480% (8648/10000)
+
+Epoch: 122
+train_loss: 0.216, train_acc: 92.388% (46194/50000)
+test_loss: 0.381, test_acc: 88.020% (8802/10000)
+
+Epoch: 123
+train_loss: 0.210, train_acc: 92.722% (46361/50000)
+test_loss: 0.543, test_acc: 84.250% (8425/10000)
+
+Epoch: 124
+train_loss: 0.210, train_acc: 92.782% (46391/50000)
+test_loss: 0.397, test_acc: 87.570% (8757/10000)
+
+Epoch: 125
+train_loss: 0.216, train_acc: 92.488% (46244/50000)
+test_loss: 0.382, test_acc: 88.200% (8820/10000)
+
+Epoch: 126
+train_loss: 0.211, train_acc: 92.682% (46341/50000)
+test_loss: 0.429, test_acc: 87.300% (8730/10000)
+
+Epoch: 127
+train_loss: 0.212, train_acc: 92.720% (46360/50000)
+test_loss: 0.473, test_acc: 85.240% (8524/10000)
+
+Epoch: 128
+train_loss: 0.208, train_acc: 92.686% (46343/50000)
+test_loss: 0.388, test_acc: 88.010% (8801/10000)
+
+Epoch: 129
+train_loss: 0.209, train_acc: 92.734% (46367/50000)
+test_loss: 0.446, test_acc: 87.420% (8742/10000)
+
+Epoch: 130
+train_loss: 0.218, train_acc: 92.344% (46172/50000)
+test_loss: 0.444, test_acc: 86.990% (8699/10000)
+
+Epoch: 131
+train_loss: 0.207, train_acc: 92.758% (46379/50000)
+test_loss: 0.513, test_acc: 85.540% (8554/10000)
+
+Epoch: 132
+train_loss: 0.206, train_acc: 92.842% (46421/50000)
+test_loss: 0.441, test_acc: 86.650% (8665/10000)
+
+Epoch: 133
+train_loss: 0.210, train_acc: 92.748% (46374/50000)
+test_loss: 0.411, test_acc: 87.210% (8721/10000)
+
+Epoch: 134
+train_loss: 0.212, train_acc: 92.686% (46343/50000)
+test_loss: 0.477, test_acc: 85.190% (8519/10000)
+
+Epoch: 135
+train_loss: 0.211, train_acc: 92.684% (46342/50000)
+test_loss: 0.493, test_acc: 84.760% (8476/10000)
+
+Epoch: 136
+train_loss: 0.209, train_acc: 92.772% (46386/50000)
+test_loss: 0.402, test_acc: 87.260% (8726/10000)
+
+Epoch: 137
+train_loss: 0.210, train_acc: 92.642% (46321/50000)
+test_loss: 0.414, test_acc: 86.790% (8679/10000)
+
+Epoch: 138
+train_loss: 0.213, train_acc: 92.580% (46290/50000)
+test_loss: 0.366, test_acc: 88.340% (8834/10000)
+
+Epoch: 139
+train_loss: 0.209, train_acc: 92.722% (46361/50000)
+test_loss: 0.357, test_acc: 88.450% (8845/10000)
+
+Epoch: 140
+train_loss: 0.213, train_acc: 92.610% (46305/50000)
+test_loss: 0.354, test_acc: 88.920% (8892/10000)
+
+Epoch: 141
+train_loss: 0.209, train_acc: 92.670% (46335/50000)
+test_loss: 0.450, test_acc: 86.470% (8647/10000)
+
+Epoch: 142
+train_loss: 0.214, train_acc: 92.542% (46271/50000)
+test_loss: 0.370, test_acc: 88.630% (8863/10000)
+
+Epoch: 143
+train_loss: 0.208, train_acc: 92.694% (46347/50000)
+test_loss: 0.344, test_acc: 88.840% (8884/10000)
+
+Epoch: 144
+train_loss: 0.211, train_acc: 92.534% (46267/50000)
+test_loss: 0.422, test_acc: 86.820% (8682/10000)
+
+Epoch: 145
+train_loss: 0.215, train_acc: 92.486% (46243/50000)
+test_loss: 0.475, test_acc: 85.140% (8514/10000)
+
+Epoch: 146
+train_loss: 0.210, train_acc: 92.582% (46291/50000)
+test_loss: 0.457, test_acc: 86.340% (8634/10000)
+
+Epoch: 147
+train_loss: 0.211, train_acc: 92.694% (46347/50000)
+test_loss: 0.421, test_acc: 87.110% (8711/10000)
+
+Epoch: 148
+train_loss: 0.212, train_acc: 92.662% (46331/50000)
+test_loss: 0.377, test_acc: 88.170% (8817/10000)
+
+Epoch: 149
+train_loss: 0.210, train_acc: 92.656% (46328/50000)
+test_loss: 0.420, test_acc: 87.330% (8733/10000)
+
+Epoch: 150
+train_loss: 0.126, train_acc: 95.718% (47859/50000)
+test_loss: 0.249, test_acc: 92.050% (9205/10000)
+
+Epoch: 151
+train_loss: 0.097, train_acc: 96.846% (48423/50000)
+test_loss: 0.247, test_acc: 92.290% (9229/10000)
+
+Epoch: 152
+train_loss: 0.087, train_acc: 97.140% (48570/50000)
+test_loss: 0.248, test_acc: 92.580% (9258/10000)
+
+Epoch: 153
+train_loss: 0.079, train_acc: 97.418% (48709/50000)
+test_loss: 0.249, test_acc: 92.560% (9256/10000)
+
+Epoch: 154
+train_loss: 0.074, train_acc: 97.498% (48749/50000)
+test_loss: 0.250, test_acc: 92.450% (9245/10000)
+
+Epoch: 155
+train_loss: 0.068, train_acc: 97.768% (48884/50000)
+test_loss: 0.258, test_acc: 92.270% (9227/10000)
+
+Epoch: 156
+train_loss: 0.066, train_acc: 97.804% (48902/50000)
+test_loss: 0.252, test_acc: 92.360% (9236/10000)
+
+Epoch: 157
+train_loss: 0.064, train_acc: 97.868% (48934/50000)
+test_loss: 0.257, test_acc: 92.350% (9235/10000)
+
+Epoch: 158
+train_loss: 0.061, train_acc: 97.950% (48975/50000)
+test_loss: 0.260, test_acc: 92.440% (9244/10000)
+
+Epoch: 159
+train_loss: 0.059, train_acc: 98.094% (49047/50000)
+test_loss: 0.263, test_acc: 92.710% (9271/10000)
+
+Epoch: 160
+train_loss: 0.056, train_acc: 98.132% (49066/50000)
+test_loss: 0.265, test_acc: 92.470% (9247/10000)
+
+Epoch: 161
+train_loss: 0.053, train_acc: 98.244% (49122/50000)
+test_loss: 0.272, test_acc: 92.450% (9245/10000)
+
+Epoch: 162
+train_loss: 0.054, train_acc: 98.204% (49102/50000)
+test_loss: 0.273, test_acc: 92.580% (9258/10000)
+
+Epoch: 163
+train_loss: 0.051, train_acc: 98.278% (49139/50000)
+test_loss: 0.267, test_acc: 92.780% (9278/10000)
+
+Epoch: 164
+train_loss: 0.049, train_acc: 98.340% (49170/50000)
+test_loss: 0.268, test_acc: 92.590% (9259/10000)
+
+Epoch: 165
+train_loss: 0.048, train_acc: 98.372% (49186/50000)
+test_loss: 0.275, test_acc: 92.420% (9242/10000)
+
+Epoch: 166
+train_loss: 0.046, train_acc: 98.448% (49224/50000)
+test_loss: 0.278, test_acc: 92.490% (9249/10000)
+
+Epoch: 167
+train_loss: 0.045, train_acc: 98.526% (49263/50000)
+test_loss: 0.271, test_acc: 92.730% (9273/10000)
+
+Epoch: 168
+train_loss: 0.043, train_acc: 98.576% (49288/50000)
+test_loss: 0.278, test_acc: 92.520% (9252/10000)
+
+Epoch: 169
+train_loss: 0.044, train_acc: 98.626% (49313/50000)
+test_loss: 0.284, test_acc: 92.500% (9250/10000)
+
+Epoch: 170
+train_loss: 0.039, train_acc: 98.756% (49378/50000)
+test_loss: 0.284, test_acc: 92.720% (9272/10000)
+
+Epoch: 171
+train_loss: 0.039, train_acc: 98.718% (49359/50000)
+test_loss: 0.276, test_acc: 92.900% (9290/10000)
+
+Epoch: 172
+train_loss: 0.040, train_acc: 98.696% (49348/50000)
+test_loss: 0.290, test_acc: 92.610% (9261/10000)
+
+Epoch: 173
+train_loss: 0.041, train_acc: 98.582% (49291/50000)
+test_loss: 0.283, test_acc: 92.650% (9265/10000)
+
+Epoch: 174
+train_loss: 0.039, train_acc: 98.718% (49359/50000)
+test_loss: 0.285, test_acc: 92.520% (9252/10000)
+
+Epoch: 175
+train_loss: 0.038, train_acc: 98.770% (49385/50000)
+test_loss: 0.286, test_acc: 92.580% (9258/10000)
+
+Epoch: 176
+train_loss: 0.037, train_acc: 98.802% (49401/50000)
+test_loss: 0.297, test_acc: 92.500% (9250/10000)
+
+Epoch: 177
+train_loss: 0.036, train_acc: 98.804% (49402/50000)
+test_loss: 0.295, test_acc: 92.560% (9256/10000)
+
+Epoch: 178
+train_loss: 0.036, train_acc: 98.826% (49413/50000)
+test_loss: 0.308, test_acc: 92.380% (9238/10000)
+
+Epoch: 179
+train_loss: 0.035, train_acc: 98.812% (49406/50000)
+test_loss: 0.295, test_acc: 92.610% (9261/10000)
+
+Epoch: 180
+train_loss: 0.036, train_acc: 98.816% (49408/50000)
+test_loss: 0.301, test_acc: 92.520% (9252/10000)
+
+Epoch: 181
+train_loss: 0.033, train_acc: 98.894% (49447/50000)
+test_loss: 0.302, test_acc: 92.580% (9258/10000)
+
+Epoch: 182
+train_loss: 0.034, train_acc: 98.894% (49447/50000)
+test_loss: 0.306, test_acc: 92.620% (9262/10000)
+
+Epoch: 183
+train_loss: 0.033, train_acc: 98.912% (49456/50000)
+test_loss: 0.299, test_acc: 92.670% (9267/10000)
+
+Epoch: 184
+train_loss: 0.032, train_acc: 98.986% (49493/50000)
+test_loss: 0.301, test_acc: 92.600% (9260/10000)
+
+Epoch: 185
+train_loss: 0.032, train_acc: 98.982% (49491/50000)
+test_loss: 0.315, test_acc: 92.570% (9257/10000)
+
+Epoch: 186
+train_loss: 0.032, train_acc: 98.902% (49451/50000)
+test_loss: 0.303, test_acc: 92.610% (9261/10000)
+
+Epoch: 187
+train_loss: 0.033, train_acc: 98.932% (49466/50000)
+test_loss: 0.298, test_acc: 92.580% (9258/10000)
+
+Epoch: 188
+train_loss: 0.032, train_acc: 98.968% (49484/50000)
+test_loss: 0.308, test_acc: 92.600% (9260/10000)
+
+Epoch: 189
+train_loss: 0.031, train_acc: 99.004% (49502/50000)
+test_loss: 0.309, test_acc: 92.310% (9231/10000)
+
+Epoch: 190
+train_loss: 0.031, train_acc: 98.938% (49469/50000)
+test_loss: 0.303, test_acc: 92.410% (9241/10000)
+
+Epoch: 191
+train_loss: 0.030, train_acc: 99.068% (49534/50000)
+test_loss: 0.304, test_acc: 92.710% (9271/10000)
+
+Epoch: 192
+train_loss: 0.029, train_acc: 98.996% (49498/50000)
+test_loss: 0.306, test_acc: 92.610% (9261/10000)
+
+Epoch: 193
+train_loss: 0.029, train_acc: 99.090% (49545/50000)
+test_loss: 0.308, test_acc: 92.700% (9270/10000)
+
+Epoch: 194
+train_loss: 0.028, train_acc: 99.106% (49553/50000)
+test_loss: 0.314, test_acc: 92.640% (9264/10000)
+
+Epoch: 195
+train_loss: 0.029, train_acc: 99.106% (49553/50000)
+test_loss: 0.317, test_acc: 92.560% (9256/10000)
+
+Epoch: 196
+train_loss: 0.029, train_acc: 99.006% (49503/50000)
+test_loss: 0.321, test_acc: 92.330% (9233/10000)
+
+Epoch: 197
+train_loss: 0.029, train_acc: 99.062% (49531/50000)
+test_loss: 0.328, test_acc: 92.380% (9238/10000)
+
+Epoch: 198
+train_loss: 0.028, train_acc: 99.082% (49541/50000)
+test_loss: 0.318, test_acc: 92.620% (9262/10000)
+
+Epoch: 199
+train_loss: 0.028, train_acc: 99.078% (49539/50000)
+test_loss: 0.315, test_acc: 92.570% (9257/10000)
+
+Epoch: 200
+train_loss: 0.027, train_acc: 99.148% (49574/50000)
+test_loss: 0.316, test_acc: 92.680% (9268/10000)
+
+Epoch: 201
+train_loss: 0.028, train_acc: 99.036% (49518/50000)
+test_loss: 0.317, test_acc: 92.670% (9267/10000)
+
+Epoch: 202
+train_loss: 0.029, train_acc: 99.048% (49524/50000)
+test_loss: 0.321, test_acc: 92.470% (9247/10000)
+
+Epoch: 203
+train_loss: 0.028, train_acc: 99.092% (49546/50000)
+test_loss: 0.325, test_acc: 92.540% (9254/10000)
+
+Epoch: 204
+train_loss: 0.028, train_acc: 99.096% (49548/50000)
+test_loss: 0.323, test_acc: 92.490% (9249/10000)
+
+Epoch: 205
+train_loss: 0.028, train_acc: 99.102% (49551/50000)
+test_loss: 0.323, test_acc: 92.510% (9251/10000)
+
+Epoch: 206
+train_loss: 0.027, train_acc: 99.116% (49558/50000)
+test_loss: 0.326, test_acc: 92.310% (9231/10000)
+
+Epoch: 207
+train_loss: 0.027, train_acc: 99.116% (49558/50000)
+test_loss: 0.333, test_acc: 92.510% (9251/10000)
+
+Epoch: 208
+train_loss: 0.028, train_acc: 99.104% (49552/50000)
+test_loss: 0.318, test_acc: 92.490% (9249/10000)
+
+Epoch: 209
+train_loss: 0.025, train_acc: 99.184% (49592/50000)
+test_loss: 0.335, test_acc: 92.390% (9239/10000)
+
+Epoch: 210
+train_loss: 0.027, train_acc: 99.060% (49530/50000)
+test_loss: 0.325, test_acc: 92.620% (9262/10000)
+
+Epoch: 211
+train_loss: 0.026, train_acc: 99.126% (49563/50000)
+test_loss: 0.327, test_acc: 92.410% (9241/10000)
+
+Epoch: 212
+train_loss: 0.027, train_acc: 99.138% (49569/50000)
+test_loss: 0.345, test_acc: 92.280% (9228/10000)
+
+Epoch: 213
+train_loss: 0.028, train_acc: 99.064% (49532/50000)
+test_loss: 0.317, test_acc: 92.760% (9276/10000)
+
+Epoch: 214
+train_loss: 0.027, train_acc: 99.092% (49546/50000)
+test_loss: 0.329, test_acc: 92.400% (9240/10000)
+
+Epoch: 215
+train_loss: 0.027, train_acc: 99.108% (49554/50000)
+test_loss: 0.327, test_acc: 92.270% (9227/10000)
+
+Epoch: 216
+train_loss: 0.027, train_acc: 99.146% (49573/50000)
+test_loss: 0.340, test_acc: 92.190% (9219/10000)
+
+Epoch: 217
+train_loss: 0.026, train_acc: 99.146% (49573/50000)
+test_loss: 0.343, test_acc: 92.200% (9220/10000)
+
+Epoch: 218
+train_loss: 0.026, train_acc: 99.114% (49557/50000)
+test_loss: 0.335, test_acc: 92.140% (9214/10000)
+
+Epoch: 219
+train_loss: 0.027, train_acc: 99.116% (49558/50000)
+test_loss: 0.330, test_acc: 92.480% (9248/10000)
+
+Epoch: 220
+train_loss: 0.026, train_acc: 99.168% (49584/50000)
+test_loss: 0.318, test_acc: 92.820% (9282/10000)
+
+Epoch: 221
+train_loss: 0.026, train_acc: 99.148% (49574/50000)
+test_loss: 0.326, test_acc: 92.410% (9241/10000)
+
+Epoch: 222
+train_loss: 0.029, train_acc: 99.058% (49529/50000)
+test_loss: 0.336, test_acc: 92.460% (9246/10000)
+
+Epoch: 223
+train_loss: 0.027, train_acc: 99.156% (49578/50000)
+test_loss: 0.324, test_acc: 92.470% (9247/10000)
+
+Epoch: 224
+train_loss: 0.026, train_acc: 99.096% (49548/50000)
+test_loss: 0.331, test_acc: 92.610% (9261/10000)
+
+Epoch: 225
+train_loss: 0.021, train_acc: 99.374% (49687/50000)
+test_loss: 0.317, test_acc: 92.470% (9247/10000)
+
+Epoch: 226
+train_loss: 0.020, train_acc: 99.376% (49688/50000)
+test_loss: 0.312, test_acc: 92.720% (9272/10000)
+
+Epoch: 227
+train_loss: 0.017, train_acc: 99.494% (49747/50000)
+test_loss: 0.311, test_acc: 92.660% (9266/10000)
+
+Epoch: 228
+train_loss: 0.017, train_acc: 99.514% (49757/50000)
+test_loss: 0.313, test_acc: 92.640% (9264/10000)
+
+Epoch: 229
+train_loss: 0.016, train_acc: 99.524% (49762/50000)
+test_loss: 0.309, test_acc: 92.710% (9271/10000)
+
+Epoch: 230
+train_loss: 0.016, train_acc: 99.572% (49786/50000)
+test_loss: 0.312, test_acc: 92.840% (9284/10000)
+
+Epoch: 231
+train_loss: 0.016, train_acc: 99.526% (49763/50000)
+test_loss: 0.313, test_acc: 92.730% (9273/10000)
+
+Epoch: 232
+train_loss: 0.016, train_acc: 99.558% (49779/50000)
+test_loss: 0.311, test_acc: 92.870% (9287/10000)
+
+Epoch: 233
+train_loss: 0.014, train_acc: 99.598% (49799/50000)
+test_loss: 0.309, test_acc: 92.750% (9275/10000)
+
+Epoch: 234
+train_loss: 0.015, train_acc: 99.594% (49797/50000)
+test_loss: 0.315, test_acc: 92.840% (9284/10000)
+
+Epoch: 235
+train_loss: 0.014, train_acc: 99.602% (49801/50000)
+test_loss: 0.312, test_acc: 92.850% (9285/10000)
+
+Epoch: 236
+train_loss: 0.014, train_acc: 99.634% (49817/50000)
+test_loss: 0.311, test_acc: 92.780% (9278/10000)
+
+Epoch: 237
+train_loss: 0.014, train_acc: 99.570% (49785/50000)
+test_loss: 0.311, test_acc: 92.880% (9288/10000)
+
+Epoch: 238
+train_loss: 0.014, train_acc: 99.584% (49792/50000)
+test_loss: 0.314, test_acc: 92.860% (9286/10000)
+
+Epoch: 239
+train_loss: 0.014, train_acc: 99.616% (49808/50000)
+test_loss: 0.318, test_acc: 92.840% (9284/10000)
+
+Epoch: 240
+train_loss: 0.014, train_acc: 99.622% (49811/50000)
+test_loss: 0.319, test_acc: 92.810% (9281/10000)
+
+Epoch: 241
+train_loss: 0.014, train_acc: 99.640% (49820/50000)
+test_loss: 0.315, test_acc: 92.820% (9282/10000)
+
+Epoch: 242
+train_loss: 0.014, train_acc: 99.604% (49802/50000)
+test_loss: 0.317, test_acc: 92.760% (9276/10000)
+
+Epoch: 243
+train_loss: 0.015, train_acc: 99.574% (49787/50000)
+test_loss: 0.315, test_acc: 92.960% (9296/10000)
+
+Epoch: 244
+train_loss: 0.014, train_acc: 99.594% (49797/50000)
+test_loss: 0.315, test_acc: 92.770% (9277/10000)
+
+Epoch: 245
+train_loss: 0.014, train_acc: 99.616% (49808/50000)
+test_loss: 0.314, test_acc: 92.810% (9281/10000)
+
+Epoch: 246
+train_loss: 0.013, train_acc: 99.680% (49840/50000)
+test_loss: 0.311, test_acc: 92.900% (9290/10000)
+
+Epoch: 247
+train_loss: 0.013, train_acc: 99.658% (49829/50000)
+test_loss: 0.316, test_acc: 92.930% (9293/10000)
+
+Epoch: 248
+train_loss: 0.014, train_acc: 99.636% (49818/50000)
+test_loss: 0.319, test_acc: 93.030% (9303/10000)
+
+Epoch: 249
+train_loss: 0.013, train_acc: 99.676% (49838/50000)
+test_loss: 0.313, test_acc: 92.930% (9293/10000)
+
+Epoch: 250
+train_loss: 0.013, train_acc: 99.650% (49825/50000)
+test_loss: 0.323, test_acc: 92.910% (9291/10000)
+
+Epoch: 251
+train_loss: 0.012, train_acc: 99.684% (49842/50000)
+test_loss: 0.317, test_acc: 92.900% (9290/10000)
+
+Epoch: 252
+train_loss: 0.013, train_acc: 99.670% (49835/50000)
+test_loss: 0.316, test_acc: 93.000% (9300/10000)
+
+Epoch: 253
+train_loss: 0.013, train_acc: 99.628% (49814/50000)
+test_loss: 0.318, test_acc: 92.950% (9295/10000)
+
+Epoch: 254
+train_loss: 0.012, train_acc: 99.674% (49837/50000)
+test_loss: 0.316, test_acc: 92.860% (9286/10000)
+
+Epoch: 255
+train_loss: 0.012, train_acc: 99.692% (49846/50000)
+test_loss: 0.315, test_acc: 92.890% (9289/10000)
+
+Epoch: 256
+train_loss: 0.013, train_acc: 99.632% (49816/50000)
+test_loss: 0.324, test_acc: 92.630% (9263/10000)
+
+Epoch: 257
+train_loss: 0.013, train_acc: 99.630% (49815/50000)
+test_loss: 0.319, test_acc: 92.790% (9279/10000)
+
+Epoch: 258
+train_loss: 0.012, train_acc: 99.700% (49850/50000)
+test_loss: 0.320, test_acc: 92.830% (9283/10000)
+
+Epoch: 259
+train_loss: 0.012, train_acc: 99.696% (49848/50000)
+test_loss: 0.321, test_acc: 92.660% (9266/10000)
+
+Epoch: 260
+train_loss: 0.012, train_acc: 99.680% (49840/50000)
+test_loss: 0.322, test_acc: 92.770% (9277/10000)
+
+Epoch: 261
+train_loss: 0.013, train_acc: 99.654% (49827/50000)
+test_loss: 0.316, test_acc: 92.760% (9276/10000)
+
+Epoch: 262
+train_loss: 0.012, train_acc: 99.700% (49850/50000)
+test_loss: 0.318, test_acc: 92.840% (9284/10000)
+
+Epoch: 263
+train_loss: 0.012, train_acc: 99.668% (49834/50000)
+test_loss: 0.318, test_acc: 92.880% (9288/10000)
+
+Epoch: 264
+train_loss: 0.012, train_acc: 99.698% (49849/50000)
+test_loss: 0.318, test_acc: 92.800% (9280/10000)
+
+Epoch: 265
+train_loss: 0.013, train_acc: 99.638% (49819/50000)
+test_loss: 0.316, test_acc: 92.780% (9278/10000)
+
+Epoch: 266
+train_loss: 0.012, train_acc: 99.674% (49837/50000)
+test_loss: 0.317, test_acc: 92.840% (9284/10000)
+
+Epoch: 267
+train_loss: 0.011, train_acc: 99.700% (49850/50000)
+test_loss: 0.318, test_acc: 92.870% (9287/10000)
+
+Epoch: 268
+train_loss: 0.012, train_acc: 99.680% (49840/50000)
+test_loss: 0.326, test_acc: 92.750% (9275/10000)
+
+Epoch: 269
+train_loss: 0.012, train_acc: 99.658% (49829/50000)
+test_loss: 0.323, test_acc: 92.890% (9289/10000)
+
+Epoch: 270
+train_loss: 0.012, train_acc: 99.698% (49849/50000)
+test_loss: 0.324, test_acc: 92.830% (9283/10000)
+
+Epoch: 271
+train_loss: 0.012, train_acc: 99.674% (49837/50000)
+test_loss: 0.322, test_acc: 92.830% (9283/10000)
+
+Epoch: 272
+train_loss: 0.012, train_acc: 99.684% (49842/50000)
+test_loss: 0.317, test_acc: 92.870% (9287/10000)
+
+Epoch: 273
+train_loss: 0.012, train_acc: 99.680% (49840/50000)
+test_loss: 0.319, test_acc: 92.940% (9294/10000)
+
+Epoch: 274
+train_loss: 0.012, train_acc: 99.678% (49839/50000)
+test_loss: 0.325, test_acc: 92.880% (9288/10000)
+
+Epoch: 275
+train_loss: 0.012, train_acc: 99.660% (49830/50000)
+test_loss: 0.319, test_acc: 92.840% (9284/10000)
+
+Epoch: 276
+train_loss: 0.012, train_acc: 99.724% (49862/50000)
+test_loss: 0.320, test_acc: 92.790% (9279/10000)
+
+Epoch: 277
+train_loss: 0.011, train_acc: 99.770% (49885/50000)
+test_loss: 0.322, test_acc: 92.820% (9282/10000)
+
+Epoch: 278
+train_loss: 0.011, train_acc: 99.674% (49837/50000)
+test_loss: 0.319, test_acc: 92.920% (9292/10000)
+
+Epoch: 279
+train_loss: 0.011, train_acc: 99.714% (49857/50000)
+test_loss: 0.323, test_acc: 92.830% (9283/10000)
+
+Epoch: 280
+train_loss: 0.012, train_acc: 99.672% (49836/50000)
+test_loss: 0.322, test_acc: 92.820% (9282/10000)
+
+Epoch: 281
+train_loss: 0.012, train_acc: 99.692% (49846/50000)
+test_loss: 0.322, test_acc: 92.910% (9291/10000)
+
+Epoch: 282
+train_loss: 0.011, train_acc: 99.710% (49855/50000)
+test_loss: 0.326, test_acc: 92.930% (9293/10000)
+
+Epoch: 283
+train_loss: 0.012, train_acc: 99.704% (49852/50000)
+test_loss: 0.323, test_acc: 92.980% (9298/10000)
+
+Epoch: 284
+train_loss: 0.011, train_acc: 99.736% (49868/50000)
+test_loss: 0.322, test_acc: 92.890% (9289/10000)
+
+Epoch: 285
+train_loss: 0.011, train_acc: 99.714% (49857/50000)
+test_loss: 0.323, test_acc: 92.960% (9296/10000)
+
+Epoch: 286
+train_loss: 0.011, train_acc: 99.684% (49842/50000)
+test_loss: 0.322, test_acc: 93.030% (9303/10000)
+
+Epoch: 287
+train_loss: 0.010, train_acc: 99.748% (49874/50000)
+test_loss: 0.324, test_acc: 92.930% (9293/10000)
+
+Epoch: 288
+train_loss: 0.012, train_acc: 99.652% (49826/50000)
+test_loss: 0.326, test_acc: 92.830% (9283/10000)
+
+Epoch: 289
+train_loss: 0.010, train_acc: 99.744% (49872/50000)
+test_loss: 0.321, test_acc: 92.910% (9291/10000)
+
+Epoch: 290
+train_loss: 0.011, train_acc: 99.722% (49861/50000)
+test_loss: 0.324, test_acc: 93.030% (9303/10000)
+
+Epoch: 291
+train_loss: 0.010, train_acc: 99.768% (49884/50000)
+test_loss: 0.322, test_acc: 92.990% (9299/10000)
+
+Epoch: 292
+train_loss: 0.011, train_acc: 99.712% (49856/50000)
+test_loss: 0.326, test_acc: 93.010% (9301/10000)
+
+Epoch: 293
+train_loss: 0.011, train_acc: 99.702% (49851/50000)
+test_loss: 0.325, test_acc: 92.870% (9287/10000)
+
+Epoch: 294
+train_loss: 0.011, train_acc: 99.716% (49858/50000)
+test_loss: 0.323, test_acc: 92.990% (9299/10000)
+
+Epoch: 295
+train_loss: 0.011, train_acc: 99.714% (49857/50000)
+test_loss: 0.325, test_acc: 92.830% (9283/10000)
+
+Epoch: 296
+train_loss: 0.010, train_acc: 99.734% (49867/50000)
+test_loss: 0.325, test_acc: 92.890% (9289/10000)
+
+Epoch: 297
+train_loss: 0.011, train_acc: 99.732% (49866/50000)
+test_loss: 0.322, test_acc: 92.960% (9296/10000)
+
+Epoch: 298
+train_loss: 0.011, train_acc: 99.722% (49861/50000)
+test_loss: 0.324, test_acc: 92.890% (9289/10000)
+
+Epoch: 299
+train_loss: 0.010, train_acc: 99.740% (49870/50000)
+test_loss: 0.327, test_acc: 92.870% (9287/10000)
+finished

@@ -1,0 +1,564 @@
+==> Preparing data..
+==> Building model..
+using resnet50_imagenet
+net_parameters_size is 25557032
+
+cycle 0:
+
+Epoch: 0
+train_loss: 5.898, top-1: 3.995%, top-5: 11.510%
+test_loss: 4.849, top-1: 10.946%, top-5: 27.268%
+
+Epoch: 1
+train_loss: 4.204, top-1: 18.647%, top-5: 39.418%
+test_loss: 3.568, top-1: 26.080%, top-5: 51.860%
+
+Epoch: 2
+train_loss: 3.590, top-1: 27.215%, top-5: 51.060%
+test_loss: 3.169, top-1: 32.184%, top-5: 58.922%
+
+Epoch: 3
+train_loss: 3.329, top-1: 31.279%, top-5: 55.857%
+test_loss: 3.241, top-1: 32.232%, top-5: 58.006%
+
+Epoch: 4
+train_loss: 3.192, top-1: 33.531%, top-5: 58.301%
+test_loss: 2.905, top-1: 37.168%, top-5: 64.510%
+
+Epoch: 5
+train_loss: 3.108, top-1: 34.897%, top-5: 59.846%
+test_loss: 2.797, top-1: 39.008%, top-5: 66.116%
+
+Epoch: 6
+train_loss: 3.052, top-1: 35.799%, top-5: 60.873%
+test_loss: 2.789, top-1: 38.974%, top-5: 66.114%
+
+Epoch: 7
+train_loss: 3.013, top-1: 36.508%, top-5: 61.534%
+test_loss: 3.084, top-1: 35.176%, top-5: 61.454%
+
+Epoch: 8
+train_loss: 2.979, top-1: 37.094%, top-5: 62.078%
+test_loss: 2.607, top-1: 41.986%, top-5: 69.290%
+
+Epoch: 9
+train_loss: 2.958, top-1: 37.386%, top-5: 62.475%
+test_loss: 2.826, top-1: 38.886%, top-5: 65.822%
+
+Epoch: 10
+==> Preparing data..
+==> Building model..
+loading from last saved model, start_epoch : 9, start_cycle : 0
+net_parameters_size is 25557032
+
+cycle 0:
+
+Epoch: 9
+train_loss: 2.940, top-1: 37.768%, top-5: 62.790%
+test_loss: 2.535, top-1: 43.596%, top-5: 70.816%
+
+Epoch: 10
+train_loss: 2.927, top-1: 37.971%, top-5: 63.028%
+test_loss: 3.069, top-1: 37.068%, top-5: 63.364%
+
+Epoch: 11
+train_loss: 2.909, top-1: 38.275%, top-5: 63.350%
+test_loss: 2.633, top-1: 41.534%, top-5: 69.044%
+
+Epoch: 12
+train_loss: 2.902, top-1: 38.367%, top-5: 63.457%
+test_loss: 2.516, top-1: 43.958%, top-5: 70.568%
+
+Epoch: 13
+train_loss: 2.890, top-1: 38.573%, top-5: 63.709%
+test_loss: 2.596, top-1: 43.070%, top-5: 69.932%
+
+Epoch: 14
+train_loss: 2.884, top-1: 38.706%, top-5: 63.765%
+test_loss: 2.808, top-1: 39.922%, top-5: 67.056%
+
+Epoch: 15
+train_loss: 2.879, top-1: 38.795%, top-5: 63.863%
+test_loss: 2.722, top-1: 41.334%, top-5: 68.380%
+
+Epoch: 16
+train_loss: 2.870, top-1: 39.002%, top-5: 64.013%
+test_loss: 2.680, top-1: 41.812%, top-5: 68.776%
+
+Epoch: 17
+train_loss: 2.866, top-1: 39.019%, top-5: 64.039%
+test_loss: 2.562, top-1: 43.356%, top-5: 70.858%
+
+Epoch: 18
+train_loss: 2.860, top-1: 39.134%, top-5: 64.183%
+==> Preparing data..
+==> Building model..
+loading from last saved model, start_epoch : 17, start_cycle : 0
+net_parameters_size is 25557032
+
+cycle 0:
+
+Epoch: 17
+train_loss: 2.861, top-1: 39.135%, top-5: 64.202%
+test_loss: 2.544, top-1: 43.534%, top-5: 70.860%
+
+Epoch: 18
+train_loss: 2.853, top-1: 39.218%, top-5: 64.342%
+test_loss: 2.719, top-1: 40.880%, top-5: 68.100%
+
+Epoch: 19
+train_loss: 2.847, top-1: 39.370%, top-5: 64.429%
+test_loss: 2.643, top-1: 41.866%, top-5: 68.872%
+
+Epoch: 20
+train_loss: 2.845, top-1: 39.333%, top-5: 64.431%
+test_loss: 2.672, top-1: 41.914%, top-5: 68.976%
+
+Epoch: 21
+train_loss: 2.842, top-1: 39.421%, top-5: 64.511%
+test_loss: 2.682, top-1: 41.944%, top-5: 68.706%
+
+Epoch: 22
+train_loss: 2.838, top-1: 39.512%, top-5: 64.552%
+test_loss: 2.676, top-1: 43.084%, top-5: 69.656%
+
+Epoch: 23
+train_loss: 2.838, top-1: 39.530%, top-5: 64.549%
+test_loss: 2.579, top-1: 43.318%, top-5: 70.442%
+
+Epoch: 24
+train_loss: 2.831, top-1: 39.645%, top-5: 64.658%
+test_loss: 2.600, top-1: 42.216%, top-5: 69.746%
+
+Epoch: 25
+train_loss: 2.828, top-1: 39.705%, top-5: 64.746%
+test_loss: 2.524, top-1: 44.284%, top-5: 71.022%
+
+Epoch: 26
+train_loss: 2.829, top-1: 39.675%, top-5: 64.757%
+test_loss: 2.627, top-1: 42.734%, top-5: 70.256%
+
+Epoch: 27
+==> Preparing data..
+==> Building model..
+loading from last saved model, start_epoch : 26, start_cycle : 0
+net_parameters_size is 25557032
+
+cycle 0:
+
+Epoch: 26
+train_loss: 2.825, top-1: 39.719%, top-5: 64.848%
+test_loss: 2.720, top-1: 40.924%, top-5: 68.034%
+
+Epoch: 27
+train_loss: 2.824, top-1: 39.759%, top-5: 64.802%
+test_loss: 2.820, top-1: 39.882%, top-5: 66.388%
+
+Epoch: 28
+train_loss: 2.820, top-1: 39.822%, top-5: 64.914%
+test_loss: 2.440, top-1: 45.430%, top-5: 72.728%
+
+Epoch: 29
+train_loss: 2.819, top-1: 39.831%, top-5: 64.911%
+test_loss: 2.592, top-1: 43.248%, top-5: 69.906%
+
+Epoch: 30
+train_loss: 2.102, top-1: 53.263%, top-5: 76.207%
+test_loss: 1.611, top-1: 61.990%, top-5: 84.790%
+
+Epoch: 31
+train_loss: 1.952, top-1: 56.036%, top-5: 78.439%
+test_loss: 1.574, top-1: 62.618%, top-5: 85.178%
+
+Epoch: 32
+train_loss: 1.905, top-1: 56.892%, top-5: 79.125%
+test_loss: 1.526, top-1: 63.746%, top-5: 86.034%
+
+Epoch: 33
+train_loss: 1.889, top-1: 57.181%, top-5: 79.405%
+test_loss: 1.523, top-1: 63.530%, top-5: 86.204%
+
+Epoch: 34
+train_loss: 1.884, top-1: 57.306%, top-5: 79.469%
+test_loss: 1.506, top-1: 64.092%, top-5: 86.270%
+
+Epoch: 35
+==> Preparing data..
+==> Building model..
+loading from last saved model, start_epoch : 34, start_cycle : 0
+net_parameters_size is 25557032
+
+cycle 0:
+
+Epoch: 34
+train_loss: 1.881, top-1: 57.308%, top-5: 79.528%
+test_loss: 1.539, top-1: 63.126%, top-5: 86.022%
+
+Epoch: 35
+train_loss: 1.886, top-1: 57.249%, top-5: 79.477%
+test_loss: 1.543, top-1: 63.140%, top-5: 85.708%
+
+Epoch: 36
+train_loss: 1.887, top-1: 57.212%, top-5: 79.472%
+test_loss: 1.579, top-1: 62.378%, top-5: 85.290%
+
+Epoch: 37
+train_loss: 1.883, top-1: 57.216%, top-5: 79.548%
+test_loss: 1.548, top-1: 63.404%, top-5: 85.646%
+
+Epoch: 38
+train_loss: 1.881, top-1: 57.300%, top-5: 79.575%
+test_loss: 1.506, top-1: 64.104%, top-5: 86.342%
+
+Epoch: 39
+train_loss: 1.879, top-1: 57.301%, top-5: 79.590%
+test_loss: 1.507, top-1: 63.958%, top-5: 86.354%
+
+Epoch: 40
+train_loss: 1.875, top-1: 57.427%, top-5: 79.624%
+test_loss: 1.515, top-1: 63.866%, top-5: 86.290%
+
+Epoch: 41
+train_loss: 1.872, top-1: 57.447%, top-5: 79.741%
+test_loss: 1.521, top-1: 63.732%, top-5: 86.170%
+
+Epoch: 42
+train_loss: 1.864, top-1: 57.585%, top-5: 79.818%
+test_loss: 1.485, top-1: 64.386%, top-5: 86.686%
+
+Epoch: 43
+train_loss: 1.857, top-1: 57.735%, top-5: 79.922%
+test_loss: 1.525, top-1: 63.794%, top-5: 86.196%
+
+Epoch: 44
+==> Preparing data..
+==> Building model..
+loading from last saved model, start_epoch : 43, start_cycle : 0
+net_parameters_size is 25557032
+
+cycle 0:
+
+Epoch: 43
+train_loss: 1.853, top-1: 57.840%, top-5: 79.984%
+test_loss: 1.517, top-1: 64.198%, top-5: 86.282%
+
+Epoch: 44
+train_loss: 1.853, top-1: 57.835%, top-5: 79.973%
+test_loss: 1.520, top-1: 63.776%, top-5: 86.092%
+
+Epoch: 45
+train_loss: 1.845, top-1: 57.980%, top-5: 80.063%
+test_loss: 1.547, top-1: 63.564%, top-5: 85.890%
+
+Epoch: 46
+train_loss: 1.842, top-1: 58.039%, top-5: 80.166%
+test_loss: 1.517, top-1: 63.982%, top-5: 86.298%
+
+Epoch: 47
+train_loss: 1.833, top-1: 58.233%, top-5: 80.269%
+test_loss: 1.460, top-1: 64.946%, top-5: 87.012%
+
+Epoch: 48
+train_loss: 1.833, top-1: 58.219%, top-5: 80.268%
+test_loss: 1.466, top-1: 65.040%, top-5: 86.898%
+
+Epoch: 49
+train_loss: 1.829, top-1: 58.291%, top-5: 80.314%
+test_loss: 1.503, top-1: 63.848%, top-5: 86.272%
+
+Epoch: 50
+train_loss: 1.826, top-1: 58.380%, top-5: 80.375%
+test_loss: 1.466, top-1: 65.088%, top-5: 87.000%
+
+Epoch: 51
+train_loss: 1.822, top-1: 58.390%, top-5: 80.428%
+test_loss: 1.553, top-1: 63.210%, top-5: 85.896%
+
+Epoch: 52
+train_loss: 1.817, top-1: 58.525%, top-5: 80.516%
+test_loss: 1.499, top-1: 64.674%, top-5: 86.736%
+
+Epoch: 53
+==> Preparing data..
+==> Building model..
+loading from last saved model, start_epoch : 52, start_cycle : 0
+net_parameters_size is 25557032
+
+cycle 0:
+
+Epoch: 52
+train_loss: 1.811, top-1: 58.652%, top-5: 80.600%
+test_loss: 1.452, top-1: 65.254%, top-5: 87.440%
+
+Epoch: 53
+train_loss: 1.811, top-1: 58.645%, top-5: 80.559%
+test_loss: 1.484, top-1: 64.768%, top-5: 86.778%
+
+Epoch: 54
+train_loss: 1.808, top-1: 58.717%, top-5: 80.636%
+test_loss: 1.460, top-1: 65.384%, top-5: 87.204%
+
+Epoch: 55
+train_loss: 1.804, top-1: 58.785%, top-5: 80.702%
+test_loss: 1.478, top-1: 64.782%, top-5: 86.834%
+
+Epoch: 56
+train_loss: 1.801, top-1: 58.816%, top-5: 80.739%
+test_loss: 1.468, top-1: 64.710%, top-5: 87.016%
+
+Epoch: 57
+train_loss: 1.796, top-1: 58.932%, top-5: 80.782%
+test_loss: 1.497, top-1: 64.018%, top-5: 86.274%
+
+Epoch: 58
+train_loss: 1.796, top-1: 58.908%, top-5: 80.806%
+test_loss: 1.469, top-1: 65.012%, top-5: 86.848%
+
+Epoch: 59
+train_loss: 1.792, top-1: 58.989%, top-5: 80.856%
+test_loss: 1.489, top-1: 64.590%, top-5: 86.724%
+
+Epoch: 60
+train_loss: 1.506, top-1: 65.097%, top-5: 84.809%
+test_loss: 1.188, top-1: 70.938%, top-5: 90.440%
+
+Epoch: 61
+==> Preparing data..
+==> Building model..
+loading from last saved model, start_epoch : 60, start_cycle : 0
+net_parameters_size is 25557032
+
+cycle 0:
+
+Epoch: 60
+train_loss: 1.438, top-1: 66.547%, top-5: 85.704%
+test_loss: 1.157, top-1: 71.756%, top-5: 90.760%
+
+Epoch: 61
+train_loss: 1.406, top-1: 67.164%, top-5: 86.143%
+test_loss: 1.156, top-1: 71.552%, top-5: 90.794%
+
+Epoch: 62
+train_loss: 1.388, top-1: 67.511%, top-5: 86.373%
+test_loss: 1.135, top-1: 72.146%, top-5: 91.052%
+
+Epoch: 63
+train_loss: 1.371, top-1: 67.852%, top-5: 86.576%
+test_loss: 1.129, top-1: 72.234%, top-5: 91.210%
+
+Epoch: 64
+train_loss: 1.358, top-1: 68.159%, top-5: 86.742%
+test_loss: 1.124, top-1: 72.434%, top-5: 91.274%
+
+Epoch: 65
+train_loss: 1.346, top-1: 68.421%, top-5: 86.942%
+test_loss: 1.117, top-1: 72.486%, top-5: 91.230%
+
+Epoch: 66
+train_loss: 1.336, top-1: 68.598%, top-5: 87.060%
+test_loss: 1.095, top-1: 73.076%, top-5: 91.520%
+
+Epoch: 67
+train_loss: 1.328, top-1: 68.734%, top-5: 87.167%
+test_loss: 1.095, top-1: 73.104%, top-5: 91.556%
+
+Epoch: 68
+train_loss: 1.320, top-1: 68.950%, top-5: 87.262%
+test_loss: 1.096, top-1: 73.096%, top-5: 91.534%
+
+Epoch: 69
+train_loss: 1.314, top-1: 69.047%, top-5: 87.358%
+test_loss: 1.114, top-1: 72.690%, top-5: 91.382%
+
+Epoch: 70
+==> Preparing data..
+==> Building model..
+loading from last saved model, start_epoch : 69, start_cycle : 0
+net_parameters_size is 25557032
+
+cycle 0:
+
+Epoch: 69
+train_loss: 1.305, top-1: 69.234%, top-5: 87.463%
+test_loss: 1.091, top-1: 73.020%, top-5: 91.480%
+
+Epoch: 70
+train_loss: 1.299, top-1: 69.371%, top-5: 87.519%
+test_loss: 1.089, top-1: 73.226%, top-5: 91.590%
+
+Epoch: 71
+train_loss: 1.295, top-1: 69.450%, top-5: 87.611%
+test_loss: 1.090, top-1: 73.370%, top-5: 91.568%
+
+Epoch: 72
+==> Preparing data..
+==> Building model..
+loading from last saved model, start_epoch : 71, start_cycle : 0
+net_parameters_size is 25557032
+
+cycle 0:
+
+Epoch: 71
+train_loss: 1.289, top-1: 69.568%, top-5: 87.614%
+test_loss: 1.087, top-1: 73.260%, top-5: 91.620%
+
+Epoch: 72
+train_loss: 1.285, top-1: 69.675%, top-5: 87.711%
+test_loss: 1.078, top-1: 73.316%, top-5: 91.720%
+
+Epoch: 73
+train_loss: 1.280, top-1: 69.769%, top-5: 87.718%
+test_loss: 1.078, top-1: 73.396%, top-5: 91.716%
+
+Epoch: 74
+==> Preparing data..
+==> Building model..
+loading from last saved model, start_epoch : 73, start_cycle : 0
+net_parameters_size is 25557032
+
+cycle 0:
+
+Epoch: 73
+train_loss: 1.274, top-1: 69.916%, top-5: 87.860%
+test_loss: 1.063, top-1: 73.620%, top-5: 91.836%
+
+Epoch: 74
+train_loss: 1.271, top-1: 69.949%, top-5: 87.885%
+test_loss: 1.068, top-1: 73.688%, top-5: 91.866%
+
+Epoch: 75
+train_loss: 1.267, top-1: 70.013%, top-5: 87.957%
+test_loss: 1.083, top-1: 73.334%, top-5: 91.552%
+
+Epoch: 76
+==> Preparing data..
+==> Building model..
+loading from last saved model, start_epoch : 75, start_cycle : 0
+net_parameters_size is 25557032
+
+cycle 0:
+
+Epoch: 75
+train_loss: 1.263, top-1: 70.140%, top-5: 87.994%
+test_loss: 1.073, top-1: 73.686%, top-5: 91.786%
+
+Epoch: 76
+train_loss: 1.261, top-1: 70.188%, top-5: 88.025%
+test_loss: 1.070, top-1: 73.634%, top-5: 91.782%
+
+Epoch: 77
+train_loss: 1.257, top-1: 70.244%, top-5: 88.082%
+test_loss: 1.083, top-1: 73.324%, top-5: 91.690%
+
+Epoch: 78
+train_loss: 1.254, top-1: 70.290%, top-5: 88.111%
+test_loss: 1.060, top-1: 73.854%, top-5: 91.750%
+
+Epoch: 79
+train_loss: 1.251, top-1: 70.373%, top-5: 88.141%
+test_loss: 1.069, top-1: 73.720%, top-5: 91.844%
+
+Epoch: 80
+train_loss: 1.248, top-1: 70.471%, top-5: 88.202%
+test_loss: 1.082, top-1: 73.292%, top-5: 91.690%
+
+Epoch: 81
+train_loss: 1.246, top-1: 70.438%, top-5: 88.202%
+test_loss: 1.076, top-1: 73.530%, top-5: 91.746%
+
+Epoch: 82
+train_loss: 1.245, top-1: 70.492%, top-5: 88.221%
+test_loss: 1.070, top-1: 73.652%, top-5: 91.840%
+
+Epoch: 83
+train_loss: 1.243, top-1: 70.530%, top-5: 88.249%
+test_loss: 1.076, top-1: 73.514%, top-5: 91.778%
+
+Epoch: 84
+==> Preparing data..
+==> Building model..
+loading from last saved model, start_epoch : 83, start_cycle : 0
+net_parameters_size is 25557032
+
+cycle 0:
+
+Epoch: 83
+train_loss: 1.238, top-1: 70.657%, top-5: 88.322%
+test_loss: 1.077, top-1: 73.610%, top-5: 91.798%
+
+Epoch: 84
+train_loss: 1.238, top-1: 70.660%, top-5: 88.314%
+test_loss: 1.072, top-1: 73.580%, top-5: 91.756%
+
+Epoch: 85
+train_loss: 1.237, top-1: 70.646%, top-5: 88.291%
+test_loss: 1.068, top-1: 73.528%, top-5: 91.822%
+
+Epoch: 86
+train_loss: 1.232, top-1: 70.788%, top-5: 88.370%
+test_loss: 1.076, top-1: 73.614%, top-5: 91.872%
+
+Epoch: 87
+train_loss: 1.233, top-1: 70.699%, top-5: 88.367%
+test_loss: 1.072, top-1: 73.508%, top-5: 91.914%
+
+Epoch: 88
+train_loss: 1.231, top-1: 70.777%, top-5: 88.382%
+test_loss: 1.057, top-1: 73.888%, top-5: 91.996%
+
+Epoch: 89
+train_loss: 1.227, top-1: 70.878%, top-5: 88.478%
+test_loss: 1.076, top-1: 73.826%, top-5: 91.888%
+
+Epoch: 90
+train_loss: 1.158, top-1: 72.472%, top-5: 89.259%
+test_loss: 1.028, top-1: 74.606%, top-5: 92.400%
+
+Epoch: 91
+train_loss: 1.134, top-1: 73.010%, top-5: 89.577%
+test_loss: 1.016, top-1: 74.670%, top-5: 92.474%
+
+Epoch: 92
+train_loss: 1.126, top-1: 73.145%, top-5: 89.681%
+test_loss: 1.011, top-1: 74.960%, top-5: 92.520%
+
+Epoch: 93
+==> Preparing data..
+==> Building model..
+loading from last saved model, start_epoch : 92, start_cycle : 0
+net_parameters_size is 25557032
+
+cycle 0:
+
+Epoch: 92
+train_loss: 1.123, top-1: 73.233%, top-5: 89.737%
+test_loss: 1.008, top-1: 74.890%, top-5: 92.550%
+
+Epoch: 93
+train_loss: 1.117, top-1: 73.343%, top-5: 89.799%
+test_loss: 1.016, top-1: 74.840%, top-5: 92.494%
+
+Epoch: 94
+train_loss: 1.114, top-1: 73.468%, top-5: 89.805%
+test_loss: 1.005, top-1: 74.972%, top-5: 92.524%
+
+Epoch: 95
+train_loss: 1.108, top-1: 73.561%, top-5: 89.873%
+test_loss: 1.012, top-1: 75.018%, top-5: 92.526%
+
+Epoch: 96
+train_loss: 1.104, top-1: 73.658%, top-5: 89.969%
+test_loss: 1.010, top-1: 75.070%, top-5: 92.554%
+
+Epoch: 97
+train_loss: 1.103, top-1: 73.649%, top-5: 89.952%
+test_loss: 1.014, top-1: 74.950%, top-5: 92.514%
+
+Epoch: 98
+train_loss: 1.102, top-1: 73.689%, top-5: 89.945%
+test_loss: 1.008, top-1: 75.226%, top-5: 92.584%
+
+Epoch: 99
+train_loss: 1.099, top-1: 73.734%, top-5: 90.001%
+test_loss: 1.001, top-1: 75.112%, top-5: 92.606%
+finished

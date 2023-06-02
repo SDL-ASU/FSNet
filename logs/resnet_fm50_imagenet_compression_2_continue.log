@@ -1,0 +1,54 @@
+==> Preparing data..
+==> Resuming from checkpoint..
+resumed from the acc: 91.376, net_parameters_size is 13909309
+
+cycle 0:
+
+Epoch: 99
+train_loss: 1.229, top-1: 70.901%, top-5: 88.415%
+test_loss: 1.080, top-1: 73.018%, top-5: 91.482%
+
+Epoch: 100
+train_loss: 1.227, top-1: 70.897%, top-5: 88.445%
+test_loss: 1.082, top-1: 73.104%, top-5: 91.412%
+
+Epoch: 101
+train_loss: 1.225, top-1: 70.948%, top-5: 88.461%
+test_loss: 1.087, top-1: 72.834%, top-5: 91.320%
+
+Epoch: 102
+train_loss: 1.223, top-1: 70.983%, top-5: 88.500%
+test_loss: 1.081, top-1: 73.010%, top-5: 91.392%
+
+Epoch: 103
+train_loss: 1.223, top-1: 71.008%, top-5: 88.508%
+test_loss: 1.079, top-1: 73.134%, top-5: 91.398%
+
+Epoch: 104
+train_loss: 1.219, top-1: 71.068%, top-5: 88.547%
+test_loss: 1.080, top-1: 73.038%, top-5: 91.354%
+
+Epoch: 105
+==> Preparing data..
+==> Resuming from checkpoint..
+resumed from the acc: 91.376, net_parameters_size is 13909309
+
+cycle 0:
+
+Epoch: 99
+train_loss: 1.229, top-1: 70.926%, top-5: 88.398%
+test_loss: 1.081, top-1: 73.074%, top-5: 91.370%
+
+Epoch: 100
+train_loss: 1.228, top-1: 70.899%, top-5: 88.423%
+test_loss: 1.082, top-1: 73.008%, top-5: 91.346%
+
+Epoch: 101
+train_loss: 1.223, top-1: 70.974%, top-5: 88.495%
+test_loss: 1.078, top-1: 73.080%, top-5: 91.480%
+
+Epoch: 102
+train_loss: 1.223, top-1: 70.986%, top-5: 88.541%
+test_loss: 1.084, top-1: 72.974%, top-5: 91.378%
+
+Epoch: 103

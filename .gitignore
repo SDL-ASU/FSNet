@@ -1,0 +1,7 @@
+data
+saved_models
+__pycache__/
+
+my_slurm_*.py
+slurm_*.txt
+scripts_*
